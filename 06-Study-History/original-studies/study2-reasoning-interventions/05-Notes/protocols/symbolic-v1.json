@@ -1,0 +1,33 @@
+{
+  "run": "development/qwen06-symbolic-v1",
+  "phase": "symbolic_scope_check",
+  "gate": "04-Results/audits/random-operator-v2/checks.json",
+  "protocol": "05-Notes/protocols/SYMBOLIC-v1.md",
+  "data": "03-Data/generated/symbolic.json",
+  "groups": 8,
+  "baseline_seed": 949101,
+  "continuation_seeds": [
+    949101,
+    949102
+  ],
+  "random_seed": 949201,
+  "competence_gate": 0.8,
+  "engine": {},
+  "sites": [
+    {
+      "boundary": "first_z",
+      "layer": 26
+    },
+    {
+      "boundary": "label_z",
+      "layer": 26
+    }
+  ],
+  "conditions": [
+    "unchanged",
+    "activation",
+    "text_digit",
+    "text_full",
+    "random_0"
+  ]
+}

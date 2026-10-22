@@ -1,0 +1,7 @@
+# Final execution: reuse identical clean candidate scores
+
+21 September 2026, before final selection and model outcomes. The scientific design and numerical engine remain DEVELOPMENT-v1.md plus its execution amendment. Repeated unchanged complete-candidate score calls have exactly the same final prefix and candidate token strings across sites and conditions. An audit of 312 already saved score repetitions from 29 pilot/development programs found exact identity of every token score and sum.
+
+For final main/control runs, compute each program's clean candidate-score dictionary once and save it with its exact prefix and candidate list. Verify both before reuse. An unchanged condition has no write and no text insertion, so its A and B measurements are the same clean measurements. Reuse these exact values instead of rerunning the identical forward. Every distinct activation/text/random score and every required changed continuation still executes. This does not cache a patched computation, change the estimator, introduce batching/precision differences, alter selection, or choose settings using final outcomes.
+
+The new collector and this amendment are included in final source freezes. Development retains its earlier executed collector. Cost accounting includes the shared clean computation in the first assay that requests it; later copies incur no model inference. All source/candidate strings and final numerical scores remain saved. No efficiency superiority claim follows from avoiding redundant work.

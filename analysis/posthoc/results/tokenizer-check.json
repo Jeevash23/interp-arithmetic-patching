@@ -1,0 +1,75 @@
+{
+ "analysis": "tokenizer-check",
+ "status": "post hoc (written 9 October 2026, after all outcomes were seen)",
+ "inputs": {
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/model/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/models/qwen4b/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/models/Qwen3-0.6B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+ },
+ "files": {
+  "Qwen3-0.6B": {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/models/Qwen3-0.6B/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+   "vocabulary": 151643,
+   "added_tokens": 26,
+   "split_pattern": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
+   "digits_isolated": true,
+   "entries_containing_a_digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "multi_digit_entries": 0
+  },
+  "Qwen3-1.7B": {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/model/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+   "vocabulary": 151643,
+   "added_tokens": 26,
+   "split_pattern": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
+   "digits_isolated": true,
+   "entries_containing_a_digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "multi_digit_entries": 0
+  },
+  "Qwen3-4B-Instruct-2507-FP8": {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/models/qwen4b/tokenizer.json",
+   "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+   "vocabulary": 151643,
+   "added_tokens": 26,
+   "split_pattern": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
+   "digits_isolated": true,
+   "entries_containing_a_digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "multi_digit_entries": 0
+  }
+ },
+ "identical": true
+}

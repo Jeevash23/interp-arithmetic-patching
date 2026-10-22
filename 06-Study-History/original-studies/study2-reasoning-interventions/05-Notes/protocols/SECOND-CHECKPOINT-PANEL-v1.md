@@ -1,0 +1,5 @@
+# Conditional second-checkpoint panel
+
+Specified before model outcomes for these four programs. Execute only after deepseek-format-v3/checks.json is complete and passed, including native generation, numeric/cache, write-locality, and positive downstream checks. First four pilot groups; no easier-group substitution. The explicit-format suffix from SECOND-CHECKPOINT-FORMAT-v3.md is part of every prompt. All other CPU float32 numerical and sampling settings remain the qualified version. The standard parser removes only the model's native end marker.
+
+Run 12 baselines first; each donor, recipient and supplied family must achieve >=80% correct, naturally terminated output (4/4 at this size). On failure, retain all 12 baselines and stop without mechanistic inference. If passed, run both boundaries at block 26, unchanged/activation/first-digit/full-value/one matched random direction, two streams (80 intended branches). Report eight branches per condition/boundary as measurements from four groups. This is a small conditional replication with different model, prompt, size, training and CPU execution; do not pool with Qwen3 or attribute differences uniquely to training.

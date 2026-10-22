@@ -1,0 +1,1875 @@
+{
+ "reserve_file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/data/reserve.jsonl",
+ "reserve_sha256": "02966f8a1bf9fdac502a47d4c76745a6c532e55f6abc066c622ca50b47b9c81b",
+ "manifest_reserve_sha256": "02966f8a1bf9fdac502a47d4c76745a6c532e55f6abc066c622ca50b47b9c81b",
+ "manifest_reserve_evaluated": false,
+ "reserve_pairs": 72,
+ "reserve_groups": 24,
+ "reserve_families": [
+  "machine"
+ ],
+ "development_sha256": "9504e3b4c236bd509824ce912d4ce9d1e51944ec37281ceb78ba46ca93129542",
+ "manifest_development_sha256": "9504e3b4c236bd509824ce912d4ce9d1e51944ec37281ceb78ba46ca93129542",
+ "pair_overlap_with_development": 0,
+ "task_overlap_with_development": [],
+ "donor_overlap_with_development": 0,
+ "recipient_overlap_with_development": 0,
+ "demonstration_overlap": [],
+ "json_files_scanned": 3233,
+ "reserve_identifier_files": [],
+ "reserve_pair_records": [],
+ "reserve_full_prompts_machine_wording": [],
+ "reserve_full_prompts_box_wording": [
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-ledger.json",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl",
+   "label": "reserve-14-mul:donor:box:full"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-ledger.json",
+   "label": "reserve-14-mul:donor:box:full"
+  }
+ ],
+ "reserve_first_step_prompts": [
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-04-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-05-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-20-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-23-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-16-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-01-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-16-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-19-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-02-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-10-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-21-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-08-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-08-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-13-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-00-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-14-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-06-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-11-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-03-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-13-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-19-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-04-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-05-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-20-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-23-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-16-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-01-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-16-mul:control:different_z_same_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-19-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-02-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-10-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-21-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-08-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-08-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-11-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-13-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-12-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-00-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-14-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-06-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-11-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-18-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl",
+   "label": "reserve-03-mul:control:same_z_decomposition:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-01-mul:recipient:box:first"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-14-mul:control:same_z_different_answer:box:first"
+  }
+ ],
+ "reserve_short_prompt_hits": [
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-15-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-add:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-11-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-03-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-03-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-02-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-17-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-16-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-23-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-07-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/source-baselines.jsonl",
+   "label": "reserve-07-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-09-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-add:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl",
+   "label": "reserve-10-mul:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-08-sub:recipient:remaining"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-baselines.jsonl",
+   "label": "reserve-08-sub:counterfactual"
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-baselines.jsonl",
+   "label": "reserve-02-mul:counterfactual"
+  }
+ ],
+ "reserve_problem_hits": [
+  {
+   "file": "03-Data/ai02/data/development.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/data/validation.jsonl",
+   "task": [
+    42,
+    3,
+    "sub",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-20-sub:recipient"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/data/validation.jsonl",
+   "task": [
+    25,
+    2,
+    "add",
+    "sub",
+    4
+   ],
+   "reserve_roles": [
+    "reserve-20-add:donor",
+    "reserve-20-sub:donor",
+    "reserve-20-mul:donor"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/data/validation.jsonl",
+   "task": [
+    44,
+    7,
+    "sub",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-19-add:control:different_z_same_answer",
+    "reserve-19-sub:control:different_z_same_answer",
+    "reserve-19-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/data/validation.jsonl",
+   "task": [
+    31,
+    8,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-16-add:control:different_z_same_answer",
+    "reserve-16-sub:control:different_z_same_answer",
+    "reserve-16-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/data/validation.jsonl",
+   "task": [
+    34,
+    8,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-02-add:control:different_z_same_answer",
+    "reserve-02-sub:control:different_z_same_answer",
+    "reserve-02-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/followup-readout/data.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/hidden-value-transfer/subspace-v1/value-digit-diagnostic/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/hidden-value-transfer/subspace-v1/value-digit-no-borrow/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "03-Data/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/followup-readout/checkpoint-replication/results/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/followup-readout/results/seed-20262909/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/followup-readout/results/seed-20263909/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-ledger.json",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/results/v3/development/controls-n100/control-baselines.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "04-Results/ai02/results/v3/development/controls-n100/controls.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/development.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/validation.jsonl",
+   "task": [
+    42,
+    3,
+    "sub",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-20-sub:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/validation.jsonl",
+   "task": [
+    25,
+    2,
+    "add",
+    "sub",
+    4
+   ],
+   "reserve_roles": [
+    "reserve-20-add:donor",
+    "reserve-20-sub:donor",
+    "reserve-20-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/validation.jsonl",
+   "task": [
+    44,
+    7,
+    "sub",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-19-add:control:different_z_same_answer",
+    "reserve-19-sub:control:different_z_same_answer",
+    "reserve-19-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/validation.jsonl",
+   "task": [
+    31,
+    8,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-16-add:control:different_z_same_answer",
+    "reserve-16-sub:control:different_z_same_answer",
+    "reserve-16-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/data/validation.jsonl",
+   "task": [
+    34,
+    8,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-02-add:control:different_z_same_answer",
+    "reserve-02-sub:control:different_z_same_answer",
+    "reserve-02-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/results/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/data.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results/seed-20262909/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results/seed-20263909/baselines.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/source-at-completion/data.jsonl",
+   "task": [
+    65,
+    4,
+    "add",
+    "mul",
+    2
+   ],
+   "reserve_roles": [
+    "reserve-11-mul:recipient"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/data.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/source-ledger.json",
+   "task": [
+    68,
+    8,
+    "add",
+    "sub",
+    5
+   ],
+   "reserve_roles": [
+    "reserve-14-add:donor",
+    "reserve-14-sub:donor",
+    "reserve-14-mul:donor"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v3/development/controls-n100/control-baselines.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  },
+  {
+   "file": "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v3/development/controls-n100/controls.jsonl",
+   "task": [
+    10,
+    6,
+    "add",
+    "add",
+    7
+   ],
+   "reserve_roles": [
+    "reserve-20-add:control:different_z_same_answer",
+    "reserve-20-sub:control:different_z_same_answer",
+    "reserve-20-mul:control:different_z_same_answer"
+   ]
+  }
+ ],
+ "definitions": {
+  "never_evaluated": "hash matches the 1 October manifest, the manifest records reserve_evaluated false, no record carries a reserve identifier, no record pairs a reserve donor with its reserve recipient, and no record holds a reserve full-problem prompt in the reserve wording (machine)",
+  "coincidences": "first-step prompts depend only on (a, b, first) and the remaining-step and supplied-intermediate prompts only on (z, operation, k), so independently generated items from the same small ranges share them; complete problems can also coincide across independently generated sets"
+ },
+ "never_evaluated": true,
+ "no_overlap_with_development": true
+}

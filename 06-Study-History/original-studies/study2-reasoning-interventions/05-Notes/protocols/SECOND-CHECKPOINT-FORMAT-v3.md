@@ -1,0 +1,9 @@
+# Second checkpoint: one explicit-format alternative
+
+21 September 2026, after qualification v1 revealed missing labelled boundaries on both audit groups. The preserved v1 traces contain correct arithmetic but boxed multi-value or explanatory outputs that do not satisfy the declared answer/site grammar. This is a format and site-eligibility failure, not evidence of absent arithmetic or an execution mismatch.
+
+Try one alternative on the same first two audit groups, without selecting easier groups. Append: "After your thinking, give exactly two plain-text lines in this format: Intermediate: <integer> followed by Final: <integer>. Do not use boxes, equations, Markdown, or other text after thinking. The first line gives z and the second gives the final answer."
+
+Run all six recipient/donor/supplied baselines with the existing 768-token budget, float32 CPU configuration and stream 948101. Require all six correctly parsed natural completions and both boundaries plus the final candidate-score boundary for both source and recipient in each group. Preserve every output. If this format/competence preflight fails, stop this checkpoint attempt and report the precise boundary. Do not weaken the parser or rename a multi-value boxed response as a passed two-line protocol.
+
+If it passes, qualify native/custom and no-op/identity token equivalence; three-layer, two-boundary cached/full-recomputed logits for 12 steps; complete candidate scores; exact write locality; positive immediate downstream logit change >0.001. The numerical threshold remains 0.0005. Only a fully qualified configuration can proceed to the separately frozen four-group exploratory panel described in SECOND-CHECKPOINT-QUALIFICATION-v2.md. This altered instruction is a prompt change and must not be pooled with the primary Qwen3 experiment.

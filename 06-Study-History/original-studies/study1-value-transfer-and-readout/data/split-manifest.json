@@ -1,0 +1,67 @@
+{
+  "seed": 20260909,
+  "n_per_split": 100,
+  "status": "reserved_validation_not_evaluated",
+  "splits": {
+    "development": {
+      "sha256": "b7f7d559169fd3ab85cbc9b26b8319dffe3908b5285aa102ed863a97cb7a6452",
+      "rows": 100,
+      "families": [
+        "dev_box",
+        "dev_score"
+      ],
+      "z_values": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "validation": {
+      "sha256": "630dd6e32e8b7a48f62743f0791e6a29123cb27c81cb68ad32809ec47c0bb697",
+      "rows": 100,
+      "families": [
+        "val_ledger",
+        "val_machine"
+      ],
+      "z_values": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  }
+}

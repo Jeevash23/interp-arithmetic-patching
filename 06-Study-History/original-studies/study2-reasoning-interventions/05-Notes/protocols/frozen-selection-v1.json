@@ -1,0 +1,105 @@
+{
+  "selected_utc": "2026-09-21T04:00:00.817228+00:00",
+  "development_run": "development/qwen06-development-v2",
+  "journal_hash": "902c0b31a57d9918dcf18b2ba929bcb450485e8ecc6ecaee3b6462f11aa03ce8",
+  "ranking": [
+    {
+      "site": "first_z-L13",
+      "boundary": "first_z",
+      "layer": 13,
+      "order": 0,
+      "score_groups": 24,
+      "mean_B_delta": 0.006268646955518875,
+      "success_rate": 0.0,
+      "successes": 0,
+      "failures": 0,
+      "n": 48
+    },
+    {
+      "site": "first_z-L20",
+      "boundary": "first_z",
+      "layer": 20,
+      "order": 1,
+      "score_groups": 24,
+      "mean_B_delta": 0.10069049289212846,
+      "success_rate": 0.041666666666666664,
+      "successes": 2,
+      "failures": 6,
+      "n": 48
+    },
+    {
+      "site": "first_z-L26",
+      "boundary": "first_z",
+      "layer": 26,
+      "order": 2,
+      "score_groups": 24,
+      "mean_B_delta": 0.0005400560329841634,
+      "success_rate": 0.041666666666666664,
+      "successes": 2,
+      "failures": 3,
+      "n": 48
+    },
+    {
+      "site": "label_z-L13",
+      "boundary": "label_z",
+      "layer": 13,
+      "order": 3,
+      "score_groups": 24,
+      "mean_B_delta": 0.08282865420780568,
+      "success_rate": 0.0,
+      "successes": 0,
+      "failures": 0,
+      "n": 48
+    },
+    {
+      "site": "label_z-L20",
+      "boundary": "label_z",
+      "layer": 20,
+      "order": 4,
+      "score_groups": 24,
+      "mean_B_delta": 0.42695395429790545,
+      "success_rate": 0.0,
+      "successes": 0,
+      "failures": 0,
+      "n": 48
+    },
+    {
+      "site": "label_z-L26",
+      "boundary": "label_z",
+      "layer": 26,
+      "order": 5,
+      "score_groups": 24,
+      "mean_B_delta": 0.13259702036174303,
+      "success_rate": 0.08333333333333333,
+      "successes": 4,
+      "failures": 0,
+      "n": 48
+    }
+  ],
+  "replay": {
+    "site": "label_z-L20",
+    "boundary": "label_z",
+    "layer": 20,
+    "order": 4,
+    "score_groups": 24,
+    "mean_B_delta": 0.42695395429790545,
+    "success_rate": 0.0,
+    "successes": 0,
+    "failures": 0,
+    "n": 48
+  },
+  "continuation": {
+    "site": "label_z-L26",
+    "boundary": "label_z",
+    "layer": 26,
+    "order": 5,
+    "score_groups": 24,
+    "mean_B_delta": 0.13259702036174303,
+    "success_rate": 0.08333333333333333,
+    "successes": 4,
+    "failures": 0,
+    "n": 48
+  },
+  "deadband_nats": 0.01,
+  "identical_policies": false
+}

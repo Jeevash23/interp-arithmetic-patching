@@ -1,0 +1,4030 @@
+[
+  {
+    "id": "final-000",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 172,
+      "b": 11,
+      "first": "-",
+      "z": 161,
+      "second": "+",
+      "k": 7,
+      "y": 168
+    },
+    "recipient": {
+      "a": 193,
+      "b": 9,
+      "first": "+",
+      "z": 202,
+      "second": "-",
+      "k": 5,
+      "y": 197
+    },
+    "hypotheses": {
+      "counterfactual": 156,
+      "recipient": 197,
+      "donor_answer": 168,
+      "donor_first_digit": -4,
+      "operand_a": 176,
+      "operand_b": 199,
+      "donor_operation": 209,
+      "complete_expression": 156
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 172. Update it by - 11; call the new value z. Set y to z + 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 193. Update it by + 9; call the new value z. Set y to z - 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 161. Compute y = z - 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-001",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 159,
+      "b": 6,
+      "first": "+",
+      "z": 165,
+      "second": "-",
+      "k": 3,
+      "y": 162
+    },
+    "recipient": {
+      "a": 216,
+      "b": 5,
+      "first": "-",
+      "z": 211,
+      "second": "*",
+      "k": 8,
+      "y": 1688
+    },
+    "hypotheses": {
+      "counterfactual": 1320,
+      "recipient": 1688,
+      "donor_answer": 162,
+      "donor_first_digit": 8,
+      "operand_a": 1232,
+      "operand_b": 1680,
+      "donor_operation": 208,
+      "complete_expression": 1320
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 159 + 6, followed by y := z - 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 216 - 5, followed by y := z * 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 165. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-002",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 164,
+      "b": 12,
+      "first": "-",
+      "z": 152,
+      "second": "*",
+      "k": 5,
+      "y": 760
+    },
+    "recipient": {
+      "a": 197,
+      "b": 10,
+      "first": "+",
+      "z": 207,
+      "second": "+",
+      "k": 4,
+      "y": 211
+    },
+    "hypotheses": {
+      "counterfactual": 156,
+      "recipient": 211,
+      "donor_answer": 760,
+      "donor_first_digit": 5,
+      "operand_a": 178,
+      "operand_b": 213,
+      "donor_operation": 1035,
+      "complete_expression": 156
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 164. Update it by - 12; call the new value z. Set y to z * 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 197. Update it by + 10; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-003",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 154,
+      "b": 15,
+      "first": "+",
+      "z": 169,
+      "second": "+",
+      "k": 6,
+      "y": 175
+    },
+    "recipient": {
+      "a": 230,
+      "b": 14,
+      "first": "-",
+      "z": 216,
+      "second": "-",
+      "k": 2,
+      "y": 214
+    },
+    "hypotheses": {
+      "counterfactual": 167,
+      "recipient": 214,
+      "donor_answer": 175,
+      "donor_first_digit": -1,
+      "operand_a": 138,
+      "operand_b": 213,
+      "donor_operation": 222,
+      "complete_expression": 167
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 154 + 15, followed by y := z + 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 230 - 14, followed by y := z - 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 169. Compute y = z - 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-004",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 181,
+      "b": 12,
+      "first": "-",
+      "z": 169,
+      "second": "-",
+      "k": 4,
+      "y": 165
+    },
+    "recipient": {
+      "a": 208,
+      "b": 7,
+      "first": "+",
+      "z": 215,
+      "second": "*",
+      "k": 3,
+      "y": 645
+    },
+    "hypotheses": {
+      "counterfactual": 507,
+      "recipient": 645,
+      "donor_answer": 165,
+      "donor_first_digit": 3,
+      "operand_a": 564,
+      "operand_b": 660,
+      "donor_operation": 211,
+      "complete_expression": 507
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 181. Update it by - 12; call the new value z. Set y to z - 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 208. Update it by + 7; call the new value z. Set y to z * 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 169. Compute y = z * 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-005",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 121,
+      "b": 13,
+      "first": "+",
+      "z": 134,
+      "second": "*",
+      "k": 4,
+      "y": 536
+    },
+    "recipient": {
+      "a": 230,
+      "b": 11,
+      "first": "-",
+      "z": 219,
+      "second": "+",
+      "k": 2,
+      "y": 221
+    },
+    "hypotheses": {
+      "counterfactual": 136,
+      "recipient": 221,
+      "donor_answer": 536,
+      "donor_first_digit": 3,
+      "operand_a": 112,
+      "operand_b": 219,
+      "donor_operation": 876,
+      "complete_expression": 136
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 121 + 13, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 230 - 11, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 134. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-006",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 142,
+      "b": 8,
+      "first": "-",
+      "z": 134,
+      "second": "+",
+      "k": 8,
+      "y": 142
+    },
+    "recipient": {
+      "a": 204,
+      "b": 14,
+      "first": "+",
+      "z": 218,
+      "second": "-",
+      "k": 4,
+      "y": 214
+    },
+    "hypotheses": {
+      "counterfactual": 130,
+      "recipient": 214,
+      "donor_answer": 142,
+      "donor_first_digit": -3,
+      "operand_a": 152,
+      "operand_b": 208,
+      "donor_operation": 226,
+      "complete_expression": 130
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 142. Update it by - 8; call the new value z. Set y to z + 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 204. Update it by + 14; call the new value z. Set y to z - 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 134. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-007",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 147,
+      "b": 5,
+      "first": "+",
+      "z": 152,
+      "second": "-",
+      "k": 2,
+      "y": 150
+    },
+    "recipient": {
+      "a": 248,
+      "b": 11,
+      "first": "-",
+      "z": 237,
+      "second": "*",
+      "k": 6,
+      "y": 1422
+    },
+    "hypotheses": {
+      "counterfactual": 912,
+      "recipient": 1422,
+      "donor_answer": 150,
+      "donor_first_digit": 6,
+      "operand_a": 816,
+      "operand_b": 1458,
+      "donor_operation": 235,
+      "complete_expression": 912
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 147 + 5, followed by y := z - 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 248 - 11, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z * 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-008",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 173,
+      "b": 11,
+      "first": "-",
+      "z": 162,
+      "second": "*",
+      "k": 6,
+      "y": 972
+    },
+    "recipient": {
+      "a": 205,
+      "b": 8,
+      "first": "+",
+      "z": 213,
+      "second": "+",
+      "k": 2,
+      "y": 215
+    },
+    "hypotheses": {
+      "counterfactual": 164,
+      "recipient": 215,
+      "donor_answer": 972,
+      "donor_first_digit": 3,
+      "operand_a": 183,
+      "operand_b": 218,
+      "donor_operation": 1278,
+      "complete_expression": 164
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 173. Update it by - 11; call the new value z. Set y to z * 6.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 205. Update it by + 8; call the new value z. Set y to z + 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 162. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-009",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 133,
+      "b": 10,
+      "first": "+",
+      "z": 143,
+      "second": "+",
+      "k": 7,
+      "y": 150
+    },
+    "recipient": {
+      "a": 236,
+      "b": 14,
+      "first": "-",
+      "z": 222,
+      "second": "-",
+      "k": 5,
+      "y": 217
+    },
+    "hypotheses": {
+      "counterfactual": 138,
+      "recipient": 217,
+      "donor_answer": 150,
+      "donor_first_digit": -4,
+      "operand_a": 114,
+      "operand_b": 221,
+      "donor_operation": 229,
+      "complete_expression": 138
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 133 + 10, followed by y := z + 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 236 - 14, followed by y := z - 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 143. Compute y = z - 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-010",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 139,
+      "b": 3,
+      "first": "-",
+      "z": 136,
+      "second": "-",
+      "k": 7,
+      "y": 129
+    },
+    "recipient": {
+      "a": 194,
+      "b": 12,
+      "first": "+",
+      "z": 206,
+      "second": "*",
+      "k": 8,
+      "y": 1648
+    },
+    "hypotheses": {
+      "counterfactual": 1088,
+      "recipient": 1648,
+      "donor_answer": 129,
+      "donor_first_digit": 8,
+      "operand_a": 1208,
+      "operand_b": 1576,
+      "donor_operation": 199,
+      "complete_expression": 1088
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 139. Update it by - 3; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 194. Update it by + 12; call the new value z. Set y to z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 136. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-011",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 139,
+      "b": 8,
+      "first": "+",
+      "z": 147,
+      "second": "*",
+      "k": 5,
+      "y": 735
+    },
+    "recipient": {
+      "a": 226,
+      "b": 3,
+      "first": "-",
+      "z": 223,
+      "second": "+",
+      "k": 7,
+      "y": 230
+    },
+    "hypotheses": {
+      "counterfactual": 154,
+      "recipient": 230,
+      "donor_answer": 735,
+      "donor_first_digit": 8,
+      "operand_a": 143,
+      "operand_b": 225,
+      "donor_operation": 1115,
+      "complete_expression": 154
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 139 + 8, followed by y := z * 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 226 - 3, followed by y := z + 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 147. Compute y = z + 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-012",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 166,
+      "b": 14,
+      "first": "-",
+      "z": 152,
+      "second": "+",
+      "k": 3,
+      "y": 155
+    },
+    "recipient": {
+      "a": 208,
+      "b": 15,
+      "first": "+",
+      "z": 223,
+      "second": "-",
+      "k": 3,
+      "y": 220
+    },
+    "hypotheses": {
+      "counterfactual": 149,
+      "recipient": 220,
+      "donor_answer": 155,
+      "donor_first_digit": -2,
+      "operand_a": 178,
+      "operand_b": 219,
+      "donor_operation": 226,
+      "complete_expression": 149
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 166. Update it by - 14; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 208. Update it by + 15; call the new value z. Set y to z - 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z - 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-013",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 131,
+      "b": 7,
+      "first": "+",
+      "z": 138,
+      "second": "-",
+      "k": 7,
+      "y": 131
+    },
+    "recipient": {
+      "a": 233,
+      "b": 5,
+      "first": "-",
+      "z": 228,
+      "second": "*",
+      "k": 6,
+      "y": 1368
+    },
+    "hypotheses": {
+      "counterfactual": 828,
+      "recipient": 1368,
+      "donor_answer": 131,
+      "donor_first_digit": 6,
+      "operand_a": 756,
+      "operand_b": 1356,
+      "donor_operation": 221,
+      "complete_expression": 828
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 131 + 7, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 233 - 5, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 138. Compute y = z * 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-014",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 181,
+      "b": 14,
+      "first": "-",
+      "z": 167,
+      "second": "*",
+      "k": 4,
+      "y": 668
+    },
+    "recipient": {
+      "a": 212,
+      "b": 8,
+      "first": "+",
+      "z": 220,
+      "second": "+",
+      "k": 3,
+      "y": 223
+    },
+    "hypotheses": {
+      "counterfactual": 170,
+      "recipient": 223,
+      "donor_answer": 668,
+      "donor_first_digit": 4,
+      "operand_a": 192,
+      "operand_b": 229,
+      "donor_operation": 880,
+      "complete_expression": 170
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 181. Update it by - 14; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 212. Update it by + 8; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 167. Compute y = z + 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-015",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 153,
+      "b": 16,
+      "first": "+",
+      "z": 169,
+      "second": "+",
+      "k": 4,
+      "y": 173
+    },
+    "recipient": {
+      "a": 224,
+      "b": 3,
+      "first": "-",
+      "z": 221,
+      "second": "-",
+      "k": 6,
+      "y": 215
+    },
+    "hypotheses": {
+      "counterfactual": 163,
+      "recipient": 215,
+      "donor_answer": 173,
+      "donor_first_digit": -5,
+      "operand_a": 144,
+      "operand_b": 202,
+      "donor_operation": 225,
+      "complete_expression": 163
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 153 + 16, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 224 - 3, followed by y := z - 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 169. Compute y = z - 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-016",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 157,
+      "b": 10,
+      "first": "-",
+      "z": 147,
+      "second": "-",
+      "k": 2,
+      "y": 145
+    },
+    "recipient": {
+      "a": 202,
+      "b": 16,
+      "first": "+",
+      "z": 218,
+      "second": "*",
+      "k": 5,
+      "y": 1090
+    },
+    "hypotheses": {
+      "counterfactual": 735,
+      "recipient": 1090,
+      "donor_answer": 145,
+      "donor_first_digit": 5,
+      "operand_a": 865,
+      "operand_b": 1060,
+      "donor_operation": 216,
+      "complete_expression": 735
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 157. Update it by - 10; call the new value z. Set y to z - 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 202. Update it by + 16; call the new value z. Set y to z * 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 147. Compute y = z * 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-017",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 145,
+      "b": 3,
+      "first": "+",
+      "z": 148,
+      "second": "*",
+      "k": 2,
+      "y": 296
+    },
+    "recipient": {
+      "a": 225,
+      "b": 12,
+      "first": "-",
+      "z": 213,
+      "second": "+",
+      "k": 4,
+      "y": 217
+    },
+    "hypotheses": {
+      "counterfactual": 152,
+      "recipient": 217,
+      "donor_answer": 296,
+      "donor_first_digit": 5,
+      "operand_a": 137,
+      "operand_b": 226,
+      "donor_operation": 426,
+      "complete_expression": 152
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 145 + 3, followed by y := z * 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 225 - 12, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 148. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-018",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 161,
+      "b": 15,
+      "first": "-",
+      "z": 146,
+      "second": "+",
+      "k": 5,
+      "y": 151
+    },
+    "recipient": {
+      "a": 198,
+      "b": 13,
+      "first": "+",
+      "z": 211,
+      "second": "-",
+      "k": 3,
+      "y": 208
+    },
+    "hypotheses": {
+      "counterfactual": 143,
+      "recipient": 208,
+      "donor_answer": 151,
+      "donor_first_digit": -2,
+      "operand_a": 171,
+      "operand_b": 210,
+      "donor_operation": 216,
+      "complete_expression": 143
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 161. Update it by - 15; call the new value z. Set y to z + 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 198. Update it by + 13; call the new value z. Set y to z - 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 146. Compute y = z - 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-019",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 136,
+      "b": 12,
+      "first": "+",
+      "z": 148,
+      "second": "-",
+      "k": 5,
+      "y": 143
+    },
+    "recipient": {
+      "a": 240,
+      "b": 12,
+      "first": "-",
+      "z": 228,
+      "second": "*",
+      "k": 5,
+      "y": 1140
+    },
+    "hypotheses": {
+      "counterfactual": 740,
+      "recipient": 1140,
+      "donor_answer": 143,
+      "donor_first_digit": 5,
+      "operand_a": 620,
+      "operand_b": 1140,
+      "donor_operation": 223,
+      "complete_expression": 740
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 136 + 12, followed by y := z - 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 240 - 12, followed by y := z * 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 148. Compute y = z * 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-020",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 171,
+      "b": 16,
+      "first": "-",
+      "z": 155,
+      "second": "*",
+      "k": 3,
+      "y": 465
+    },
+    "recipient": {
+      "a": 209,
+      "b": 4,
+      "first": "+",
+      "z": 213,
+      "second": "+",
+      "k": 5,
+      "y": 218
+    },
+    "hypotheses": {
+      "counterfactual": 160,
+      "recipient": 218,
+      "donor_answer": 465,
+      "donor_first_digit": 6,
+      "operand_a": 180,
+      "operand_b": 230,
+      "donor_operation": 639,
+      "complete_expression": 160
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 171. Update it by - 16; call the new value z. Set y to z * 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 209. Update it by + 4; call the new value z. Set y to z + 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 155. Compute y = z + 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-021",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 144,
+      "b": 15,
+      "first": "+",
+      "z": 159,
+      "second": "+",
+      "k": 4,
+      "y": 163
+    },
+    "recipient": {
+      "a": 218,
+      "b": 5,
+      "first": "-",
+      "z": 213,
+      "second": "-",
+      "k": 4,
+      "y": 209
+    },
+    "hypotheses": {
+      "counterfactual": 155,
+      "recipient": 209,
+      "donor_answer": 163,
+      "donor_first_digit": -3,
+      "operand_a": 135,
+      "operand_b": 199,
+      "donor_operation": 217,
+      "complete_expression": 155
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 144 + 15, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 218 - 5, followed by y := z - 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 159. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-022",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 154,
+      "b": 6,
+      "first": "-",
+      "z": 148,
+      "second": "-",
+      "k": 7,
+      "y": 141
+    },
+    "recipient": {
+      "a": 200,
+      "b": 6,
+      "first": "+",
+      "z": 206,
+      "second": "*",
+      "k": 8,
+      "y": 1648
+    },
+    "hypotheses": {
+      "counterfactual": 1184,
+      "recipient": 1648,
+      "donor_answer": 141,
+      "donor_first_digit": 8,
+      "operand_a": 1280,
+      "operand_b": 1648,
+      "donor_operation": 199,
+      "complete_expression": 1184
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 154. Update it by - 6; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 200. Update it by + 6; call the new value z. Set y to z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 148. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-023",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 138,
+      "b": 14,
+      "first": "+",
+      "z": 152,
+      "second": "*",
+      "k": 2,
+      "y": 304
+    },
+    "recipient": {
+      "a": 218,
+      "b": 8,
+      "first": "-",
+      "z": 210,
+      "second": "+",
+      "k": 2,
+      "y": 212
+    },
+    "hypotheses": {
+      "counterfactual": 154,
+      "recipient": 212,
+      "donor_answer": 304,
+      "donor_first_digit": 3,
+      "operand_a": 132,
+      "operand_b": 206,
+      "donor_operation": 420,
+      "complete_expression": 154
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 138 + 14, followed by y := z * 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 218 - 8, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-024",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 167,
+      "b": 3,
+      "first": "-",
+      "z": 164,
+      "second": "+",
+      "k": 3,
+      "y": 167
+    },
+    "recipient": {
+      "a": 207,
+      "b": 3,
+      "first": "+",
+      "z": 210,
+      "second": "-",
+      "k": 7,
+      "y": 203
+    },
+    "hypotheses": {
+      "counterfactual": 157,
+      "recipient": 203,
+      "donor_answer": 167,
+      "donor_first_digit": -6,
+      "operand_a": 163,
+      "operand_b": 203,
+      "donor_operation": 213,
+      "complete_expression": 157
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 167. Update it by - 3; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 207. Update it by + 3; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 164. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-025",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 143,
+      "b": 9,
+      "first": "+",
+      "z": 152,
+      "second": "-",
+      "k": 4,
+      "y": 148
+    },
+    "recipient": {
+      "a": 212,
+      "b": 9,
+      "first": "-",
+      "z": 203,
+      "second": "*",
+      "k": 2,
+      "y": 406
+    },
+    "hypotheses": {
+      "counterfactual": 304,
+      "recipient": 406,
+      "donor_answer": 148,
+      "donor_first_digit": 2,
+      "operand_a": 268,
+      "operand_b": 406,
+      "donor_operation": 199,
+      "complete_expression": 304
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 143 + 9, followed by y := z - 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 212 - 9, followed by y := z * 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z * 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-026",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 160,
+      "b": 8,
+      "first": "-",
+      "z": 152,
+      "second": "*",
+      "k": 4,
+      "y": 608
+    },
+    "recipient": {
+      "a": 225,
+      "b": 10,
+      "first": "+",
+      "z": 235,
+      "second": "+",
+      "k": 4,
+      "y": 239
+    },
+    "hypotheses": {
+      "counterfactual": 156,
+      "recipient": 239,
+      "donor_answer": 608,
+      "donor_first_digit": 5,
+      "operand_a": 174,
+      "operand_b": 237,
+      "donor_operation": 940,
+      "complete_expression": 156
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 160. Update it by - 8; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 225. Update it by + 10; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-027",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 137,
+      "b": 16,
+      "first": "+",
+      "z": 153,
+      "second": "+",
+      "k": 4,
+      "y": 157
+    },
+    "recipient": {
+      "a": 227,
+      "b": 8,
+      "first": "-",
+      "z": 219,
+      "second": "-",
+      "k": 2,
+      "y": 217
+    },
+    "hypotheses": {
+      "counterfactual": 151,
+      "recipient": 217,
+      "donor_answer": 157,
+      "donor_first_digit": -1,
+      "operand_a": 127,
+      "operand_b": 209,
+      "donor_operation": 223,
+      "complete_expression": 151
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 137 + 16, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 227 - 8, followed by y := z - 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 153. Compute y = z - 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-028",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 148,
+      "b": 16,
+      "first": "-",
+      "z": 132,
+      "second": "-",
+      "k": 3,
+      "y": 129
+    },
+    "recipient": {
+      "a": 223,
+      "b": 4,
+      "first": "+",
+      "z": 227,
+      "second": "*",
+      "k": 7,
+      "y": 1589
+    },
+    "hypotheses": {
+      "counterfactual": 924,
+      "recipient": 1589,
+      "donor_answer": 129,
+      "donor_first_digit": 7,
+      "operand_a": 1064,
+      "operand_b": 1673,
+      "donor_operation": 224,
+      "complete_expression": 924
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 148. Update it by - 16; call the new value z. Set y to z - 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 223. Update it by + 4; call the new value z. Set y to z * 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 132. Compute y = z * 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-029",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 144,
+      "b": 4,
+      "first": "+",
+      "z": 148,
+      "second": "*",
+      "k": 4,
+      "y": 592
+    },
+    "recipient": {
+      "a": 227,
+      "b": 16,
+      "first": "-",
+      "z": 211,
+      "second": "+",
+      "k": 4,
+      "y": 215
+    },
+    "hypotheses": {
+      "counterfactual": 152,
+      "recipient": 215,
+      "donor_answer": 592,
+      "donor_first_digit": 5,
+      "operand_a": 132,
+      "operand_b": 227,
+      "donor_operation": 844,
+      "complete_expression": 152
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 144 + 4, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 227 - 16, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 148. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-030",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 149,
+      "b": 12,
+      "first": "-",
+      "z": 137,
+      "second": "+",
+      "k": 3,
+      "y": 140
+    },
+    "recipient": {
+      "a": 220,
+      "b": 10,
+      "first": "+",
+      "z": 230,
+      "second": "-",
+      "k": 4,
+      "y": 226
+    },
+    "hypotheses": {
+      "counterfactual": 133,
+      "recipient": 226,
+      "donor_answer": 140,
+      "donor_first_digit": -3,
+      "operand_a": 155,
+      "operand_b": 228,
+      "donor_operation": 233,
+      "complete_expression": 133
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 149. Update it by - 12; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 220. Update it by + 10; call the new value z. Set y to z - 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 137. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-031",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 126,
+      "b": 8,
+      "first": "+",
+      "z": 134,
+      "second": "-",
+      "k": 6,
+      "y": 128
+    },
+    "recipient": {
+      "a": 209,
+      "b": 7,
+      "first": "-",
+      "z": 202,
+      "second": "*",
+      "k": 8,
+      "y": 1616
+    },
+    "hypotheses": {
+      "counterfactual": 1072,
+      "recipient": 1616,
+      "donor_answer": 128,
+      "donor_first_digit": 8,
+      "operand_a": 952,
+      "operand_b": 1608,
+      "donor_operation": 196,
+      "complete_expression": 1072
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 126 + 8, followed by y := z - 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 209 - 7, followed by y := z * 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 134. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-032",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 169,
+      "b": 15,
+      "first": "-",
+      "z": 154,
+      "second": "*",
+      "k": 4,
+      "y": 616
+    },
+    "recipient": {
+      "a": 193,
+      "b": 9,
+      "first": "+",
+      "z": 202,
+      "second": "+",
+      "k": 4,
+      "y": 206
+    },
+    "hypotheses": {
+      "counterfactual": 158,
+      "recipient": 206,
+      "donor_answer": 616,
+      "donor_first_digit": 5,
+      "operand_a": 182,
+      "operand_b": 212,
+      "donor_operation": 808,
+      "complete_expression": 158
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 169. Update it by - 15; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 193. Update it by + 9; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 154. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-033",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 147,
+      "b": 3,
+      "first": "+",
+      "z": 150,
+      "second": "+",
+      "k": 6,
+      "y": 156
+    },
+    "recipient": {
+      "a": 237,
+      "b": 6,
+      "first": "-",
+      "z": 231,
+      "second": "-",
+      "k": 5,
+      "y": 226
+    },
+    "hypotheses": {
+      "counterfactual": 145,
+      "recipient": 226,
+      "donor_answer": 156,
+      "donor_first_digit": -4,
+      "operand_a": 136,
+      "operand_b": 229,
+      "donor_operation": 237,
+      "complete_expression": 145
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 147 + 3, followed by y := z + 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 237 - 6, followed by y := z - 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 150. Compute y = z - 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-034",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 175,
+      "b": 7,
+      "first": "-",
+      "z": 168,
+      "second": "-",
+      "k": 8,
+      "y": 160
+    },
+    "recipient": {
+      "a": 213,
+      "b": 3,
+      "first": "+",
+      "z": 216,
+      "second": "*",
+      "k": 4,
+      "y": 864
+    },
+    "hypotheses": {
+      "counterfactual": 672,
+      "recipient": 864,
+      "donor_answer": 160,
+      "donor_first_digit": 4,
+      "operand_a": 712,
+      "operand_b": 880,
+      "donor_operation": 208,
+      "complete_expression": 672
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 175. Update it by - 7; call the new value z. Set y to z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 213. Update it by + 3; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 168. Compute y = z * 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-035",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 139,
+      "b": 8,
+      "first": "+",
+      "z": 147,
+      "second": "*",
+      "k": 4,
+      "y": 588
+    },
+    "recipient": {
+      "a": 211,
+      "b": 4,
+      "first": "-",
+      "z": 207,
+      "second": "+",
+      "k": 6,
+      "y": 213
+    },
+    "hypotheses": {
+      "counterfactual": 153,
+      "recipient": 213,
+      "donor_answer": 588,
+      "donor_first_digit": 7,
+      "operand_a": 141,
+      "operand_b": 209,
+      "donor_operation": 828,
+      "complete_expression": 153
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 139 + 8, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 211 - 4, followed by y := z + 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 147. Compute y = z + 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-036",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 154,
+      "b": 9,
+      "first": "-",
+      "z": 145,
+      "second": "+",
+      "k": 3,
+      "y": 148
+    },
+    "recipient": {
+      "a": 231,
+      "b": 3,
+      "first": "+",
+      "z": 234,
+      "second": "-",
+      "k": 5,
+      "y": 229
+    },
+    "hypotheses": {
+      "counterfactual": 140,
+      "recipient": 229,
+      "donor_answer": 148,
+      "donor_first_digit": -4,
+      "operand_a": 152,
+      "operand_b": 235,
+      "donor_operation": 237,
+      "complete_expression": 140
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 154. Update it by - 9; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 231. Update it by + 3; call the new value z. Set y to z - 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 145. Compute y = z - 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-037",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 124,
+      "b": 13,
+      "first": "+",
+      "z": 137,
+      "second": "-",
+      "k": 5,
+      "y": 132
+    },
+    "recipient": {
+      "a": 221,
+      "b": 6,
+      "first": "-",
+      "z": 215,
+      "second": "*",
+      "k": 6,
+      "y": 1290
+    },
+    "hypotheses": {
+      "counterfactual": 822,
+      "recipient": 1290,
+      "donor_answer": 132,
+      "donor_first_digit": 6,
+      "operand_a": 708,
+      "operand_b": 1248,
+      "donor_operation": 210,
+      "complete_expression": 822
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 124 + 13, followed by y := z - 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 221 - 6, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 137. Compute y = z * 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-038",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 164,
+      "b": 8,
+      "first": "-",
+      "z": 156,
+      "second": "*",
+      "k": 7,
+      "y": 1092
+    },
+    "recipient": {
+      "a": 203,
+      "b": 8,
+      "first": "+",
+      "z": 211,
+      "second": "+",
+      "k": 3,
+      "y": 214
+    },
+    "hypotheses": {
+      "counterfactual": 159,
+      "recipient": 214,
+      "donor_answer": 1092,
+      "donor_first_digit": 4,
+      "operand_a": 175,
+      "operand_b": 214,
+      "donor_operation": 1477,
+      "complete_expression": 159
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 164. Update it by - 8; call the new value z. Set y to z * 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 203. Update it by + 8; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 156. Compute y = z + 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-039",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 138,
+      "b": 6,
+      "first": "+",
+      "z": 144,
+      "second": "+",
+      "k": 8,
+      "y": 152
+    },
+    "recipient": {
+      "a": 228,
+      "b": 4,
+      "first": "-",
+      "z": 224,
+      "second": "-",
+      "k": 8,
+      "y": 216
+    },
+    "hypotheses": {
+      "counterfactual": 136,
+      "recipient": 216,
+      "donor_answer": 152,
+      "donor_first_digit": -7,
+      "operand_a": 126,
+      "operand_b": 214,
+      "donor_operation": 232,
+      "complete_expression": 136
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 138 + 6, followed by y := z + 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 228 - 4, followed by y := z - 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 144. Compute y = z - 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-040",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 164,
+      "b": 8,
+      "first": "-",
+      "z": 156,
+      "second": "-",
+      "k": 3,
+      "y": 153
+    },
+    "recipient": {
+      "a": 223,
+      "b": 5,
+      "first": "+",
+      "z": 228,
+      "second": "*",
+      "k": 7,
+      "y": 1596
+    },
+    "hypotheses": {
+      "counterfactual": 1092,
+      "recipient": 1596,
+      "donor_answer": 153,
+      "donor_first_digit": 7,
+      "operand_a": 1183,
+      "operand_b": 1617,
+      "donor_operation": 225,
+      "complete_expression": 1092
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 164. Update it by - 8; call the new value z. Set y to z - 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 223. Update it by + 5; call the new value z. Set y to z * 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 156. Compute y = z * 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-041",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 129,
+      "b": 10,
+      "first": "+",
+      "z": 139,
+      "second": "*",
+      "k": 4,
+      "y": 556
+    },
+    "recipient": {
+      "a": 249,
+      "b": 16,
+      "first": "-",
+      "z": 233,
+      "second": "+",
+      "k": 8,
+      "y": 241
+    },
+    "hypotheses": {
+      "counterfactual": 147,
+      "recipient": 241,
+      "donor_answer": 556,
+      "donor_first_digit": 9,
+      "operand_a": 121,
+      "operand_b": 247,
+      "donor_operation": 932,
+      "complete_expression": 147
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 129 + 10, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 249 - 16, followed by y := z + 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 139. Compute y = z + 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-042",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 146,
+      "b": 8,
+      "first": "-",
+      "z": 138,
+      "second": "+",
+      "k": 4,
+      "y": 142
+    },
+    "recipient": {
+      "a": 221,
+      "b": 15,
+      "first": "+",
+      "z": 236,
+      "second": "-",
+      "k": 7,
+      "y": 229
+    },
+    "hypotheses": {
+      "counterfactual": 131,
+      "recipient": 229,
+      "donor_answer": 142,
+      "donor_first_digit": -6,
+      "operand_a": 154,
+      "operand_b": 222,
+      "donor_operation": 240,
+      "complete_expression": 131
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 146. Update it by - 8; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 221. Update it by + 15; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 138. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-043",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 144,
+      "b": 15,
+      "first": "+",
+      "z": 159,
+      "second": "-",
+      "k": 7,
+      "y": 152
+    },
+    "recipient": {
+      "a": 242,
+      "b": 15,
+      "first": "-",
+      "z": 227,
+      "second": "*",
+      "k": 7,
+      "y": 1589
+    },
+    "hypotheses": {
+      "counterfactual": 1113,
+      "recipient": 1589,
+      "donor_answer": 152,
+      "donor_first_digit": 7,
+      "operand_a": 903,
+      "operand_b": 1589,
+      "donor_operation": 220,
+      "complete_expression": 1113
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 144 + 15, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 242 - 15, followed by y := z * 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 159. Compute y = z * 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-044",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 181,
+      "b": 14,
+      "first": "-",
+      "z": 167,
+      "second": "*",
+      "k": 8,
+      "y": 1336
+    },
+    "recipient": {
+      "a": 218,
+      "b": 4,
+      "first": "+",
+      "z": 222,
+      "second": "+",
+      "k": 3,
+      "y": 225
+    },
+    "hypotheses": {
+      "counterfactual": 170,
+      "recipient": 225,
+      "donor_answer": 1336,
+      "donor_first_digit": 4,
+      "operand_a": 188,
+      "operand_b": 235,
+      "donor_operation": 1776,
+      "complete_expression": 170
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 181. Update it by - 14; call the new value z. Set y to z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 218. Update it by + 4; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 167. Compute y = z + 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-045",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 155,
+      "b": 14,
+      "first": "+",
+      "z": 169,
+      "second": "+",
+      "k": 2,
+      "y": 171
+    },
+    "recipient": {
+      "a": 218,
+      "b": 11,
+      "first": "-",
+      "z": 207,
+      "second": "-",
+      "k": 4,
+      "y": 203
+    },
+    "hypotheses": {
+      "counterfactual": 165,
+      "recipient": 203,
+      "donor_answer": 171,
+      "donor_first_digit": -3,
+      "operand_a": 140,
+      "operand_b": 200,
+      "donor_operation": 209,
+      "complete_expression": 165
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 155 + 14, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 218 - 11, followed by y := z - 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 169. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-046",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 148,
+      "b": 5,
+      "first": "-",
+      "z": 143,
+      "second": "-",
+      "k": 6,
+      "y": 137
+    },
+    "recipient": {
+      "a": 223,
+      "b": 14,
+      "first": "+",
+      "z": 237,
+      "second": "*",
+      "k": 4,
+      "y": 948
+    },
+    "hypotheses": {
+      "counterfactual": 572,
+      "recipient": 948,
+      "donor_answer": 137,
+      "donor_first_digit": 4,
+      "operand_a": 648,
+      "operand_b": 912,
+      "donor_operation": 231,
+      "complete_expression": 572
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 148. Update it by - 5; call the new value z. Set y to z - 6.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 223. Update it by + 14; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 143. Compute y = z * 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-047",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 140,
+      "b": 14,
+      "first": "+",
+      "z": 154,
+      "second": "*",
+      "k": 6,
+      "y": 924
+    },
+    "recipient": {
+      "a": 250,
+      "b": 16,
+      "first": "-",
+      "z": 234,
+      "second": "+",
+      "k": 7,
+      "y": 241
+    },
+    "hypotheses": {
+      "counterfactual": 161,
+      "recipient": 241,
+      "donor_answer": 924,
+      "donor_first_digit": 8,
+      "operand_a": 131,
+      "operand_b": 243,
+      "donor_operation": 1404,
+      "complete_expression": 161
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 140 + 14, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 250 - 16, followed by y := z + 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 154. Compute y = z + 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-048",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 171,
+      "b": 11,
+      "first": "-",
+      "z": 160,
+      "second": "+",
+      "k": 5,
+      "y": 165
+    },
+    "recipient": {
+      "a": 215,
+      "b": 12,
+      "first": "+",
+      "z": 227,
+      "second": "-",
+      "k": 6,
+      "y": 221
+    },
+    "hypotheses": {
+      "counterfactual": 154,
+      "recipient": 221,
+      "donor_answer": 165,
+      "donor_first_digit": -5,
+      "operand_a": 177,
+      "operand_b": 220,
+      "donor_operation": 232,
+      "complete_expression": 154
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 171. Update it by - 11; call the new value z. Set y to z + 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 215. Update it by + 12; call the new value z. Set y to z - 6.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 160. Compute y = z - 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-049",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 137,
+      "b": 14,
+      "first": "+",
+      "z": 151,
+      "second": "-",
+      "k": 6,
+      "y": 145
+    },
+    "recipient": {
+      "a": 231,
+      "b": 16,
+      "first": "-",
+      "z": 215,
+      "second": "*",
+      "k": 6,
+      "y": 1290
+    },
+    "hypotheses": {
+      "counterfactual": 906,
+      "recipient": 1290,
+      "donor_answer": 145,
+      "donor_first_digit": 6,
+      "operand_a": 726,
+      "operand_b": 1302,
+      "donor_operation": 209,
+      "complete_expression": 906
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 137 + 14, followed by y := z - 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 231 - 16, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 151. Compute y = z * 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-050",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 159,
+      "b": 8,
+      "first": "-",
+      "z": 151,
+      "second": "*",
+      "k": 7,
+      "y": 1057
+    },
+    "recipient": {
+      "a": 217,
+      "b": 13,
+      "first": "+",
+      "z": 230,
+      "second": "+",
+      "k": 3,
+      "y": 233
+    },
+    "hypotheses": {
+      "counterfactual": 154,
+      "recipient": 233,
+      "donor_answer": 1057,
+      "donor_first_digit": 4,
+      "operand_a": 175,
+      "operand_b": 228,
+      "donor_operation": 1610,
+      "complete_expression": 154
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 159. Update it by - 8; call the new value z. Set y to z * 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 217. Update it by + 13; call the new value z. Set y to z + 3.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 151. Compute y = z + 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-051",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 150,
+      "b": 12,
+      "first": "+",
+      "z": 162,
+      "second": "+",
+      "k": 2,
+      "y": 164
+    },
+    "recipient": {
+      "a": 250,
+      "b": 15,
+      "first": "-",
+      "z": 235,
+      "second": "-",
+      "k": 7,
+      "y": 228
+    },
+    "hypotheses": {
+      "counterfactual": 155,
+      "recipient": 228,
+      "donor_answer": 164,
+      "donor_first_digit": -6,
+      "operand_a": 128,
+      "operand_b": 231,
+      "donor_operation": 237,
+      "complete_expression": 155
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 150 + 12, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 250 - 15, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 162. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-052",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 152,
+      "b": 8,
+      "first": "-",
+      "z": 144,
+      "second": "-",
+      "k": 7,
+      "y": 137
+    },
+    "recipient": {
+      "a": 210,
+      "b": 11,
+      "first": "+",
+      "z": 221,
+      "second": "*",
+      "k": 4,
+      "y": 884
+    },
+    "hypotheses": {
+      "counterfactual": 576,
+      "recipient": 884,
+      "donor_answer": 137,
+      "donor_first_digit": 4,
+      "operand_a": 652,
+      "operand_b": 872,
+      "donor_operation": 214,
+      "complete_expression": 576
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 152. Update it by - 8; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 210. Update it by + 11; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 144. Compute y = z * 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-053",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 147,
+      "b": 11,
+      "first": "+",
+      "z": 158,
+      "second": "*",
+      "k": 2,
+      "y": 316
+    },
+    "recipient": {
+      "a": 222,
+      "b": 10,
+      "first": "-",
+      "z": 212,
+      "second": "+",
+      "k": 8,
+      "y": 220
+    },
+    "hypotheses": {
+      "counterfactual": 166,
+      "recipient": 220,
+      "donor_answer": 316,
+      "donor_first_digit": 9,
+      "operand_a": 145,
+      "operand_b": 219,
+      "donor_operation": 424,
+      "complete_expression": 166
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 147 + 11, followed by y := z * 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 222 - 10, followed by y := z + 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 158. Compute y = z + 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-054",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 148,
+      "b": 5,
+      "first": "-",
+      "z": 143,
+      "second": "+",
+      "k": 2,
+      "y": 145
+    },
+    "recipient": {
+      "a": 213,
+      "b": 7,
+      "first": "+",
+      "z": 220,
+      "second": "-",
+      "k": 7,
+      "y": 213
+    },
+    "hypotheses": {
+      "counterfactual": 136,
+      "recipient": 213,
+      "donor_answer": 145,
+      "donor_first_digit": -6,
+      "operand_a": 148,
+      "operand_b": 211,
+      "donor_operation": 222,
+      "complete_expression": 136
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 148. Update it by - 5; call the new value z. Set y to z + 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 213. Update it by + 7; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 143. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-055",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 142,
+      "b": 3,
+      "first": "+",
+      "z": 145,
+      "second": "-",
+      "k": 4,
+      "y": 141
+    },
+    "recipient": {
+      "a": 249,
+      "b": 11,
+      "first": "-",
+      "z": 238,
+      "second": "*",
+      "k": 5,
+      "y": 1190
+    },
+    "hypotheses": {
+      "counterfactual": 725,
+      "recipient": 1190,
+      "donor_answer": 141,
+      "donor_first_digit": 5,
+      "operand_a": 655,
+      "operand_b": 1230,
+      "donor_operation": 234,
+      "complete_expression": 725
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 142 + 3, followed by y := z - 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 249 - 11, followed by y := z * 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 145. Compute y = z * 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-056",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 161,
+      "b": 14,
+      "first": "-",
+      "z": 147,
+      "second": "*",
+      "k": 7,
+      "y": 1029
+    },
+    "recipient": {
+      "a": 197,
+      "b": 8,
+      "first": "+",
+      "z": 205,
+      "second": "+",
+      "k": 5,
+      "y": 210
+    },
+    "hypotheses": {
+      "counterfactual": 152,
+      "recipient": 210,
+      "donor_answer": 1029,
+      "donor_first_digit": 6,
+      "operand_a": 174,
+      "operand_b": 216,
+      "donor_operation": 1435,
+      "complete_expression": 152
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 161. Update it by - 14; call the new value z. Set y to z * 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 197. Update it by + 8; call the new value z. Set y to z + 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 147. Compute y = z + 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-057",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 142,
+      "b": 3,
+      "first": "+",
+      "z": 145,
+      "second": "+",
+      "k": 2,
+      "y": 147
+    },
+    "recipient": {
+      "a": 230,
+      "b": 5,
+      "first": "-",
+      "z": 225,
+      "second": "-",
+      "k": 3,
+      "y": 222
+    },
+    "hypotheses": {
+      "counterfactual": 142,
+      "recipient": 222,
+      "donor_answer": 147,
+      "donor_first_digit": -2,
+      "operand_a": 134,
+      "operand_b": 224,
+      "donor_operation": 227,
+      "complete_expression": 142
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 142 + 3, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 230 - 5, followed by y := z - 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 145. Compute y = z - 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-058",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 155,
+      "b": 5,
+      "first": "-",
+      "z": 150,
+      "second": "-",
+      "k": 2,
+      "y": 148
+    },
+    "recipient": {
+      "a": 221,
+      "b": 11,
+      "first": "+",
+      "z": 232,
+      "second": "*",
+      "k": 8,
+      "y": 1856
+    },
+    "hypotheses": {
+      "counterfactual": 1200,
+      "recipient": 1856,
+      "donor_answer": 148,
+      "donor_first_digit": 8,
+      "operand_a": 1328,
+      "operand_b": 1808,
+      "donor_operation": 230,
+      "complete_expression": 1200
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 155. Update it by - 5; call the new value z. Set y to z - 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 221. Update it by + 11; call the new value z. Set y to z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 150. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-059",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 152,
+      "b": 6,
+      "first": "+",
+      "z": 158,
+      "second": "*",
+      "k": 3,
+      "y": 474
+    },
+    "recipient": {
+      "a": 221,
+      "b": 14,
+      "first": "-",
+      "z": 207,
+      "second": "+",
+      "k": 2,
+      "y": 209
+    },
+    "hypotheses": {
+      "counterfactual": 160,
+      "recipient": 209,
+      "donor_answer": 474,
+      "donor_first_digit": 3,
+      "operand_a": 140,
+      "operand_b": 217,
+      "donor_operation": 621,
+      "complete_expression": 160
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 152 + 6, followed by y := z * 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 221 - 14, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 158. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-060",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 160,
+      "b": 12,
+      "first": "-",
+      "z": 148,
+      "second": "+",
+      "k": 2,
+      "y": 150
+    },
+    "recipient": {
+      "a": 231,
+      "b": 3,
+      "first": "+",
+      "z": 234,
+      "second": "-",
+      "k": 8,
+      "y": 226
+    },
+    "hypotheses": {
+      "counterfactual": 140,
+      "recipient": 226,
+      "donor_answer": 150,
+      "donor_first_digit": -7,
+      "operand_a": 155,
+      "operand_b": 235,
+      "donor_operation": 236,
+      "complete_expression": 140
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 160. Update it by - 12; call the new value z. Set y to z + 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 231. Update it by + 3; call the new value z. Set y to z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 148. Compute y = z - 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-061",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 148,
+      "b": 9,
+      "first": "+",
+      "z": 157,
+      "second": "-",
+      "k": 3,
+      "y": 154
+    },
+    "recipient": {
+      "a": 212,
+      "b": 3,
+      "first": "-",
+      "z": 209,
+      "second": "*",
+      "k": 3,
+      "y": 627
+    },
+    "hypotheses": {
+      "counterfactual": 471,
+      "recipient": 627,
+      "donor_answer": 154,
+      "donor_first_digit": 3,
+      "operand_a": 435,
+      "operand_b": 609,
+      "donor_operation": 206,
+      "complete_expression": 471
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 148 + 9, followed by y := z - 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 212 - 3, followed by y := z * 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 157. Compute y = z * 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-062",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 170,
+      "b": 10,
+      "first": "-",
+      "z": 160,
+      "second": "*",
+      "k": 5,
+      "y": 800
+    },
+    "recipient": {
+      "a": 196,
+      "b": 6,
+      "first": "+",
+      "z": 202,
+      "second": "+",
+      "k": 8,
+      "y": 210
+    },
+    "hypotheses": {
+      "counterfactual": 168,
+      "recipient": 210,
+      "donor_answer": 800,
+      "donor_first_digit": 9,
+      "operand_a": 184,
+      "operand_b": 214,
+      "donor_operation": 1010,
+      "complete_expression": 168
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 170. Update it by - 10; call the new value z. Set y to z * 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 196. Update it by + 6; call the new value z. Set y to z + 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 160. Compute y = z + 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-063",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 161,
+      "b": 6,
+      "first": "+",
+      "z": 167,
+      "second": "+",
+      "k": 3,
+      "y": 170
+    },
+    "recipient": {
+      "a": 217,
+      "b": 15,
+      "first": "-",
+      "z": 202,
+      "second": "-",
+      "k": 7,
+      "y": 195
+    },
+    "hypotheses": {
+      "counterfactual": 160,
+      "recipient": 195,
+      "donor_answer": 170,
+      "donor_first_digit": -6,
+      "operand_a": 139,
+      "operand_b": 204,
+      "donor_operation": 205,
+      "complete_expression": 160
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 161 + 6, followed by y := z + 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 217 - 15, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 167. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-064",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 161,
+      "b": 9,
+      "first": "-",
+      "z": 152,
+      "second": "-",
+      "k": 6,
+      "y": 146
+    },
+    "recipient": {
+      "a": 229,
+      "b": 6,
+      "first": "+",
+      "z": 235,
+      "second": "*",
+      "k": 2,
+      "y": 470
+    },
+    "hypotheses": {
+      "counterfactual": 304,
+      "recipient": 470,
+      "donor_answer": 146,
+      "donor_first_digit": 2,
+      "operand_a": 334,
+      "operand_b": 476,
+      "donor_operation": 229,
+      "complete_expression": 304
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 161. Update it by - 9; call the new value z. Set y to z - 6.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 229. Update it by + 6; call the new value z. Set y to z * 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 152. Compute y = z * 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-065",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 163,
+      "b": 3,
+      "first": "+",
+      "z": 166,
+      "second": "*",
+      "k": 3,
+      "y": 498
+    },
+    "recipient": {
+      "a": 232,
+      "b": 11,
+      "first": "-",
+      "z": 221,
+      "second": "+",
+      "k": 4,
+      "y": 225
+    },
+    "hypotheses": {
+      "counterfactual": 170,
+      "recipient": 225,
+      "donor_answer": 498,
+      "donor_first_digit": 5,
+      "operand_a": 156,
+      "operand_b": 233,
+      "donor_operation": 663,
+      "complete_expression": 170
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 163 + 3, followed by y := z * 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 232 - 11, followed by y := z + 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 166. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-066",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 165,
+      "b": 8,
+      "first": "-",
+      "z": 157,
+      "second": "+",
+      "k": 2,
+      "y": 159
+    },
+    "recipient": {
+      "a": 220,
+      "b": 4,
+      "first": "+",
+      "z": 224,
+      "second": "-",
+      "k": 4,
+      "y": 220
+    },
+    "hypotheses": {
+      "counterfactual": 153,
+      "recipient": 220,
+      "donor_answer": 159,
+      "donor_first_digit": -3,
+      "operand_a": 165,
+      "operand_b": 224,
+      "donor_operation": 226,
+      "complete_expression": 153
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 165. Update it by - 8; call the new value z. Set y to z + 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 220. Update it by + 4; call the new value z. Set y to z - 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 157. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-067",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 137,
+      "b": 5,
+      "first": "+",
+      "z": 142,
+      "second": "-",
+      "k": 2,
+      "y": 140
+    },
+    "recipient": {
+      "a": 233,
+      "b": 3,
+      "first": "-",
+      "z": 230,
+      "second": "*",
+      "k": 4,
+      "y": 920
+    },
+    "hypotheses": {
+      "counterfactual": 568,
+      "recipient": 920,
+      "donor_answer": 140,
+      "donor_first_digit": 4,
+      "operand_a": 536,
+      "operand_b": 912,
+      "donor_operation": 228,
+      "complete_expression": 568
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 137 + 5, followed by y := z - 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 233 - 3, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 142. Compute y = z * 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-068",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 163,
+      "b": 3,
+      "first": "-",
+      "z": 160,
+      "second": "*",
+      "k": 8,
+      "y": 1280
+    },
+    "recipient": {
+      "a": 204,
+      "b": 11,
+      "first": "+",
+      "z": 215,
+      "second": "+",
+      "k": 2,
+      "y": 217
+    },
+    "hypotheses": {
+      "counterfactual": 162,
+      "recipient": 217,
+      "donor_answer": 1280,
+      "donor_first_digit": 3,
+      "operand_a": 176,
+      "operand_b": 209,
+      "donor_operation": 1720,
+      "complete_expression": 162
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 163. Update it by - 3; call the new value z. Set y to z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 204. Update it by + 11; call the new value z. Set y to z + 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 160. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-069",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 144,
+      "b": 16,
+      "first": "+",
+      "z": 160,
+      "second": "+",
+      "k": 8,
+      "y": 168
+    },
+    "recipient": {
+      "a": 219,
+      "b": 12,
+      "first": "-",
+      "z": 207,
+      "second": "-",
+      "k": 7,
+      "y": 200
+    },
+    "hypotheses": {
+      "counterfactual": 153,
+      "recipient": 200,
+      "donor_answer": 168,
+      "donor_first_digit": -6,
+      "operand_a": 125,
+      "operand_b": 196,
+      "donor_operation": 215,
+      "complete_expression": 153
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 144 + 16, followed by y := z + 8. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 219 - 12, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 160. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-070",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 171,
+      "b": 4,
+      "first": "-",
+      "z": 167,
+      "second": "-",
+      "k": 8,
+      "y": 159
+    },
+    "recipient": {
+      "a": 199,
+      "b": 15,
+      "first": "+",
+      "z": 214,
+      "second": "*",
+      "k": 2,
+      "y": 428
+    },
+    "hypotheses": {
+      "counterfactual": 334,
+      "recipient": 428,
+      "donor_answer": 159,
+      "donor_first_digit": 2,
+      "operand_a": 372,
+      "operand_b": 406,
+      "donor_operation": 206,
+      "complete_expression": 334
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 171. Update it by - 4; call the new value z. Set y to z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 199. Update it by + 15; call the new value z. Set y to z * 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 167. Compute y = z * 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-071",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 139,
+      "b": 12,
+      "first": "+",
+      "z": 151,
+      "second": "*",
+      "k": 5,
+      "y": 755
+    },
+    "recipient": {
+      "a": 232,
+      "b": 4,
+      "first": "-",
+      "z": 228,
+      "second": "+",
+      "k": 2,
+      "y": 230
+    },
+    "hypotheses": {
+      "counterfactual": 153,
+      "recipient": 230,
+      "donor_answer": 755,
+      "donor_first_digit": 3,
+      "operand_a": 137,
+      "operand_b": 222,
+      "donor_operation": 1140,
+      "complete_expression": 153
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 139 + 12, followed by y := z * 5. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 232 - 4, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 151. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-072",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 166,
+      "b": 12,
+      "first": "-",
+      "z": 154,
+      "second": "+",
+      "k": 4,
+      "y": 158
+    },
+    "recipient": {
+      "a": 219,
+      "b": 14,
+      "first": "+",
+      "z": 233,
+      "second": "-",
+      "k": 7,
+      "y": 226
+    },
+    "hypotheses": {
+      "counterfactual": 147,
+      "recipient": 226,
+      "donor_answer": 158,
+      "donor_first_digit": -6,
+      "operand_a": 173,
+      "operand_b": 224,
+      "donor_operation": 237,
+      "complete_expression": 147
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 166. Update it by - 12; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 219. Update it by + 14; call the new value z. Set y to z - 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 154. Compute y = z - 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-073",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 141,
+      "b": 9,
+      "first": "+",
+      "z": 150,
+      "second": "-",
+      "k": 7,
+      "y": 143
+    },
+    "recipient": {
+      "a": 219,
+      "b": 8,
+      "first": "-",
+      "z": 211,
+      "second": "*",
+      "k": 3,
+      "y": 633
+    },
+    "hypotheses": {
+      "counterfactual": 450,
+      "recipient": 633,
+      "donor_answer": 143,
+      "donor_first_digit": 3,
+      "operand_a": 399,
+      "operand_b": 630,
+      "donor_operation": 204,
+      "complete_expression": 450
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 141 + 9, followed by y := z - 7. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 219 - 8, followed by y := z * 3. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 150. Compute y = z * 3. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-074",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 152,
+      "b": 14,
+      "first": "-",
+      "z": 138,
+      "second": "*",
+      "k": 4,
+      "y": 552
+    },
+    "recipient": {
+      "a": 223,
+      "b": 16,
+      "first": "+",
+      "z": 239,
+      "second": "+",
+      "k": 4,
+      "y": 243
+    },
+    "hypotheses": {
+      "counterfactual": 142,
+      "recipient": 243,
+      "donor_answer": 552,
+      "donor_first_digit": 5,
+      "operand_a": 172,
+      "operand_b": 241,
+      "donor_operation": 956,
+      "complete_expression": 142
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 152. Update it by - 14; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 223. Update it by + 16; call the new value z. Set y to z + 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 138. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-075",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 164,
+      "b": 4,
+      "first": "+",
+      "z": 168,
+      "second": "+",
+      "k": 6,
+      "y": 174
+    },
+    "recipient": {
+      "a": 245,
+      "b": 14,
+      "first": "-",
+      "z": 231,
+      "second": "-",
+      "k": 4,
+      "y": 227
+    },
+    "hypotheses": {
+      "counterfactual": 164,
+      "recipient": 227,
+      "donor_answer": 174,
+      "donor_first_digit": -3,
+      "operand_a": 146,
+      "operand_b": 237,
+      "donor_operation": 237,
+      "complete_expression": 164
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "donor_operation"
+      ],
+      "donor_operation": [
+        "operand_b"
+      ],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 164 + 4, followed by y := z + 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 245 - 14, followed by y := z - 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 168. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-076",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 161,
+      "b": 5,
+      "first": "-",
+      "z": 156,
+      "second": "-",
+      "k": 5,
+      "y": 151
+    },
+    "recipient": {
+      "a": 217,
+      "b": 7,
+      "first": "+",
+      "z": 224,
+      "second": "*",
+      "k": 4,
+      "y": 896
+    },
+    "hypotheses": {
+      "counterfactual": 624,
+      "recipient": 896,
+      "donor_answer": 151,
+      "donor_first_digit": 4,
+      "operand_a": 672,
+      "operand_b": 888,
+      "donor_operation": 219,
+      "complete_expression": 624
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 161. Update it by - 5; call the new value z. Set y to z - 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 217. Update it by + 7; call the new value z. Set y to z * 4.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 156. Compute y = z * 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-077",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 121,
+      "b": 15,
+      "first": "+",
+      "z": 136,
+      "second": "*",
+      "k": 4,
+      "y": 544
+    },
+    "recipient": {
+      "a": 237,
+      "b": 14,
+      "first": "-",
+      "z": 223,
+      "second": "+",
+      "k": 2,
+      "y": 225
+    },
+    "hypotheses": {
+      "counterfactual": 138,
+      "recipient": 225,
+      "donor_answer": 544,
+      "donor_first_digit": 3,
+      "operand_a": 109,
+      "operand_b": 224,
+      "donor_operation": 892,
+      "complete_expression": 138
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 121 + 15, followed by y := z * 4. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 237 - 14, followed by y := z + 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 136. Compute y = z + 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-078",
+    "split": "final",
+    "template": 2,
+    "donor": {
+      "a": 176,
+      "b": 15,
+      "first": "-",
+      "z": 161,
+      "second": "+",
+      "k": 8,
+      "y": 169
+    },
+    "recipient": {
+      "a": 231,
+      "b": 4,
+      "first": "+",
+      "z": 235,
+      "second": "-",
+      "k": 2,
+      "y": 233
+    },
+    "hypotheses": {
+      "counterfactual": 159,
+      "recipient": 233,
+      "donor_answer": 169,
+      "donor_first_digit": -1,
+      "operand_a": 178,
+      "operand_b": 244,
+      "donor_operation": 243,
+      "complete_expression": 159
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A register starts at 176. Update it by - 15; call the new value z. Set y to z + 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A register starts at 231. Update it by + 4; call the new value z. Set y to z - 2.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 161. Compute y = z - 2. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "final-079",
+    "split": "final",
+    "template": 3,
+    "donor": {
+      "a": 139,
+      "b": 3,
+      "first": "+",
+      "z": 142,
+      "second": "-",
+      "k": 2,
+      "y": 140
+    },
+    "recipient": {
+      "a": 248,
+      "b": 12,
+      "first": "-",
+      "z": 236,
+      "second": "*",
+      "k": 6,
+      "y": 1416
+    },
+    "hypotheses": {
+      "counterfactual": 852,
+      "recipient": 1416,
+      "donor_answer": 140,
+      "donor_first_digit": 6,
+      "operand_a": 762,
+      "operand_b": 1470,
+      "donor_operation": 234,
+      "complete_expression": 852
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "A calculator program assigns z := 139 + 3, followed by y := z - 2. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "A calculator program assigns z := 248 - 12, followed by y := z * 6. Execute the assignments in order.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 142. Compute y = z * 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  }
+]

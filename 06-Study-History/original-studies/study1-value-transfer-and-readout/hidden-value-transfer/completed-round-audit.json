@@ -1,0 +1,153 @@
+{
+  "client_date": "2026-10-02",
+  "pass_check": true,
+  "source_freezes": [
+    {
+      "manifest": "competence-v3/freeze-qwen4b-fewshot.json",
+      "files": 13,
+      "sha256": "16a6f887c907f85117b3185c9fb9585c28a0c402b2107df910618726bd38ef25"
+    },
+    {
+      "manifest": "competence-v3/eligible-sites-freeze.json",
+      "files": 9,
+      "sha256": "84132e86f4bafa5b8b310a9d7946b679b2cdbcce23cf474e0df44f1de9f7f226"
+    },
+    {
+      "manifest": "subspace-v1/source-freeze.json",
+      "files": 10,
+      "sha256": "92e5d94afd5eef4a9fa0b5d5d29315658c7857d4de49d4efc84955caa4ad3dcb"
+    },
+    {
+      "manifest": "subspace-v1/value-digit-diagnostic/freeze.json",
+      "files": 7,
+      "sha256": "bd16b26d62d7a070cdfd1540a4cd5d15b89cf4effe200e5bcfab8c6249893dd3"
+    },
+    {
+      "manifest": "subspace-v1/value-digit-no-borrow/freeze.json",
+      "files": 7,
+      "sha256": "1c2f59c4ca3bef54594dd28376339eed95ad380fac61930c42cf27513826e5f0"
+    },
+    {
+      "manifest": "subspace-v1/value-digit-qualified-sources/freeze.json",
+      "files": 7,
+      "sha256": "493819cc5b53c004bbf0aa9a9dd96b480170a28513b5f243acf27b8e2a3b7e29"
+    },
+    {
+      "manifest": "component-v1/freeze.json",
+      "files": 10,
+      "sha256": "0e6b2ed82ea8dff87f89c136c635959db3afe1e56998684799f233b7df165239"
+    }
+  ],
+  "journals": [
+    {
+      "path": "competence-v3/results/qwen4b-fewshot/baselines.jsonl",
+      "records": 216,
+      "unique_keys": true,
+      "sha256": "d94220f8c86934519df61784b89773247167b02bc0af51ddfe3aaf54ec7f2a99"
+    },
+    {
+      "path": "competence-v3/results/qwen4b-fewshot/screen.jsonl",
+      "records": 5184,
+      "unique_keys": true,
+      "sha256": "543440cc2ce1b995587c2d273fc683b1a6794a29a05b5869951e0e74219e3840"
+    },
+    {
+      "path": "competence-v3/results/qwen4b-fewshot/source-baselines.jsonl",
+      "records": 432,
+      "unique_keys": true,
+      "sha256": "5ed0ce64deed8ca4bc2cf879b8bff7cae58d4ddaaf336007972fbb0fb25c43b1"
+    },
+    {
+      "path": "competence-v3/results/qwen4b-fewshot/controls.jsonl",
+      "records": 1080,
+      "unique_keys": true,
+      "sha256": "73a608d6375eb222b547759a692813aeb6bde04d2367b84b4d2fb63551745440"
+    },
+    {
+      "path": "competence-v3/results/qwen4b-fewshot/actual-donor-digit-control.jsonl",
+      "records": 108,
+      "unique_keys": true,
+      "sha256": "0ec37c2ce043451f948d73866aed6f28e1a7d074bdcd5f7a4aded27477255054"
+    },
+    {
+      "path": "competence-v3/results/eligible-sites/controls.jsonl",
+      "records": 1080,
+      "unique_keys": true,
+      "sha256": "61a9b2da11f8c1d17c7b5770c4c6b93b171a47ba1f7950ff43b62537ba4f8f7e"
+    },
+    {
+      "path": "subspace-v1/results/training-baselines.jsonl",
+      "records": 1512,
+      "unique_keys": true,
+      "sha256": "14e5b24773f56cf61e054cd1879aa69ef6f02f0369c5ecb3e00ac6585a232aba"
+    },
+    {
+      "path": "subspace-v1/results/controls.jsonl",
+      "records": 504,
+      "unique_keys": true,
+      "sha256": "61521abafff1e927698df72c0073147b3eda42a5a0be37c0d2144795eaf744e7"
+    },
+    {
+      "path": "subspace-v1/value-digit-diagnostic/results/baselines.jsonl",
+      "records": 486,
+      "unique_keys": true,
+      "sha256": "4f26c1e7659c6c60737a5db30a5cea5c304d69eb7c959418332ce1a661cae822"
+    },
+    {
+      "path": "subspace-v1/value-digit-diagnostic/results/source-baselines.jsonl",
+      "records": 486,
+      "unique_keys": true,
+      "sha256": "6ecaa54d3d402e5cdad8baa273569d999de847e41eba7d7910d8de2714c0a8af"
+    },
+    {
+      "path": "subspace-v1/value-digit-no-borrow/results/baselines.jsonl",
+      "records": 486,
+      "unique_keys": true,
+      "sha256": "23fee0faaeb9ada7f777b3b7ff6f48bb319498098dae34ab7b524a0f7ceb11dc"
+    },
+    {
+      "path": "subspace-v1/value-digit-no-borrow/results/source-baselines.jsonl",
+      "records": 486,
+      "unique_keys": true,
+      "sha256": "7dc85b7687227b624e136e730eb67a87862d023cd9ead7c568ac748f9531dbd9"
+    },
+    {
+      "path": "subspace-v1/value-digit-qualified-sources/results/baselines.jsonl",
+      "records": 486,
+      "unique_keys": true,
+      "sha256": "02001405c2a706844977ba26f1bb7a198edeccfda9e18817e8c5b9ff245b02fc"
+    },
+    {
+      "path": "subspace-v1/value-digit-qualified-sources/results/source-baselines.jsonl",
+      "records": 243,
+      "unique_keys": true,
+      "sha256": "fe44fb43d2b24583ce1024e844931a08b8abe7afe267aaf9b0259dd5bf8c1c76"
+    },
+    {
+      "path": "subspace-v1/value-digit-qualified-sources/results/controls.jsonl",
+      "records": 567,
+      "unique_keys": true,
+      "sha256": "bfb06bc142d1d4a323ca70fec0894137d31242a7352a98faf0e057864e7e9739"
+    },
+    {
+      "path": "component-v1/results/attention/controls.jsonl",
+      "records": 360,
+      "unique_keys": true,
+      "sha256": "17f17ab965b87fca5aa7a316c23cf6958fc8478be01ca3a07a6017a0646c8821"
+    },
+    {
+      "path": "component-v1/results/mlp/controls.jsonl",
+      "records": 360,
+      "unique_keys": true,
+      "sha256": "339020bf281f54e9e09015405522573a2ee475cad70d40e2a3dc17ab7cbc3cb4"
+    }
+  ],
+  "failed_diagnostic_gates_honored": true,
+  "qualified_source_comparison_complete": true,
+  "no_intervention_passed_full_progression": true,
+  "learned_artifact_sha256": "19a3cfcdaca371e49b03b0869e3feefff2e858ae9d7f57c5fa1fb06caac18f85",
+  "manuscript_sha256": "6241aad31aef8972e707191835e3f2edd86a24ed716f9576ecd96f65bb1c91d1",
+  "reserve_evaluated": false,
+  "multilingual_interventions_evaluated": false,
+  "caution": "Record counts include explicitly reused outputs and repeated donors; do not sum them as independent observations."
+}

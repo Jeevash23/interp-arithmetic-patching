@@ -1,0 +1,10 @@
+{
+  "stage": "run_experiment.py",
+  "args": [
+    "05-Notes/protocols/symbolic-v1.json"
+  ],
+  "started_utc": "2026-09-21T05:13:26.447031+00:00",
+  "state": "failed",
+  "error": "CalledProcessError(1, ['<portfolio>/study2-reasoning-interventions/.venv/bin/python', '<portfolio>/study2-reasoning-interventions/02-Code/run_experiment.py', '05-Notes/protocols/symbolic-v1.json'])",
+  "finished_utc": "2026-09-21T05:18:33.892412+00:00"
+}

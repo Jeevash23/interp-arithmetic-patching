@@ -1,0 +1,17 @@
+{
+  "run": "development/deepseek-panel-v1",
+  "phase": "second_checkpoint_exploratory",
+  "gate": "04-Results/audits/deepseek-format-v3/checks.json",
+  "protocol": "05-Notes/protocols/SECOND-CHECKPOINT-PANEL-v1.md",
+  "data": "03-Data/generated/pilot.json",
+  "groups": 4,
+  "baseline_seed": 948301,
+  "continuation_seeds": [948301, 948302],
+  "random_seed": 948401,
+  "competence_gate": 0.8,
+  "engine": {"device": "cpu", "model_path": "03-Data/raw/models/DeepSeek-R1-Distill-Qwen-1.5B"},
+  "sites": [{"boundary": "first_z", "layer": 26}, {"boundary": "label_z", "layer": 26}],
+  "conditions": ["unchanged", "activation", "text_digit", "text_full", "random_0"],
+  "reuse_identical_unchanged": true,
+  "freeze_extra": ["05-Notes/protocols/SECOND-CHECKPOINT-FORMAT-v3.md", "06-Study-History/environment/deepseek-model-files.json"]
+}

@@ -1,0 +1,1438 @@
+{
+ "ai02.qualification.Qwen3-4B-FP8, calculator instruction only": {
+  "value": {
+   "donor_full": [
+    30,
+    36
+   ],
+   "recipient_full": [
+    24,
+    36
+   ],
+   "textual_counterfactual": [
+    36,
+    36
+   ],
+   "triple": [
+    20,
+    36
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/baselines.jsonl"
+ },
+ "ai02.qualification.Qwen2.5-1.5B, calculator instruction only": {
+  "value": {
+   "donor_full": [
+    6,
+    36
+   ],
+   "recipient_full": [
+    4,
+    36
+   ],
+   "textual_counterfactual": [
+    29,
+    36
+   ],
+   "triple": [
+    0,
+    36
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/baselines.jsonl"
+ },
+ "ai02.qualification.Qwen3-4B-FP8, instruction plus three demonstrations": {
+  "value": {
+   "donor_full": [
+    33,
+    36
+   ],
+   "recipient_full": [
+    36,
+    36
+   ],
+   "textual_counterfactual": [
+    36,
+    36
+   ],
+   "triple": [
+    33,
+    36
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/baselines.jsonl"
+ },
+ "ai02.qwen17b.initial": {
+  "value": {
+   "donor_full": [
+    0,
+    36
+   ],
+   "recipient_full": [
+    0,
+    36
+   ],
+   "donor_first": [
+    3,
+    36
+   ],
+   "recipient_first": [
+    0,
+    36
+   ],
+   "recipient_remaining": [
+    18,
+    36
+   ],
+   "textual_counterfactual": [
+    20,
+    36
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/baselines.jsonl"
+ },
+ "ai02.screen.records": {
+  "value": 5184,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.screen.ratio_top3": {
+  "value": [
+   [
+    20,
+    "a_end",
+    30.405
+   ],
+   [
+    9,
+    "a_end",
+    30.159
+   ],
+   [
+    10,
+    "a_end",
+    30.159
+   ]
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.screen.eligible_sites": {
+  "value": {
+   "b_end": [
+    14,
+    0.027777568333336704
+   ],
+   "first_stage_end": [
+    20,
+    0.00013245238359126365
+   ],
+   "prompt_end": [
+    23,
+    0.05782943916128455
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.screen.max_cf_probability_blocks_0_to_11": {
+  "value": 0.0004587588662569956,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.screen.max_cf_probability_any": {
+  "value": 0.05782943916128455,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.screen.prompt_end_first_block_with_ratio_change_over_5": {
+  "value": 19,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/screen.jsonl"
+ },
+ "ai02.fresh.Block 20, first operand": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 2,
+     "copied_donor_answer": 1,
+     "first_operand_only": 16,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 16,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 35,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 5,
+     "unchanged": 0,
+     "copied_donor_answer": 0,
+     "first_operand_only": 21,
+     "invalid": 0
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 2,
+     "copied_donor_answer": 1,
+     "first_operand_only": 17,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 1,
+     "copied_donor_answer": 0,
+     "first_operand_only": 29,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 15,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 4,
+    "pairs": 36,
+    "donor_success_by_operation": {}
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/controls.jsonl"
+ },
+ "ai02.fresh.Block 9, first operand": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 1,
+     "first_operand_only": 13,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 19,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 35,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 3,
+     "unchanged": 0,
+     "copied_donor_answer": 0,
+     "first_operand_only": 17,
+     "invalid": 0
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 17,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 1,
+     "copied_donor_answer": 0,
+     "first_operand_only": 14,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 19,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 1,
+    "pairs": 36,
+    "donor_success_by_operation": {}
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/controls.jsonl"
+ },
+ "ai02.fresh.Block 10, first operand": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 1,
+     "first_operand_only": 13,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 19,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 3,
+     "unchanged": 0,
+     "copied_donor_answer": 0,
+     "first_operand_only": 17,
+     "invalid": 0
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 17,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 1,
+     "copied_donor_answer": 0,
+     "first_operand_only": 14,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 1,
+     "first_operand_only": 19,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 1,
+    "pairs": 36,
+    "donor_success_by_operation": {}
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/controls.jsonl"
+ },
+ "ai02.fresh.Block 14, second operand": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 4,
+     "unchanged": 6,
+     "copied_donor_answer": 1,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 6,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 0,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 2,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 33,
+    "pairs": 36,
+    "donor_success_by_operation": {
+     "mul": 1
+    }
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/controls.jsonl"
+ },
+ "ai02.fresh.Block 20, first-stage end": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 35,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 35,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 35,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 35,
+    "pairs": 36,
+    "donor_success_by_operation": {}
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/controls.jsonl"
+ },
+ "ai02.fresh.Block 23, answer prefix": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 3,
+     "first_operand_only": 1,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 2,
+     "unchanged": 5,
+     "copied_donor_answer": 1,
+     "first_operand_only": 2,
+     "invalid": 0
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 25,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 2,
+     "unchanged": 6,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 2
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 4,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 2,
+     "unchanged": 1,
+     "copied_donor_answer": 2,
+     "first_operand_only": 1,
+     "invalid": 1
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 3,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 1
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 26,
+    "pairs": 36,
+    "donor_success_by_operation": {
+     "mul": 1,
+     "add": 1
+    }
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/controls.jsonl"
+ },
+ "ai02.component.attention": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 12,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 10,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 1
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 34,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 4,
+     "unchanged": 12,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 1
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 8,
+     "copied_donor_answer": 0,
+     "first_operand_only": 6,
+     "invalid": 0
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 3,
+     "unchanged": 5,
+     "copied_donor_answer": 0,
+     "first_operand_only": 2,
+     "invalid": 0
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 15,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 26,
+    "pairs": 36,
+    "donor_success_by_operation": {
+     "mul": 1
+    }
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/controls.jsonl"
+ },
+ "ai02.component.mlp": {
+  "value": [
+   {
+    "different_z_same_answer": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 18,
+     "copied_donor_answer": 1,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "donor": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 15,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 1
+    },
+    "isotropic_delta": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 33,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "random_source": {
+     "n": 36,
+     "counterfactual": 3,
+     "unchanged": 25,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 2
+    },
+    "same_example": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "same_leading_different_value": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 10,
+     "copied_donor_answer": 0,
+     "first_operand_only": 1,
+     "invalid": 1
+    },
+    "same_z_decomposition": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 15,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 1
+    },
+    "same_z_different_answer": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 13,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    },
+    "text_first_answer_digit": {
+     "n": 36,
+     "counterfactual": 1,
+     "unchanged": 5,
+     "copied_donor_answer": 2,
+     "first_operand_only": 2,
+     "invalid": 3
+    },
+    "unpatched": {
+     "n": 36,
+     "counterfactual": 0,
+     "unchanged": 36,
+     "copied_donor_answer": 0,
+     "first_operand_only": 0,
+     "invalid": 0
+    }
+   },
+   {
+    "joint_original_and_both_same_z": 0,
+    "same_leading_identical_outputs": 29,
+    "pairs": 36,
+    "donor_success_by_operation": {
+     "mul": 1
+    }
+   }
+  ],
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/controls.jsonl"
+ },
+ "ai02.subspace.conditions": {
+  "value": {
+   "donor": {
+    "n": 36,
+    "original_counterfactual": 1,
+    "actual_source_counterfactual": 1,
+    "unchanged": 23,
+    "invalid": 0
+   },
+   "unpatched": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 0,
+    "unchanged": 36,
+    "invalid": 0
+   },
+   "same_example": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 36,
+    "unchanged": 36,
+    "invalid": 0
+   },
+   "isotropic_delta": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 0,
+    "unchanged": 35,
+    "invalid": 0
+   },
+   "random_subspace": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 0,
+    "unchanged": 34,
+    "invalid": 0
+   },
+   "label_shuffled": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 0,
+    "unchanged": 6,
+    "invalid": 0
+   },
+   "random_source": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 1,
+    "unchanged": 30,
+    "invalid": 1
+   },
+   "same_z_decomposition": {
+    "n": 36,
+    "original_counterfactual": 2,
+    "actual_source_counterfactual": 2,
+    "unchanged": 26,
+    "invalid": 0
+   },
+   "same_z_different_answer": {
+    "n": 36,
+    "original_counterfactual": 1,
+    "actual_source_counterfactual": 1,
+    "unchanged": 20,
+    "invalid": 0
+   },
+   "different_z_same_answer": {
+    "n": 36,
+    "original_counterfactual": 0,
+    "actual_source_counterfactual": 0,
+    "unchanged": 23,
+    "invalid": 0
+   },
+   "same_leading_different_value": {
+    "n": 36,
+    "original_counterfactual": 1,
+    "actual_source_counterfactual": 0,
+    "unchanged": 20,
+    "invalid": 0
+   },
+   "text_first_answer_digit": {
+    "n": 36,
+    "original_counterfactual": 1,
+    "actual_source_counterfactual": 0,
+    "unchanged": 5,
+    "invalid": 3
+   },
+   "text_actual_first_token": {
+    "n": 36,
+    "original_counterfactual": 1,
+    "actual_source_counterfactual": 0,
+    "unchanged": 5,
+    "invalid": 3
+   },
+   "whole_vector": {
+    "n": 36,
+    "original_counterfactual": 2,
+    "actual_source_counterfactual": 2,
+    "unchanged": 5,
+    "invalid": 0
+   }
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/controls.jsonl"
+ },
+ "ai02.subspace.joint_original_and_both_same_z": {
+  "value": 1,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/controls.jsonl"
+ },
+ "ai02.subspace.same_leading_identical_outputs": {
+  "value": 32,
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/controls.jsonl"
+ },
+ "ai02.subspace.donor_success_by_operation": {
+  "value": {
+   "mul": 1
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/controls.jsonl"
+ },
+ "ai02.subspace.fitting_baselines": {
+  "value": {
+   "full": [
+    677,
+    756
+   ],
+   "first": [
+    756,
+    756
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/training-baselines.jsonl"
+ },
+ "ai02.qualified_sources.conditions": {
+  "value": {
+   "donor": {
+    "n": 81,
+    "full": 1,
+    "coarse": 3,
+    "full_discriminative": 0,
+    "coarse_discriminative": 2,
+    "n_discriminative": 72,
+    "unchanged": 48
+   },
+   "same_value_coupled": {
+    "n": 81,
+    "full": 1,
+    "coarse": 7,
+    "full_discriminative": 0,
+    "coarse_discriminative": 6,
+    "n_discriminative": 72,
+    "unchanged": 51
+   },
+   "isotropic_delta": {
+    "n": 81,
+    "full": 0,
+    "coarse": 0,
+    "full_discriminative": 0,
+    "coarse_discriminative": 0,
+    "n_discriminative": 72,
+    "unchanged": 81
+   },
+   "random_subspace": {
+    "n": 81,
+    "full": 0,
+    "coarse": 0,
+    "full_discriminative": 0,
+    "coarse_discriminative": 0,
+    "n_discriminative": 72,
+    "unchanged": 81
+   },
+   "same_example": {
+    "n": 81,
+    "full": 0,
+    "coarse": 0,
+    "full_discriminative": 0,
+    "coarse_discriminative": 0,
+    "n_discriminative": 72,
+    "unchanged": 81
+   },
+   "unpatched": {
+    "n": 81,
+    "full": 0,
+    "coarse": 0,
+    "full_discriminative": 0,
+    "coarse_discriminative": 0,
+    "n_discriminative": 72,
+    "unchanged": 81
+   },
+   "text_actual_first_token": {
+    "n": 81,
+    "full": 2,
+    "coarse": 12,
+    "full_discriminative": 0,
+    "coarse_discriminative": 10,
+    "n_discriminative": 72,
+    "unchanged": 12
+   }
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl"
+ },
+ "ai02.qualified_sources.joint": {
+  "value": {
+   "full": 0,
+   "coarse": 0,
+   "pairs": 81
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl"
+ },
+ "ai02.qualified_sources.primary_coarse_by_operation": {
+  "value": {
+   "add": 3
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl"
+ },
+ "ai02.qualified_sources.unit_triplets": {
+  "value": {
+   "cells": 27,
+   "all_full": 0,
+   "all_coarse": 1,
+   "identical_outputs": 19
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl"
+ },
+ "ai02.readout": {
+  "value": {
+   "planned": 240,
+   "activation_success": 16,
+   "full_value_text_success": 151,
+   "full_value_text_available": 238,
+   "first_digit_exact_sequence": [
+    233,
+    238
+   ],
+   "source_first_token_copy": [
+    240,
+    240
+   ],
+   "width_invariance": [
+    117,
+    120
+   ]
+  },
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results"
+ },
+ "ai04.main.baselines": {
+  "value": {
+   "donor": {
+    "programs": 64,
+    "natural_eos": 60,
+    "correct_final": 59,
+    "correct_intermediate": 56,
+    "both": 56
+   },
+   "recipient": {
+    "programs": 64,
+    "natural_eos": 63,
+    "correct_final": 61,
+    "correct_intermediate": 60,
+    "both": 60
+   },
+   "supplied": {
+    "programs": 64,
+    "natural_eos": 61,
+    "correct_final": 57,
+    "correct_intermediate": 58,
+    "both": 55
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/records.jsonl"
+ },
+ "ai04.main.sites": {
+  "value": {
+   "label_z-L20": {
+    "branches": 128,
+    "unavailable": 8,
+    "target": 0,
+    "invalid": 1,
+    "exhausted": 2,
+    "recipient": 113,
+    "other_valid": 4,
+    "groups_with_any_success": 0,
+    "competent_branches": 104,
+    "competent_target": 0
+   },
+   "label_z-L26": {
+    "branches": 128,
+    "unavailable": 8,
+    "target": 0,
+    "invalid": 1,
+    "exhausted": 2,
+    "recipient": 91,
+    "other_valid": 26,
+    "groups_with_any_success": 0,
+    "competent_branches": 104,
+    "competent_target": 0
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/records.jsonl"
+ },
+ "ai04.main.block26_leading_digit": {
+  "value": {
+   "available": 120,
+   "first_numeral_parsed": 119,
+   "starts_with_donor_digit": 119,
+   "complete_donor_numeral": 1
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/records.jsonl"
+ },
+ "ai04.controls": {
+  "value": {
+   "first_z-L26/activation": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 7,
+    "recipient": 18,
+    "other_valid": 5
+   },
+   "first_z-L26/text_digit": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 7,
+    "recipient": 18,
+    "other_valid": 5
+   },
+   "first_z-L26/text_full": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 5,
+    "invalid": 0,
+    "exhausted": 11,
+    "recipient": 13,
+    "other_valid": 1
+   },
+   "first_z-L26/random_0": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 29,
+    "other_valid": 1
+   },
+   "first_z-L26/random_1": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 29,
+    "other_valid": 1
+   },
+   "first_z-L26/random_2": {
+    "branches": 32,
+    "unavailable": 2,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 29,
+    "other_valid": 1
+   },
+   "label_z-L26/activation": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 22,
+    "other_valid": 10
+   },
+   "label_z-L26/text_digit": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 24,
+    "other_valid": 8
+   },
+   "label_z-L26/text_full": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 3,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 18,
+    "other_valid": 11
+   },
+   "label_z-L26/random_0": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 30,
+    "other_valid": 2
+   },
+   "label_z-L26/random_1": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 30,
+    "other_valid": 2
+   },
+   "label_z-L26/random_2": {
+    "branches": 32,
+    "unavailable": 0,
+    "target": 0,
+    "invalid": 0,
+    "exhausted": 0,
+    "recipient": 30,
+    "other_valid": 2
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/records.jsonl"
+ },
+ "ai04.controls.digit_pairs": {
+  "value": {
+   "first_z-L26": {
+    "runnable_pairs": 30,
+    "exact_sequence": 30
+   },
+   "label_z-L26": {
+    "runnable_pairs": 32,
+    "exact_sequence": 30
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/records.jsonl"
+ },
+ "ai04.development.sites": {
+  "value": {
+   "first_z-L13": {
+    "mean_A": 0.04423276583353678,
+    "mean_B": 0.006268646955518875,
+    "C": [
+     0,
+     48
+    ]
+   },
+   "first_z-L20": {
+    "mean_A": 23.537746906280518,
+    "mean_B": 0.10069049289212846,
+    "C": [
+     2,
+     48
+    ]
+   },
+   "first_z-L26": {
+    "mean_A": 28.205261786778767,
+    "mean_B": 0.0005400560329841634,
+    "C": [
+     2,
+     48
+    ]
+   },
+   "label_z-L13": {
+    "mean_A": 0.1344463030497233,
+    "mean_B": 0.08282865420780568,
+    "C": [
+     0,
+     48
+    ]
+   },
+   "label_z-L20": {
+    "mean_A": 12.676953236262003,
+    "mean_B": 0.42695395429790545,
+    "C": [
+     0,
+     48
+    ]
+   },
+   "label_z-L26": {
+    "mean_A": 28.094643433888752,
+    "mean_B": 0.13259702036174303,
+    "C": [
+     4,
+     48
+    ]
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/records.jsonl"
+ },
+ "ai04.donor_semantics": {
+  "value": {
+   "different_z_same_answer/first_z": {
+    "branches": 8,
+    "source_correct": 7,
+    "own_target": 0,
+    "exact_original_sequence": 3
+   },
+   "different_z_same_answer/label_z": {
+    "branches": 8,
+    "source_correct": 7,
+    "own_target": 0,
+    "exact_original_sequence": 4
+   },
+   "same_leading_wide/first_z": {
+    "branches": 8,
+    "source_correct": 8,
+    "own_target": 0,
+    "exact_original_sequence": 8
+   },
+   "same_leading_wide/label_z": {
+    "branches": 8,
+    "source_correct": 8,
+    "own_target": 0,
+    "exact_original_sequence": 8
+   },
+   "same_z_decomposition/first_z": {
+    "branches": 8,
+    "source_correct": 7,
+    "own_target": 1,
+    "exact_original_sequence": 8
+   },
+   "same_z_decomposition/label_z": {
+    "branches": 8,
+    "source_correct": 7,
+    "own_target": 1,
+    "exact_original_sequence": 8
+   },
+   "same_z_other_answer/first_z": {
+    "branches": 8,
+    "source_correct": 8,
+    "own_target": 1,
+    "exact_original_sequence": 8
+   },
+   "same_z_other_answer/label_z": {
+    "branches": 8,
+    "source_correct": 8,
+    "own_target": 1,
+    "exact_original_sequence": 8
+   }
+  },
+  "source": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-donor-controls-v1/records.jsonl"
+ }
+}

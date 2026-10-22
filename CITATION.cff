@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint (link to be added when it is posted) and this repository."
+title: "What single-position activation patches transfer in Qwen3 arithmetic: code and results"
+abstract: "Tests what one patched residual-stream vector at one position transfers in two-step arithmetic in Qwen3-0.6B and Qwen3-4B-Instruct-2507: operands and output digits, rarely the intermediate result."
+authors:
+  - family-names: Jeevash
+    given-names: Richard
+    orcid: "https://orcid.org/0009-0005-7812-0939"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Jeevash23/interp-arithmetic-patching"
+keywords:
+  - mechanistic interpretability
+  - activation patching
+  - arithmetic
+  - Qwen3
+  - language models

@@ -1,0 +1,58 @@
+{
+ "copied_utc": "2026-10-09",
+ "purpose": "Byte-identical copies of the frozen AI-02 4B pipeline, imported unchanged by code/confirm.py and code/reproduce_dev.py. The originals stay in place and are never run there.",
+ "files": {
+  "tasks.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/tasks.py",
+   "sha256": "7f6f0ddb0c5d4edcbcffe93fc5c37bb4e5e1800bb99395d67b86f77f39f5342f"
+  },
+  "run.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/run.py",
+   "sha256": "9a4d231dcd719ad1821da2f1c50f07da6df123d927eb52ffbee67b8791c5a469"
+  },
+  "prompt_formats.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/prompt_formats.py",
+   "sha256": "3e76bc2a0195e16a0a18b65fa3534a96e83e2e502d50137252243f703db2a6ea"
+  },
+  "competence-v2/study.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/study.py",
+   "sha256": "5217c71a5e9cce481d65d13b0fd1865ccfa58091e317f295944715b8e13fdf9c"
+  },
+  "competence-v2/prepare_sources.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/prepare_sources.py",
+   "sha256": "0412f8b25fafc2f70e4028f666e7f62053faed6e474abd1245f8c9cf4bba7685"
+  },
+  "competence-v2/model-manifest-qwen4b.json": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/model-manifest-qwen4b.json",
+   "sha256": "684928e8b645a115d8849346377f0d2e695a11b6ca72ed66ee8b0c79cdd9148a"
+  },
+  "competence-v2/dependency-manifest.json": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/dependency-manifest.json",
+   "sha256": "138846aea2ad9d0ebfc88cac1b3ae24036d01fc5b13a63e21d9d15a8ac0cb4fd"
+  },
+  "competence-v2/kernel-inspection.json": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/kernel-inspection.json",
+   "sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1"
+  },
+  "competence-v2/AMENDMENT-DENSE-LOADER.md": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/AMENDMENT-DENSE-LOADER.md",
+   "sha256": "7f861b369eb6d1e5c474823d5df7eeeceb45d8f60be58c2cba5a5d40dcefbf4a"
+  },
+  "competence-v3/study_formats.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/study_formats.py",
+   "sha256": "004f8c5998864a4edceb30aec12030caab3c90e5126586d46465a42c65dfdbe5"
+  },
+  "competence-v3/actual_digit_control.py": {
+   "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/actual_digit_control.py",
+   "sha256": "785515d0368dd57f1651669f580a12d83bc41ccd3548009a567f078492a3c614"
+  }
+ },
+ "also_copied": {
+  "competence-v2/.packages/": "kernels 0.17.1, the study-local package directory of the development run; every file is checked against added_packages in dependency-manifest.json by code/freeze.py",
+  "competence-v2/.cache/huggingface/": "the kernels-community/finegrained-fp8 snapshot at revision 8c178950e8710e26a2210e4e909cd02dc16c8715; the CUDA build files are checked against kernel_source in dependency-manifest.json",
+  "competence-v2/models": "symbolic link to ../../../models, where the re-downloaded weights live (study.Engine loads HERE/models/qwen4b)"
+ },
+ "frozen_records_match": {
+  "tasks.py, run.py, prompt_formats.py, competence-v2/study.py": "hashes equal those in the original competence-v3/freeze-qwen4b-fewshot.json"
+ }
+}

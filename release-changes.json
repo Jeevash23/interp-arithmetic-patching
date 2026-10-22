@@ -1,0 +1,2678 @@
+{
+ "release": "single-position-arithmetic",
+ "changed_files": {
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/README.md": {
+   "kind": "redacted",
+   "original_sha256": "045e6cd16488b1f676a6b5dc2e6d5a948deb2e430d56306d7a17a343c678931a",
+   "release_sha256": "7dbc01a5a5e43745e49bbc76fd10af533bdd27e985a25d44b5d92b95819bf53c",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/RESULTS.md": {
+   "kind": "redacted",
+   "original_sha256": "622f564e00ffa205926b828f6141ac608bdaed673c0d684995d1e2bc8870b553",
+   "release_sha256": "c9c8125de2a352dc48f85c33cb262cd6490dc5e7ce9be7a72793661c519da3a7",
+   "redactions": {
+    "AI tool": 1,
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/configs/environment-source.uv.lock": {
+   "kind": "redacted",
+   "original_sha256": "1d673f630b38dabf489d7dd92b3e749cc301da2c077d75de24b9ebd96fc22ed2",
+   "release_sha256": "2f698d22106f94456695a27b7fe183a5d84ea7ffc1d6fe405e67b5932f7ec7ba",
+   "redactions": {
+    "other project": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/docs/AMENDMENT-007.md": {
+   "kind": "redacted",
+   "original_sha256": "49c692e0d5c5906e1f5ebaed02be1cd6ef75dc5424abedd39845df46b7933e12",
+   "release_sha256": "aeb6928be9ff4e5eac9f0fe6f859ba7e132472b6358d8cbf06b7913b0d5bf194",
+   "redactions": {
+    "AI tool": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/docs/ENVIRONMENT.md": {
+   "kind": "redacted",
+   "original_sha256": "822db44dc091033d73a766e19777c6b16a60ad1f8023e3aa7739eae56470717f",
+   "release_sha256": "e904b02e0c8bd205b141458178ec1c96ba48c767e05653211bfa0c5b1566e1c3",
+   "redactions": {
+    "AI tool": 1,
+    "platform string": 1,
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/docs/LANGUAGE-PLAN.md": {
+   "kind": "redacted",
+   "original_sha256": "b3f223b628f0f0496ec33a57549415b38ff4bd7a672e87868c826dab5315f383",
+   "release_sha256": "2fc03165c6cd60803a244040d2f7188c0b35f22692faaea7168de09b1d7dd847",
+   "redactions": {
+    "AI tool": 2
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/docs/MEASUREMENT-BOUNDARIES.md": {
+   "kind": "redacted",
+   "original_sha256": "692844edaf68e1667aca6f6aea18792ec3e73ab321a8cfaf21841fb48c70170f",
+   "release_sha256": "1c6988de5a6ba611433d83645cc0fc33df658544e362e80952b2c27269dc345a",
+   "redactions": {
+    "AI tool": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "0c4f7f24db1e65c8afe3751736d4aadeec4a85b599dadbf67cfa6ddb9ab03a2d",
+   "release_sha256": "18a3334594ab546319e1163c52af907e47bb8ea7d77c2c2fe7d51bb58ebeb5b9",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/results/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "6a7a4aabe74f4551926d0f101f342869cb1e00b039ef468fbaaff3d35601c049",
+   "release_sha256": "08670593a0b621f717a503259d1320f53255fccae24d3ee427c97e86329c1f5d",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "764003f206b3347ecd445544fb5b98d7bd6072ea3821024e054d847a1bf983c7",
+   "release_sha256": "b5a3d4f353440021d3ef2cd8d74364fdbb3e9725a82419efb07b7ae51bca9408",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/STATUS.md": {
+   "kind": "redacted",
+   "original_sha256": "29d33b5e5e00faeb102009ee889316b4572ff8564d8c1ea49da606f163dd55ab",
+   "release_sha256": "6d5abde5fb2a6ba51aa47738af43e5c7d7cc88a081aa242725fdfd1a6f5d9208",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/PREPARATION.md": {
+   "kind": "redacted",
+   "original_sha256": "4c8821f84bac3c7ef2b20959ae8f0e9703286d7f97bac78c6d4326e294ccdc91",
+   "release_sha256": "5c9f62190261b4dd7557c6c857891fc7e65f28d75a5bcb797cde58f8a4fe3dfd",
+   "redactions": {
+    "machine details": 2
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/RESEARCH-LOG.md": {
+   "kind": "redacted",
+   "original_sha256": "b81593b16456900607326aee01cb750c7c1729a09525fd030535a2d5d8d1f34f",
+   "release_sha256": "02c0f3ffa3944084cd2c8d04ee7a6c49a2b0fc2e4874f2fa2e2f1c7fb72e8487",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/kernel-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1",
+   "release_sha256": "ea470f9f67d04a914f35bb4efccb56f1ba0778e6be7baed9c9ca2a2b37f8d4a6",
+   "frozen_in": [
+    "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/freeze-qwen4b.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen25/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "96066e1aa84fcd699e1d22ecc671d8dfc023e2a747ee68261883c9d80c2cbaac",
+   "release_sha256": "6425f19d1cb82923ada3e1f479aa811fbccf89779e61f31989eb82ccfb28cec4",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/results/qwen4b/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "458507c6a8c8ae042b6622b7ec2609c7e98e7b292910855d8e69a54f3ee1beea",
+   "release_sha256": "dfe61fb10339e9c3eaff5e3641f4ff0f6982425ec437c0c867b7036c4f0a3f36",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "0756129b6de9dd446f85b89edb392dbdef14315a6711a276b6dc926752dc72cf",
+   "release_sha256": "c575eaf722a6c3749b796a079f80bf8f3c91c930aad25191a3d29ef3b9b47319",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/runtime-eligible-controls.json": {
+   "kind": "redacted",
+   "original_sha256": "a88b7b86e9c3ee615d0358bb6c15ca1b1ab9f8b3c7a4965a9ae1d6eaffd74306",
+   "release_sha256": "83782a1a62ad6ced80dfe8bf91093b75efbc75b9ad7b1db1d0b6eacd5d5249c0",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-actual-donor-digit-control.json": {
+   "kind": "redacted",
+   "original_sha256": "3da6731d55822237c0d350fa2df0163017085ddca666b8451b21fe196a4b4e86",
+   "release_sha256": "2c954fd401d7a0b6d9fbf2105c85e97ab07caec50d495c5397c2825f2771d07c",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "3632c5695c278acacb8e3c0d8e39c61ddfab41be03957de5ca7ddb56a0612860",
+   "release_sha256": "aedb2bc313c7b0aa3448e99cbefeb08e94ca29ef3558bb2717766771548e81b1",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-controls.json": {
+   "kind": "redacted",
+   "original_sha256": "b65f99da1743aa331542f0a904e62580e84ab4d22a03f6f0ce5037745dd3b42a",
+   "release_sha256": "2b8d692a222337427412001ac6e8bcb1aa0528633453ec9b3078a2816d18fee1",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-screen-fast-verification.json": {
+   "kind": "redacted",
+   "original_sha256": "efd05116052b577ec4df90cc7b82cf6af3439dbd655d771fe783ad3aa3a517ce",
+   "release_sha256": "05980320a27520a2799598b094c091aeca36c3115abea74fba4c693a475a32b4",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-screen-reference.json": {
+   "kind": "redacted",
+   "original_sha256": "52059182359215edf24fcfd3bb649be1f4f120bfde6419a1e843529c5f9fc388",
+   "release_sha256": "62a508ce928fba42888562bd92e65a5ef2093ec3c78c48c1145d20b7fb6e6b94",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/runtime-screen.json": {
+   "kind": "redacted",
+   "original_sha256": "94c068c618974c9b8626f92f913657245776e647948aa67cd7eef506b83b02f4",
+   "release_sha256": "0525aa5f33ee6e3e9805d199aa43a0fdcdf868952033847bb9e6489b798feab7",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/model-forward-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "72427154ccb24e663c77e798a0e5d45ec2eceac00dc5e281496295464a613a04",
+   "release_sha256": "033a18d15592599fa1f60f653ffc2c2d23afbad887aa308fda183be7a979073f",
+   "frozen_in": [
+    "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/freeze.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1
+   }
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/runtime/runtime-native-components.json": {
+   "kind": "redacted",
+   "original_sha256": "89a2200b1a1e8b28be5b34e98f5d66007855291915a98030e7d4069c5590a63d",
+   "release_sha256": "ce19c547481b17c89362a6c209d72c60ea99bd6bc6442c6bb3c5fb40447a310d",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/format-pilot/results/runtime-formats.json": {
+   "kind": "redacted",
+   "original_sha256": "67c7be1b322230f8a8d52ec3e6f9381fcf28b54c6670d3078dd6929dbd712712",
+   "release_sha256": "30e5b7e42c734aea5efd6c6e478c1eff3393ef7e33dfbd0a85bed4db75aff7f6",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/results/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "82506e255618b17f2927c1802b8c0d483399737b7e3493d56c200978680b06b8",
+   "release_sha256": "0b91a7d58af00495b62d3afe557cec32c3af509d170ff14a979e8b6d99b0ac0a",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/runtime-source-recapture-audit.json": {
+   "kind": "redacted",
+   "original_sha256": "88acf0fcab489eec96823c88d096455eb7852b39cec917ea5cf9fcfa5cfbe0d5",
+   "release_sha256": "9b3b82997485c0cf4fc4df391fa3a9fd6d679fe7161dfa6da9daae4af3da6dce",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/runtime-subspace.json": {
+   "kind": "redacted",
+   "original_sha256": "015e678ca658b3c0cf462ccecfb056b0fb028ea7fbf829f79d24a4409c01e65b",
+   "release_sha256": "99f87631dcf2fc6790b583b33db76f5b4165c8057231c79fdfff15b86e77e826",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/results/runtime-digit-diagnostic.json": {
+   "kind": "redacted",
+   "original_sha256": "9a6c5a28fe5f98d028304f693b9cc6cb5c24871bf3e495d05f13a94fef31e006",
+   "release_sha256": "18ccb0c8815ecb91bc7d533db6bdb5c856d276b10010c8ca5e9418d5daeda74c",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/results/runtime-digit-diagnostic.json": {
+   "kind": "redacted",
+   "original_sha256": "9a6c5a28fe5f98d028304f693b9cc6cb5c24871bf3e495d05f13a94fef31e006",
+   "release_sha256": "18ccb0c8815ecb91bc7d533db6bdb5c856d276b10010c8ca5e9418d5daeda74c",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/inherited-baselines.json": {
+   "kind": "redacted",
+   "original_sha256": "24a702dea79f866d176cee641e9ef6002326ab9e1fa57b20dd0132bee552f027",
+   "release_sha256": "e5fb58ab2490d21f03b7b277e793ed9a5ddc54b9598a5eef71695bf59f761a08",
+   "redactions": {
+    "absolute path": 3,
+    "original study folder renamed in the release": 3
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/runtime-digit-diagnostic.json": {
+   "kind": "redacted",
+   "original_sha256": "ef92a73627fdbd88e33c127a1b211a3e7de06e28876d745b45893d14f69174b3",
+   "release_sha256": "ebac082f4d7c313c0f4907409cb325446bf6dab6f5b57d111d2e8483a70a8919",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/environment-packages.txt": {
+   "kind": "redacted",
+   "original_sha256": "307add8ff050352a8cee803ae9d4461c683770f0114b9e25dddf05e7e4c35df4",
+   "release_sha256": "ccc35861a55cd8d7466ce89b4867ba8766047a51fec5baf7089d2b5599042fb6",
+   "redactions": {
+    "other project": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/environment.json": {
+   "kind": "redacted",
+   "original_sha256": "f75da01c9e31270af1852b1aac5eee05d2b1f4a74160f5eea5bf494668ad2542",
+   "release_sha256": "7cec49d0345945935e2baba54aafe7b53142e7726f2842e6a27dbe445ae74f9c",
+   "redactions": {
+    "absolute path": 3,
+    "portfolio alias of Study 1's folder": 3,
+    "platform string": 1,
+    "machine details": 2
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "28479803f17e8b96dc98c0421d8a77c862165d106ef380bdbafa834b9dad38f8",
+   "release_sha256": "a7102b2d2377825aa9da73e778e9bfbc733511127bc7afce76fbccd540d21d80",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/readout-replication/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "764003f206b3347ecd445544fb5b98d7bd6072ea3821024e054d847a1bf983c7",
+   "release_sha256": "b5a3d4f353440021d3ef2cd8d74364fdbb3e9725a82419efb07b7ae51bca9408",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v1/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "28479803f17e8b96dc98c0421d8a77c862165d106ef380bdbafa834b9dad38f8",
+   "release_sha256": "a7102b2d2377825aa9da73e778e9bfbc733511127bc7afce76fbccd540d21d80",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v2/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "28479803f17e8b96dc98c0421d8a77c862165d106ef380bdbafa834b9dad38f8",
+   "release_sha256": "a7102b2d2377825aa9da73e778e9bfbc733511127bc7afce76fbccd540d21d80",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v3-budget1024/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "f24db17d0d1691201e046c340e95d4042d598e32ac48d8ee76c02bd2121838a9",
+   "release_sha256": "3d239f478b78aadef6f8a803ebc37c25e3136695b1ad0cda212f1e69c7c29255",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v3/model-runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "06a0222b9a9892797190e7bb67fdeac6aef21eafb003b3e103cbde6687194a62",
+   "release_sha256": "fe53a4a1c9b79e73595ca4dcd9c813728199f969ad1a7cecac9053d44635cfc0",
+   "redactions": {
+    "absolute path": 1,
+    "portfolio alias of Study 1's folder": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/results/v3/multilingual-behavioral/plan.json": {
+   "kind": "redacted",
+   "original_sha256": "d7272098d48f30a4a7bc8c0c39a75c109d2f3f09f17d7b5014ee8ddcaa132fed",
+   "release_sha256": "672994f049a053fbb6bdb47fedfe58c37999bc4cd1c852a9ceaaf03b0c85815c",
+   "redactions": {
+    "AI tool": 1
+   },
+   "archive": "data/saved-outputs/study1-value-transfer-and-readout.tar.xz"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/scripts/build_results.py": {
+   "kind": "adapted and redacted",
+   "original_sha256": "70fa1b2ef17d9b925b510d9569eeea9439cad1e1c8a72b54b15923e55a586e14",
+   "release_sha256": "cabc34b6bff783d6e9e78fa72e6a0a79a55b104f6ca64b99f8f9c049e7ff5cd4",
+   "redactions": {
+    "machine details": 1
+   },
+   "reasons": [
+    "AI tool"
+   ]
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/scripts/multilingual_baselines.py": {
+   "kind": "adapted",
+   "original_sha256": "9367019ab9d74f1176bc1845768448866d5ba783a83941574a393547bceb3993",
+   "release_sha256": "1ed93e095771da11c511aa837ca6931f0072d032d5f10f6dd4db3a770f012ddc",
+   "reasons": [
+    "AI tool"
+   ]
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/src/value_transfer/multilingual.py": {
+   "kind": "adapted",
+   "original_sha256": "3a017bea7180f740f689d0a7eaa4562e52d622df2aa06eab75c5affff6d06335",
+   "release_sha256": "6cfe737452d033f2f1eb51de0a2acf3811a41d3431953e075d19e8565cf13185",
+   "reasons": [
+    "AI tool"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/02-Code/ai04/engine.py": {
+   "kind": "adapted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "frozen_in": [
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/audits/qwen06-fp32-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/deepseek-panel-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-symbolic-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-random-repair-v2/freeze.json"
+   ],
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/02-Code/prepare_reproduction.py": {
+   "kind": "adapted",
+   "original_sha256": "9274b5291070c7614feb442a83193c481d4236e5df172b78953155d91bffdcf4",
+   "release_sha256": "844a8687224b35106512bbc8f2b2f28554d9cc62f8b8886e77d9f8b0fcceadc5",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/02-Code/secondary_analysis.py": {
+   "kind": "adapted",
+   "original_sha256": "45c9f6c393cebed08548eca1d2970e27a7a44881731ac7255280790df24cb866",
+   "release_sha256": "2e92e36bd46afb5ec18bafac7809c1b82674ded15d03a025b8de4f8f84a3338b",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/02-Code/smoke_native.py": {
+   "kind": "adapted",
+   "original_sha256": "5270d2959a4b9f79765bfba83e048b43022874f4b6780f0617dfab409b453877",
+   "release_sha256": "db1f8fe014d153d9721effba622e9eb77557f9b993f13c51a18526fadf8ae287",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/02-Code/validate_study.py": {
+   "kind": "adapted",
+   "original_sha256": "5444dae1848857453c993a36fe35c5e180e20bb1239ecd9e0717d628d379b56b",
+   "release_sha256": "12351bd3c0a0d222532b52c1580dbd656653add22b0ebd56ed182145c3575e3e",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/audits/deepseek-cpu-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/audits/deepseek-format-v3/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/audits/qwen06-fp32-v1/freeze.json": {
+   "kind": "redacted",
+   "original_sha256": "1e25346f02ece3a3177670acb81ced59cdc5134e5e745629e3d2e728dc9b7f42",
+   "release_sha256": "c0a89216b4597d8e866c46cc4fa39e7d3e9efcf0433d90e822431588a4a723a3",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/deepseek-panel-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "c30dfd5f253095ae92f216766c33eda70e6f5db2871bb349b77744102a349593",
+   "release_sha256": "67513d92c0da544bc51c2bd184e5bb591ddd129a3aa4042e4ccf1c29cdba0e03",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/deepseek-panel-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "8429d133dcc68169f3808597630894b63ce1301ec9fb4dbeb60e309674429928",
+   "release_sha256": "65eaef678db2274faaec99789cdec23653cc5ae20a1b50b6830d83c0308badaf",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "b73e48bab70f7570af802ba14d0734ae0f70399e9fd4c5e0444e771af782f0ec",
+   "release_sha256": "bf8ace68487a155bdd8817a55f2041713a5467d0fa0a2192eb0bfd972a190c37",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-donor-controls-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "cba3220871fbc47185446891b00a72330dbc7b46a6ce331bf269853e52f1a735",
+   "release_sha256": "584edd1e41d5813b1641fefc2cc26577e0ce8d85c4f552a032306e35ae4e966e",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-donor-controls-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-donor-controls-v1/source/06-Study-History/environment/model-files.json": {
+   "kind": "redacted",
+   "original_sha256": "4aec11504fa820af6458698d8c759b3fe994d060209254f872e0367412b825e3",
+   "release_sha256": "51599c6bc430d7a3718dc86a06eed8d35aa46bed193d5c45071901038a8bf9cb",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-symbolic-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "e8d709e02d9b34cb03535353179f99f420919a4bb3c0cac8e80edb3c28961c83",
+   "release_sha256": "0a970d5a45a4fef322033ff86be1bc6cddfbbea007032c273803d6a020ffe748",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-symbolic-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "8359421f1fde8a0f9cbc475abc2a61030a3ece57cfa0b4a470c7db4c639543a2",
+   "release_sha256": "0cc76b875ad2898b82d4fa330ff2aebca7cee8ddbf221769d9c7bfbf0ed1750b",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/source/06-Study-History/environment/model-files.json": {
+   "kind": "redacted",
+   "original_sha256": "4aec11504fa820af6458698d8c759b3fe994d060209254f872e0367412b825e3",
+   "release_sha256": "51599c6bc430d7a3718dc86a06eed8d35aa46bed193d5c45071901038a8bf9cb",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "53553613d39cb1828734d8b18ecc00f3d4f03fb40c7c5897a408a8c6c86f56e8",
+   "release_sha256": "9233b0ae68811f728af811c25d33d8b618b0e36f144c8f0ed155dcaf94de8404",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/source/06-Study-History/environment/model-files.json": {
+   "kind": "redacted",
+   "original_sha256": "4aec11504fa820af6458698d8c759b3fe994d060209254f872e0367412b825e3",
+   "release_sha256": "51599c6bc430d7a3718dc86a06eed8d35aa46bed193d5c45071901038a8bf9cb",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "025fc0a8e93aea31357dd197aa1382ef66bcbfe319caa45f37f4038b28c41668",
+   "release_sha256": "62e5aab9bf2cc826687a30f20cf87e9047b905a0d7bf7bcd054c4d08af37a516",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "33f97aae5d6ae5f816a6313fc3fcc08be8db37056c03cd4dde39ea34aaf9dd61",
+   "release_sha256": "bdf5ed5f6741b34cde20f6c27d76f5a6b26b911aeb903b4edb38461c73919572",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-random-repair-v2/runtime.json": {
+   "kind": "redacted",
+   "original_sha256": "2346d3ae07418612ca709b8921b22fb10a5d15adaa75489d2dd933034c53a803",
+   "release_sha256": "dc4e3da7a4606ee0a851ca52a869aad45cfa352da0c24ca33a02461319325dc4",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 3,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-random-repair-v2/source/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/reproductions/main-preparation-check/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/reproductions/main-preparation-check/06-Study-History/environment/model-files.json": {
+   "kind": "redacted",
+   "original_sha256": "4aec11504fa820af6458698d8c759b3fe994d060209254f872e0367412b825e3",
+   "release_sha256": "51599c6bc430d7a3718dc86a06eed8d35aa46bed193d5c45071901038a8bf9cb",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/reproductions/main-preparation-check/reproduction-origin.json": {
+   "kind": "redacted",
+   "original_sha256": "44068f5f1e1b8f826502cf234e8ba62cc7c8fe34dde3810c4397655bc3730e46",
+   "release_sha256": "c09583d8643aba904655a9eaff640931d9c0e0dc8a4ab1ad14f66b84e4327e6c",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/reproductions/preparation-check/02-Code/ai04/engine.py": {
+   "kind": "redacted",
+   "original_sha256": "8c069a361df94a091efad6381cf8201c94da8de2779fad3cb2cd2f2763b3a11e",
+   "release_sha256": "0a3574ae99d6aacd7e8cfaf613526e169771c87ce5a91a5a38ff2a8bc92b24d4",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/reproductions/preparation-check/reproduction-origin.json": {
+   "kind": "redacted",
+   "original_sha256": "ef2aef7fe655342d21344670ec8baf8693b830beca84992a7fc16f8cf2df36e7",
+   "release_sha256": "904deb995bb8737703147d6f05b768647ab61cb1ff81e4a951e778ac1878569d",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/smoke/deepseek-cpu-profile-v1.json": {
+   "kind": "redacted",
+   "original_sha256": "b6496e8e727bcdbd23ff07deec7b9fbe267d60fc24b3571be9ee2bb3e8d6a574",
+   "release_sha256": "f722f9625e7af3bfca1208417e1e01b65f8878358e5fdc08029031f02f7608de",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/smoke/native-profile-v1.json": {
+   "kind": "redacted",
+   "original_sha256": "3c746c4b38496b59d2f4215c354d4030d5327f18e16740042e197cfd47f0c06c",
+   "release_sha256": "bdceab6c82383b49e3e328e4d466fe3f55951bc06bc1034c809b6d202e412077",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "platform string": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-reasoning-interventions.tar.xz"
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/05-Notes/REPRODUCING.md": {
+   "kind": "redacted",
+   "original_sha256": "150eb6ba51c0c50a8dbbd91131491db3b63bbfac904150af17e57586c7f67ef0",
+   "release_sha256": "796cee2d3a39d4770436c9d2f069e2f4fa9c789125c3b1e4d51ff73b00bdd5ba",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   }
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/06-Study-History/environment/model-files.json": {
+   "kind": "redacted",
+   "original_sha256": "4aec11504fa820af6458698d8c759b3fe994d060209254f872e0367412b825e3",
+   "release_sha256": "51599c6bc430d7a3718dc86a06eed8d35aa46bed193d5c45071901038a8bf9cb",
+   "frozen_in": [
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/freeze.json",
+    "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/freeze.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 1
+   }
+  },
+  "06-Study-History/original-studies/study2-reasoning-interventions/06-Study-History/sequence-status-boundary-exit-v1.json": {
+   "kind": "redacted",
+   "original_sha256": "0c51d51147b2737735ea7c01711aa8b9a4fab02f415536706461c60accb6d7b7",
+   "release_sha256": "82df254401550bc4d3143abc12297466213068513e02aa97032bbab8dbe429f5",
+   "redactions": {
+    "absolute path": 2,
+    "original study folder renamed in the release": 2
+   }
+  },
+  "RESULTS.md": {
+   "kind": "redacted",
+   "original_sha256": "f0f04afe8841ef723a1a0457c794604cfb308914ffa17f86b85bd68d0bbe79e8",
+   "release_sha256": "b355f82f4e2fe1359190cd54161110762e78be7a162ad85394366953ca1779b1",
+   "redactions": {
+    "approval wording": 1
+   }
+  },
+  "analysis/posthoc/common.py": {
+   "kind": "adapted",
+   "original_sha256": "a32497beca23b1890238c059002c98dde9900b487eb2fdcf4261f1797bc6eed4",
+   "release_sha256": "d4a1e5df4ba6ebd93fc050a7d444085ffcc153cc21d6bc334179f34460087a69",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "analysis/posthoc/results/first-digit-equivalence.json": {
+   "kind": "redacted",
+   "original_sha256": "3cc2b2b1a7d9dd5867e48d002c14ce34e3d20ef32f3bf9c52a2684a9ea631244",
+   "release_sha256": "0ca359eaa86f19442eb08ef0f5568ecc9a6eb2a362982070871e2c2189131ffe",
+   "redactions": {
+    "original study folder renamed in the release": 7
+   }
+  },
+  "analysis/posthoc/results/operand-substitution.json": {
+   "kind": "redacted",
+   "original_sha256": "e5fce31ca2d84312edd43f6f66e603357ad89a679c7c001956e5bcc0357c085c",
+   "release_sha256": "8acdf38cba62663abce5bca8e1db8ee08a874ad57f6eb2634588779086ca207f",
+   "redactions": {
+    "original study folder renamed in the release": 2
+   }
+  },
+  "analysis/posthoc/results/screen-decomposition.json": {
+   "kind": "redacted",
+   "original_sha256": "8fd07f87f992dec88f0027c460b60fcc85a437c81b159013a8c432484168ea51",
+   "release_sha256": "042fa55449eeb8599e685e0e47dea984f4a1d947df9c5858da304ab4e219e324",
+   "redactions": {
+    "original study folder renamed in the release": 1
+   }
+  },
+  "analysis/posthoc/results/tokenizer-check.json": {
+   "kind": "redacted",
+   "original_sha256": "3bb1219e9a811e33bf3e85601a81dd389665d341146af12a207611d7bf0bde14",
+   "release_sha256": "f1f17164146204c92b5dec8f034dbfe72415e1f13fd7b6b681f1be38420f5ce4",
+   "redactions": {
+    "original study folder renamed in the release": 6
+   }
+  },
+  "analysis/posthoc/results/trace-exposure.json": {
+   "kind": "redacted",
+   "original_sha256": "614d5e5af3662a9b9d5ec2bc83c3edfad6313867d896a2c86610366245c814fd",
+   "release_sha256": "e25b381048d8a276bae3b62b3c350856bff7991d2762014c33bf6882e0bba77d",
+   "redactions": {
+    "original study folder renamed in the release": 2
+   }
+  },
+  "analysis/posthoc/results/transfer-rates.json": {
+   "kind": "redacted",
+   "original_sha256": "0bbf5ca89096ea29ab03d96dd4b5f9b37d160c076ba55b5e8ae89cecf791c199",
+   "release_sha256": "09e79d95441325a71a3bf311fc712aff05310f8f6c4c48918233977b2e72522a",
+   "redactions": {
+    "original study folder renamed in the release": 11
+   }
+  },
+  "analysis/reconcile_reports.py": {
+   "kind": "adapted",
+   "original_sha256": "8415e52637cd2ac03928a9af691a7ec2d07ebeeb19116e4a0ef10e0f0b15fbb3",
+   "release_sha256": "b01e292fa47ffb2fb255829e9e65287342b4e6a4c16c58cd882c8321dc28e273",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "paper/generated/reconciliation/RECONCILIATION.md": {
+   "kind": "redacted",
+   "original_sha256": "b40af8f43d212e4dd6b1323cc432476ff544eea32716640ab3a832373ac91b23",
+   "release_sha256": "7481481a039361225f12dbe36732336f96ae5e40764359828ebf67a0f24329b5",
+   "redactions": {
+    "original study folder renamed in the release": 17
+   }
+  },
+  "paper/generated/reconciliation/numbers.json": {
+   "kind": "redacted",
+   "original_sha256": "3eb75036cb2cd6a37ee6442df92412a0f394271ae147f4f71ce40befc5b2375f",
+   "release_sha256": "ab0f75ec35add6ebd076e79a8b2df6048ed5a22ca35efd2a0765322fae7e4629",
+   "redactions": {
+    "original study folder renamed in the release": 35
+   }
+  },
+  "paper/make_numbers.py": {
+   "kind": "adapted",
+   "original_sha256": "92cf1a9f8d7ddf31ac7a29a26e1799fd50f5956b16b3b48d712e0253d7bb4596",
+   "release_sha256": "ba34621c2e521703ebcd160cf60ba1f66fc90d59a34a4b09af4c1c76db2d9e3e",
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "provenance/CLAIM-TO-EVIDENCE.md": {
+   "kind": "redacted",
+   "original_sha256": "13a9024d55509e36dd3d339703e85baed2269f7c647dd1fa5342903eb941f78b",
+   "release_sha256": "3be6d0dad314cf45b25bbbafc8fc8b81fa1d137a991e48f990801a99352e6c7a",
+   "redactions": {
+    "original study folder renamed in the release": 2,
+    "approval wording": 2
+   }
+  },
+  "studies/3-heldout-4b-confirmation/FREEZE.json": {
+   "kind": "redacted",
+   "original_sha256": "445013c8863518e41bc9e42c97670cff25a4caf849dda8664a29253d45c28f4d",
+   "release_sha256": "9323b567064d3aa45ed779be8625ad401096f8073583eecd4ad0285f66024ad9",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   }
+  },
+  "studies/3-heldout-4b-confirmation/PREDICTIONS.md": {
+   "kind": "redacted",
+   "original_sha256": "2c9d36d214ca823a4e4f6a4164f2324b96a520c48df078e9a212b8f711fde449",
+   "release_sha256": "1ce3af531edee858a933ec32ce45bda10001ccf9f087434ddaba81f2a0b65a4d",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "local clock time": 2
+   }
+  },
+  "studies/3-heldout-4b-confirmation/PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "da3ccd33bb527e19f900d96c4ad0ecafc8e9eecb9da22eb34f90d06a50b36f5f",
+   "release_sha256": "796734ff3944a0ca41761b6ed9391ea867be27287b3ec7a19ea5c7cf7818f977",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "local clock time": 2,
+    "machine details": 1
+   }
+  },
+  "studies/3-heldout-4b-confirmation/README.md": {
+   "kind": "redacted",
+   "original_sha256": "a36c1ccc1c8f2e7c61c978cb55096dd13f281f642e0f4954145befb87251ca6f",
+   "release_sha256": "eecb55331672f1edb558db998637634542a693319b773a050b64f1b8ccb5c9e0",
+   "redactions": {
+    "local clock time": 5,
+    "machine details": 1
+   }
+  },
+  "studies/3-heldout-4b-confirmation/code/analyze.py": {
+   "kind": "adapted",
+   "original_sha256": "caad0ae0455ef17f975ab81775b13560a32d37b105f79ee583898bc05c6afe76",
+   "release_sha256": "c7274251155a1412fb1550d53d48a59d03da7db9f66d2bd790899582dc1edcae",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "studies/3-heldout-4b-confirmation/code/check_reserve.py": {
+   "kind": "adapted",
+   "original_sha256": "9eac1a5d0d50ef24cdf57cb2e3ca8b856c178f0bd6fea5c2872c931b475c8c28",
+   "release_sha256": "bc777722dd130879ab95f93f0a1c59493e2ca833095ae406947a254021d2d006",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "studies/3-heldout-4b-confirmation/code/freeze.py": {
+   "kind": "adapted",
+   "original_sha256": "ba69fb130684a98fc0262f2ad70690beb22652edbbb0800fbe0435834c3259a2",
+   "release_sha256": "5b40dd5485f52d07634f2ce0427c01f4264b47b4b39ca2e02b8cbe050eb2d680",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the environment files (pyproject.toml, uv.lock) are at the release root"
+   ]
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/COPIED-FROM.json": {
+   "kind": "redacted",
+   "original_sha256": "f837a47f8e26ad6dcab91fdc3605a055ce64f4f648e5f506a4c748569e05cd71",
+   "release_sha256": "dbe3d633b0f4dd48fc4581fa89e9e3fcb2bd48775b186d574c977fd8f5d5b49e",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 11
+   }
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/kernel-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1",
+   "release_sha256": "ea470f9f67d04a914f35bb4efccb56f1ba0778e6be7baed9c9ca2a2b37f8d4a6",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   }
+  },
+  "studies/3-heldout-4b-confirmation/code/prepare_data.py": {
+   "kind": "adapted",
+   "original_sha256": "2f9e0c167c1b671fd3ed681b5888060fad30a5840f6879dd76b81f797d897132",
+   "release_sha256": "9656415862c4bc22782810510a8f245170d1c7f6ec848240f53bb9041f671168",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "studies/3-heldout-4b-confirmation/code/reproduce_dev.py": {
+   "kind": "adapted",
+   "original_sha256": "d82ab7f03cea7949349bc34a5396086b97086723a0271b80452627528b83a563",
+   "release_sha256": "3fd65caaefe4f61b72bfd8855e4a08a553f2eccb253b2d98dcb3c661f1514fc2",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "studies/3-heldout-4b-confirmation/data/data-manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "07be1172579879ee9e077039b5d57908d6670fdca9642fbd72a182cd6d7945b5",
+   "release_sha256": "a55708bc1f016fd9e9da88adfe6cdeec03978609cf0e0b5b779375e0af34a715",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 2
+   }
+  },
+  "studies/3-heldout-4b-confirmation/data/reserve-checks.json": {
+   "kind": "redacted",
+   "original_sha256": "6aa2f091a650a705cbfb34a71464eea762c2386da77b0ef4b8a96b8ca3ef7c14",
+   "release_sha256": "d620748cc00a38cb69d5a96eee054687f3dd4603c6f60d7075763da2ab555f25",
+   "frozen_in": [
+    "studies/3-heldout-4b-confirmation/FREEZE.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 186
+   }
+  },
+  "studies/3-heldout-4b-confirmation/results/box/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "a5883ec707998ce4872f030574c34c473902e54e76ef531bf72a9b7892e96dab",
+   "release_sha256": "5689df5b39ed8de0a958dabb1371158e622389cdd408da4f2f50935fe11ddc0d",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/box/runtime-controls.json": {
+   "kind": "redacted",
+   "original_sha256": "27c74e693a69621000399a38f810a95386f95b4cb833d8662457a3ac5eb25fcf",
+   "release_sha256": "3528b6b76e92ba13fd1f7e6164b6ccb2875c8efb7615937e85d50578b30e082c",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/dev-reproduction/runtime-dev-reproduction.json": {
+   "kind": "redacted",
+   "original_sha256": "d9d014070d096f58ef26babfbc4365402a3ae6a6b722b1a3a54953b1c0c29514",
+   "release_sha256": "3e2ca945b54da15878c7c55fdd06076121f99331c2c42ef5180524fcfabacdb8",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/machine/runtime-baseline.json": {
+   "kind": "redacted",
+   "original_sha256": "5b7cbb7d815d2c41c378f0aaa44346fb57f7d1ab2fdef9fa57b68fb72eb9de0c",
+   "release_sha256": "4eecc908c6cb8bc36024d2589b78293e7f732acfe9b90b5ef079ca92a521ea4e",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/machine/runtime-controls.json": {
+   "kind": "redacted",
+   "original_sha256": "88f1030f07386b6048568ca0ca3d211942e3d5f170ef9483f32fd310184eb1ba",
+   "release_sha256": "b78655f71c441e883873c49c01e13f77698a5c5a41f020f740d2d37fb952a638",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/run-times.json": {
+   "kind": "redacted",
+   "original_sha256": "f0190f9c6f72ab4847f29fdaa1d74e5e22803b3654a88469f842c53fcf9e6e91",
+   "release_sha256": "dbf771e80867bff2fc731ddc65b15f6f8f00f2be5e6940b6c4d2b9070fcfe12f",
+   "redactions": {
+    "local clock time": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/3-heldout-4b-confirmation/results/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "b3067f98ae6ca780b33e066ba1e7bfae30b56ba25371afa5cfa82e694d7ab5dc",
+   "release_sha256": "97184cc3c903f591374c54676fc3c5162a2ba5153555dfe3335f5b04009f8977",
+   "redactions": {
+    "original study folder renamed in the release": 1,
+    "local clock time": 1
+   },
+   "archive": "data/saved-outputs/study3-heldout-confirmation.tar.xz"
+  },
+  "studies/4-multidigit-tokens/AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "5f32d39a6cce15d81bc3b4d6bdbef81b4e71529c15178ab4d57b3048a8a026a6",
+   "release_sha256": "9ac7b6ad82d3285dd580a979ec350e804af383531fdccc534183939fbd622364",
+   "redactions": {
+    "local clock time": 1,
+    "connection details": 1,
+    "approval wording": 4
+   }
+  },
+  "studies/4-multidigit-tokens/PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "499b770149c78f4e00f4d1fec63bb8a7dee2199c31828bef2400a95a7c0455c6",
+   "release_sha256": "d701a83f5a4040d11ee84dbfff6b9acdc09504d11be82da07b47b96c990fd539",
+   "redactions": {
+    "local clock time": 5,
+    "machine details": 1
+   }
+  },
+  "studies/4-multidigit-tokens/README.md": {
+   "kind": "redacted",
+   "original_sha256": "7735d6ed5c296034fc703ac82d6f3bf80c399a0e7b6c61b12f7fb0fb7e4bd969",
+   "release_sha256": "ee2cc6d1a37ec6a0e35319f08c46e75238c25d917640da394ea60df1d57a820a",
+   "redactions": {
+    "approval wording": 2,
+    "machine details": 1
+   }
+  },
+  "studies/4-multidigit-tokens/code/frozen/COPIED-FROM.json": {
+   "kind": "redacted",
+   "original_sha256": "f837a47f8e26ad6dcab91fdc3605a055ce64f4f648e5f506a4c748569e05cd71",
+   "release_sha256": "dbe3d633b0f4dd48fc4581fa89e9e3fcb2bd48775b186d574c977fd8f5d5b49e",
+   "redactions": {
+    "original study folder renamed in the release": 11
+   }
+  },
+  "studies/4-multidigit-tokens/code/frozen/competence-v2/kernel-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1",
+   "release_sha256": "ea470f9f67d04a914f35bb4efccb56f1ba0778e6be7baed9c9ca2a2b37f8d4a6",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   }
+  },
+  "studies/4-multidigit-tokens/results/candidates.json": {
+   "kind": "redacted",
+   "original_sha256": "4181b3beba2a021776fa3bd98ccd618a04814f0451c2f174551bb5ee64dc4806",
+   "release_sha256": "6276081a54c595ec88ec002bd922ead3e49979ed92636637045d5f290e6de7e2",
+   "redactions": {
+    "local clock time": 2,
+    "connection details": 1,
+    "approval wording": 2
+   },
+   "archive": "data/saved-outputs/study4-multidigit-tokens.tar.xz"
+  },
+  "studies/4-multidigit-tokens/results/cleanup-2026-10-09.json": {
+   "kind": "redacted",
+   "original_sha256": "8226a56413294de7e1e6c9cbc82e006851f31d0ed15ed3bd41f3171665950e2d",
+   "release_sha256": "03d26326978e14c6ec130630beadb222c6ece82313c9ff994b12d9dfaab3c002",
+   "redactions": {
+    "local clock time": 1,
+    "approval wording": 4
+   },
+   "archive": "data/saved-outputs/study4-multidigit-tokens.tar.xz"
+  },
+  "studies/4-multidigit-tokens/results/phi4mini/calibration/runtime-gate.json": {
+   "kind": "redacted",
+   "original_sha256": "0cd496c6f105db7645f311ef83226fde1d59101e24997b73e2a5e466c1e48acb",
+   "release_sha256": "f1aba80227a74212764e8f5959feda31f2960ec784351e4ca2886760a9546a18",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study4-multidigit-tokens.tar.xz"
+  },
+  "studies/4-multidigit-tokens/results/smollm3/calibration/runtime-gate.json": {
+   "kind": "redacted",
+   "original_sha256": "e65ffbb4207c476cc49df01aef64b70db4c166b343a3aba9c72204211697950f",
+   "release_sha256": "c40e297133ae54d269aa758e37a57191f3d6286879f9aef3049a479c3dc27fb1",
+   "redactions": {
+    "absolute path": 1,
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study4-multidigit-tokens.tar.xz"
+  },
+  "studies/4-multidigit-tokens/results/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "b968debe9f4979957bea6dd0d510ed5d1ae6d836dd5d640ed4618256e1d960bb",
+   "release_sha256": "12dfc96161eecb309999fc7d69e6e5260fa875db9af41b5d20dca89025a262d4",
+   "redactions": {
+    "local clock time": 2,
+    "connection details": 1,
+    "approval wording": 3
+   },
+   "archive": "data/saved-outputs/study4-multidigit-tokens.tar.xz"
+  },
+  "studies/5-direction-and-span/AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "2489bdb1675659b197873d6a5391ac734bf83811069053379af92c4726832b86",
+   "release_sha256": "6f43ef839a18f56d5906c457d5c5600020bec6967fe61972aef54d6abb4716a6",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-1.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-2.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json"
+   ],
+   "redactions": {
+    "Modal object id": 1,
+    "machine details": 1
+   }
+  },
+  "studies/5-direction-and-span/PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "3782c451965b11b799316d345f90aa9aa862dddff8443162c59964befecbb81f",
+   "release_sha256": "7cb3c6633994624c565f7a04af20fcd7dbb370dde14c5d560f24bbddf58b0ba3",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "machine details": 3
+   }
+  },
+  "studies/5-direction-and-span/README.md": {
+   "kind": "redacted",
+   "original_sha256": "5a505c0ed1bcba48c26f6ea547bd52623b646f83d38a89b09ddf25bab7c81262",
+   "release_sha256": "c66aa856c484a1899daca0c46179298687437548f742ae3e82321b6f7a49c97d",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "studies/5-direction-and-span/code/frozen/COPIED-FROM.json": {
+   "kind": "redacted",
+   "original_sha256": "f837a47f8e26ad6dcab91fdc3605a055ce64f4f648e5f506a4c748569e05cd71",
+   "release_sha256": "dbe3d633b0f4dd48fc4581fa89e9e3fcb2bd48775b186d574c977fd8f5d5b49e",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 11
+   }
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/kernel-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1",
+   "release_sha256": "ea470f9f67d04a914f35bb4efccb56f1ba0778e6be7baed9c9ca2a2b37f8d4a6",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   }
+  },
+  "studies/5-direction-and-span/code/modal_app.py": {
+   "kind": "adapted and redacted",
+   "original_sha256": "aaca3225f1c4fa0a55bddc61c5c4f3ed521ce26e12583a11ffe72a2d3676f370",
+   "release_sha256": "0e9d8718be0e3fdd28b7a041d8f51dce59fba98bca3a80d9ebd7fd54f62fab86",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-1.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "connection details": 1,
+    "machine details": 1
+   },
+   "reasons": [
+    "the environment files (pyproject.toml, uv.lock) are at the release root"
+   ]
+  },
+  "studies/5-direction-and-span/code/prepare.py": {
+   "kind": "adapted and redacted",
+   "original_sha256": "5da368e2043925e537a7697853cf7b867372be475e4636d76bf573470a1a6b1a",
+   "release_sha256": "2e3e822de1cf1c0e5a9e3861f28c69eadf9ca4f3b8b059b9293bfbb1574c83da",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "machine details": 1
+   },
+   "reasons": [
+    "the original study folders are renamed in the release"
+   ]
+  },
+  "studies/5-direction-and-span/data/data-manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "7845fc2e340e99a090f131e80ba3da2bb241371c25e4b04ae3aacbced8900233",
+   "release_sha256": "ee66d65e2ca3786a007dc09038921adf13ba38e08a086fe726aae3c03e19d232",
+   "frozen_in": [
+    "studies/5-direction-and-span/FREEZE.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE.json"
+   ],
+   "redactions": {
+    "original study folder renamed in the release": 1
+   }
+  },
+  "studies/5-direction-and-span/results/billing-watch.jsonl": {
+   "kind": "redacted",
+   "original_sha256": "0f8edd2e61c8b359a61fb2829e0825d7881a86c23f3c47cd2b2ad13bb974fa51",
+   "release_sha256": "c3da88409718900d0f1d6a3e76500104d3dbb19b3983303716764b7596703563",
+   "redactions": {
+    "Modal object id": 10
+   },
+   "archive": "data/saved-outputs/study5-direction-and-span.tar.xz"
+  },
+  "studies/5-direction-and-span/results/stage-log.jsonl": {
+   "kind": "redacted",
+   "original_sha256": "05254a70251e56813c2eb27d71e0b5659c3ec073e81a728fa73dc26cb6794123",
+   "release_sha256": "29371e7810f1c5e93fb074aa14488c19865ba36ba3adbba55aecd1ed7c3f7f57",
+   "redactions": {
+    "Modal object id": 4
+   },
+   "archive": "data/saved-outputs/study5-direction-and-span.tar.xz"
+  },
+  "studies/5-direction-and-span/run_stage.sh": {
+   "kind": "redacted",
+   "original_sha256": "94364050003a8465a59f0bb11f563e27d98e6a603d9f6424eb10bbfd606550d4",
+   "release_sha256": "6bf6f332684ad04484acfd9e9674aac2b1ba5a8a0867a42bafdeadcd52dcd07c",
+   "redactions": {
+    "connection details": 1
+   }
+  },
+  "studies/5-direction-and-span/verify.py": {
+   "kind": "adapted",
+   "original_sha256": "b2c5b23303ba01052b6e74ef4959592b3583f8664d7b9ec105045ad7aee53bf7",
+   "release_sha256": "9c292613a19a6e216bfd7ceb6c45f9d601e1a75982eff5dbe853bf059e2ca9d9",
+   "reasons": [
+    "frozen-file checks accept the changes documented in release-changes.json"
+   ]
+  },
+  "studies/6-olmo2-7b-multidigit/PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "199b491f86b1d5444e652a1abb67b8365a1dac3a30960c6c17db79f499e05192",
+   "release_sha256": "faaa7776a07020480dd774dab2e0b8c9488695a971e1b74cbaa51fc94c589b80",
+   "redactions": {
+    "approval wording": 2,
+    "machine details": 2
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/README.md": {
+   "kind": "redacted",
+   "original_sha256": "6f632182108e7d1f13602da6aa7eca6054e595c4869bf4d05d44d24be1cadd6d",
+   "release_sha256": "4c631aea8f734385618f40cb41060b585b5bbd8f125d4a5600df624101de1975",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/STUDY4-AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "5f32d39a6cce15d81bc3b4d6bdbef81b4e71529c15178ab4d57b3048a8a026a6",
+   "release_sha256": "9ac7b6ad82d3285dd580a979ec350e804af383531fdccc534183939fbd622364",
+   "redactions": {
+    "local clock time": 1,
+    "connection details": 1,
+    "approval wording": 4
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/STUDY4-PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "499b770149c78f4e00f4d1fec63bb8a7dee2199c31828bef2400a95a7c0455c6",
+   "release_sha256": "d701a83f5a4040d11ee84dbfff6b9acdc09504d11be82da07b47b96c990fd539",
+   "redactions": {
+    "local clock time": 5,
+    "machine details": 1
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/code/frozen/COPIED-FROM.json": {
+   "kind": "redacted",
+   "original_sha256": "f837a47f8e26ad6dcab91fdc3605a055ce64f4f648e5f506a4c748569e05cd71",
+   "release_sha256": "dbe3d633b0f4dd48fc4581fa89e9e3fcb2bd48775b186d574c977fd8f5d5b49e",
+   "redactions": {
+    "original study folder renamed in the release": 11
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/code/frozen/competence-v2/kernel-inspection.json": {
+   "kind": "redacted",
+   "original_sha256": "f6424279d4f24ac6e5222a5c7882e8d6f7762eb824c3603bc2fc38e806dd22b1",
+   "release_sha256": "ea470f9f67d04a914f35bb4efccb56f1ba0778e6be7baed9c9ca2a2b37f8d4a6",
+   "redactions": {
+    "absolute path": 1,
+    "original study folder renamed in the release": 1,
+    "machine details": 1
+   }
+  },
+  "studies/6-olmo2-7b-multidigit/code/modal_app.py": {
+   "kind": "adapted and redacted",
+   "original_sha256": "d389bc8c968f667ef396d5e13ac732dedf67df019ff5f21ccd6ecafd81f74b09",
+   "release_sha256": "5148a462f0c988ba4d93af4d30548e7180b6a4366fe6667edf1e001b0db0a0d6",
+   "redactions": {
+    "machine details": 1
+   },
+   "reasons": [
+    "the environment files (pyproject.toml, uv.lock) are at the release root"
+   ]
+  },
+  "studies/6-olmo2-7b-multidigit/results/stage-log.jsonl": {
+   "kind": "redacted",
+   "original_sha256": "83cd22a9af65076e76f3b5bd1cce7909ddac4bb79c412738569d5a63d04d40cd",
+   "release_sha256": "0d109b7d0f491e880afab403baeb9ca6dc5f84cc773248ae9d07f93c117a34e2",
+   "redactions": {
+    "Modal object id": 1
+   },
+   "archive": "data/saved-outputs/study6-olmo2-7b.tar.xz"
+  },
+  "studies/6-olmo2-7b-multidigit/run_stage.sh": {
+   "kind": "redacted",
+   "original_sha256": "af760f6d0c85d08ea7122bc20ce4001e9dd28318638c9b562028958a364e179d",
+   "release_sha256": "785cf883de63f19a50742cf9198a95934c06f5445ced3d86f637ff314736ec35",
+   "redactions": {
+    "connection details": 1
+   }
+  }
+ },
+ "frozen_files_not_shipped": {
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/model/config.json": {
+   "original_sha256": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/model/tokenizer_config.json": {
+   "original_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/learned-bases.pt": {
+   "original_sha256": "19a3cfcdaca371e49b03b0869e3feefff2e858ae9d7f57c5fa1fb06caac18f85",
+   "reason": "saved tensor not shipped (size); the journals and analyses derived from it are included"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/__init__.py": {
+   "original_sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/_ops.py": {
+   "original_sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/batched.py": {
+   "original_sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/bayesian_autotuner.py": {
+   "original_sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/fused_batched.py": {
+   "original_sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/fused_grouped.py": {
+   "original_sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/grouped.py": {
+   "original_sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/matmul.py": {
+   "original_sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/metadata.json": {
+   "original_sha256": "f4e4197fd78a18198c3fbdf5e4b368b2ad02ed2ce867f3d9dcfd923c461eaf5b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/metadata.json.sigstore": {
+   "original_sha256": "c92f8d5d44c51acf5cf8ed79910f5a7e5f863bae5f9d2285bc5c426c94884210",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/utils.py": {
+   "original_sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/bin/kernels": {
+   "original_sha256": "32b9bac0bbd6eafd00913b82b08b17bf2a179d9ff9473661504a91f22209b478",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/INSTALLER": {
+   "original_sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/METADATA": {
+   "original_sha256": "5644d31256f16fa2e27bba4de5057f4c90ff30f19e03e8b93fc3918486e41060",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/RECORD": {
+   "original_sha256": "3152983dab2df22322fec00651131793c499913181be4bc3064edf863f9330d7",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/REQUESTED": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/WHEEL": {
+   "original_sha256": "3b91e51afb00e5b710092708799363799659ba72160d63d5b4d5a88dd6bc7524",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/entry_points.txt": {
+   "original_sha256": "f338a0a91f793d63a9992a0b7af3635133c66c5d01c13ad95b4897e8c6c05c26",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/sboms/kernels-python.cyclonedx.json": {
+   "original_sha256": "e9d9cc74f35ebd84269f5a22e4c9b10970b1cf7718d29277b249d0ae1f19ffb5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/__init__.py": {
+   "original_sha256": "ba83dbf5d7abd8b801d97069ef204e7edbd2247e103b5065b72620594ca359b2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/_rust.abi3.so": {
+   "original_sha256": "15c59cd5d7526458c43c2a9e8bc536e99acace93b8d2300dc07790e441d846b9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/_rust.pyi": {
+   "original_sha256": "2f8270235a0887012ce188dde9dcf9d6f96c5fc611c6ad3167a0cecaaede2a84",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/_system.py": {
+   "original_sha256": "fe8762db860c89e995a900fb8cb1d966b9377c88f341439275dab4fc2bf5c77a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/_versions.py": {
+   "original_sha256": "91b645d7b282aaa9271b9c84426f2513ffc6023bbe3b52823bfcf42758ebe5ef",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/_windows.py": {
+   "original_sha256": "5154339c40074cea5494452634f727a8149bbb9871085306900920d0e63f67b0",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/archs.py": {
+   "original_sha256": "e4204ffccd4028305f4d9f28cc8812aca0883097bdbf81b3c734292292e690a5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/backends.py": {
+   "original_sha256": "ffb075216a41b148bba1f79d5b7c17d90d889829c2fa293e7471a9ed83082e73",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/benchmark.py": {
+   "original_sha256": "82025cc6439b8380351ea43f3fa3de98fe39cba46d531d51cce8eb44cd2b40ba",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/benchmarks/__init__.py": {
+   "original_sha256": "e4442a01658a3b85fc2499c5ae2e69b05f0df5b83b4db7b059500f7470c6e93a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/benchmarks/activation.py": {
+   "original_sha256": "03ae8bde20a15342e8edad7d9ac249a28939d9c0d09cfedc655da8ecc7f658c9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/benchmarks/attention.py": {
+   "original_sha256": "1e5c8b97caca0096867d4331cf1c0d55bea7271cfd963592839933e6a7e6721c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/benchmarks/layer_norm.py": {
+   "original_sha256": "73046b098eeb5e80f4ce47600e041dd62e84277d1e18c7fdaf236da30e3f60b2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/__init__.py": {
+   "original_sha256": "46ae13426d9bd654b0316348037e90ace2875c000ae7fb1e40f25322c6e314b4",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/benchmark.py": {
+   "original_sha256": "7b4a51947d2a6270843672e324ed39bd166c01b810616e7111af312ebeca379e",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/benchmark_graphics.py": {
+   "original_sha256": "73911d15af6fd29d1613c67eb0d2ab0d50a858ceaf07c574dd443405dcc4f436",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/download.py": {
+   "original_sha256": "3670551f1d863beed4c239c5c7c1fc06bd8b3a17973367e7cd833e5a5c7a2baf",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/info.py": {
+   "original_sha256": "793bafb8f908501991128ed42b9238ec2692a02bf94344ddb54fac54c97fa7c8",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/lock.py": {
+   "original_sha256": "ab0143e21591019a137dd58064267cc26a05c4281f6bf715b5b51547d7d2098f",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/verify_signature.py": {
+   "original_sha256": "170be0f0d674d107e1dec2a73af861b61fe84371c69a7b1c41cbcc3f04800f7a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/cli/versions.py": {
+   "original_sha256": "262a3ec7632d344b3a940e456ad98d247bd326f406b665a3ebf15437876feded",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/compat.py": {
+   "original_sha256": "5ad6bfa970a49fd8c90859040b5e3607c86527146843a25ecb457ed531a3b43b",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/deps.py": {
+   "original_sha256": "c131881758b55f9c260d20fe45a32660dfa703abb57a11f5837c3b89bd721341",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/hf_hub.py": {
+   "original_sha256": "f9fa9f4c03d5a15ebd6d932f52ada11e05834ace1a418f4c42a1303e73c7d4a5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/importer.py": {
+   "original_sha256": "010749f0e9ff1d48df619aa68b40f5a3721fc5bd85d8678f721b4051c6b2d9e7",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/install.py": {
+   "original_sha256": "f51c49f62d940c6d4590ddaca7451b880e6164a70cedb05dd6df16b87cb31c79",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/__init__.py": {
+   "original_sha256": "4c4170c47e5cf34f2ff34e2bdef5c10eed46d53c2a427c0699a4e907e5455fa1",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/_interval_tree.py": {
+   "original_sha256": "03cbee3fa606910106fa07ac5e521e5043148147f872710efc983a4b9390b7b6",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/device.py": {
+   "original_sha256": "4b62eb797f09bdb681065802527edc0be1d019c16a74dd37bfbb4be692e93a27",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/func.py": {
+   "original_sha256": "45b2804c3bf401c67c0890db40f6345e0632df4e98d09bf1d563e35968a56c9c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/globals.py": {
+   "original_sha256": "9368047614f2c8bbfcc7921a2f0853f1afcd2553fb868180e8cc9b86f301a4e0",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/kernelize.py": {
+   "original_sha256": "fe2a745fe05f2ecfafca113b3dd7de8b7f224785dc1f4f579561b118cb28efd2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/layer.py": {
+   "original_sha256": "d056de1af3e20642df01eaf7d19ce5cc73d9a068c4be3b06e50fddf514f76548",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/mode.py": {
+   "original_sha256": "aeb1fc5a6eee22696e9f76dfebac52232b9ea40a7b1b46c7148bf721479e37bb",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/layer/repos.py": {
+   "original_sha256": "3aa07502b4641542ae63ee64d3bb8058aae9cfffdbbff6363be38f53f98e100d",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/load.py": {
+   "original_sha256": "65652c9f9e4f91c23c25f5291b17216901ff36ea89fdf24084b632d0c07c5618",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/locking.py": {
+   "original_sha256": "4b0c87adc396b7d2debec08bab02318bcb2341169a0a138927fda413b24260da",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/python_depends.json": {
+   "original_sha256": "3e412c32521bdcc6bd3379e2dfc7c3cf45c725419580d8852760183a6612a914",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/python_deps.py": {
+   "original_sha256": "222f7b90ab73f158b56159eff35eba0d6c28f1f4ce27efb029afda252e0ea935",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/resolver.py": {
+   "original_sha256": "4c4704066ceb4aaed9d3002f271d57a3db455cc01fd8c0f192ed32f93cce9968",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/status.py": {
+   "original_sha256": "b3e4d1b3fa7d45113f7e396a96ff691214577ef27e51a0a3db3b557665b6794c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/validate.py": {
+   "original_sha256": "e5c5eef3c9b6dcb331243cb9c6b9b9c79a4767553f4556921fd42e5599acc732",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/variants.py": {
+   "original_sha256": "c57be0146671b86e449012f5bcd8a32e924a450bc85b5e8021b37f7aa1b70cae",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/code/frozen/competence-v2/.packages/kernels/verify.py": {
+   "original_sha256": "d340de42dad1d59cc1ccac52e132f08078c86dd9a686539aad2c6e68e4a6c99e",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/LICENSE": {
+   "original_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/README.md": {
+   "original_sha256": "f95f1bd2f5ee5879c6dad8aad55c2c141cd9dfe2b7ec53c8b8822e515ba1fc5d",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/config.json": {
+   "original_sha256": "46c086c1975c333a0c1423371a711d9927179c01b54a7b7c308a8e90ac9030ee",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/generation_config.json": {
+   "original_sha256": "19d306dd769db12a9d710b44cf7f83b635efbe5166b84fb4358a08fb7d88bb53",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/merges.txt": {
+   "original_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/model.safetensors": {
+   "original_sha256": "b6154d74332140fd6dfbfbe70bbb3650dd6955861132bd59dda6789e6322b485",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/tokenizer.json": {
+   "original_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/tokenizer_config.json": {
+   "original_sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/3-heldout-4b-confirmation/models/qwen4b/vocab.json": {
+   "original_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+   "reason": "model or tokeniser file; download it with tools/get_models.py (checked against this digest)"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/033472fa4b478d8c1ed3fdbb4df72fce66f2c3b6.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/0ce6acac315f9f204ff70251a461faea9fd580f4.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/14ad2477e1187d308dc57b9afdf629503a178fb6.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/41437145b9fc3e5bb9b4b9147a5a26176761fdbf.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/425b41014e2f25c487dd694ed9e9e577886cfc44.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/53664808e3e619f62f18f274b84d7bc87e2ae594.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/5ce77eba890c5156d9088765e26f19aea518142e.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/5e5e02199f3c6baa4959a11377a8839555b4debd.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/60bb21dbdab4d46ba2db65dc72e8eee1315a8990.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/645df603a8ccc3d9e696441dad5300ba222a3902.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/7229b881dc51d221cadc33dad773017a4624d967.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/84dca872bde58d6eb283643d572543ef427909b0.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/874ad04259a0c92e1fbd624849c1402a18068deb.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/8b0c136bf772c2651a6cf719345e143031743167.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/927a15554fbf604843763eb8dee3e92f68c8198d.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/9b4c0c9324ebcad600d81e882698e2ffb9c398ec.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/a4171be88c34651a897865660a523cb2fba755e4.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/a6344aac8c09253b3b630fb776ae94478aa0275b.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/a9b2672c1cd85b74c1b3ded0fc0b2100e1aeac23.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/bb86461eb619e1383ba7e05203e08c29495ef67f.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/bff498cf413fbd4472c9dad20fb94c9a562ee038.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/dc992318954150930583f3fd12618c3e567d920c.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/debe9681e492f7bc6d68f74bdb6b2c15476566dc.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/e921a95721a3e07407ec2efc0539979942930ea1.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/f6f7ad979ba2a677d63749ca714b97c74fbbe9df.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/.locks/kernels--kernels-community--finegrained-fp8/f87ced396c32449cfdf966e5fe9f96684b0f916f.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/CACHEDIR.TAG": {
+   "original_sha256": "f6572428f6d5e1575e73a1502895a8731f10757dfbb634909c6e154b849af91d",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/033472fa4b478d8c1ed3fdbb4df72fce66f2c3b6": {
+   "original_sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/0ce6acac315f9f204ff70251a461faea9fd580f4": {
+   "original_sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/14ad2477e1187d308dc57b9afdf629503a178fb6": {
+   "original_sha256": "c92f8d5d44c51acf5cf8ed79910f5a7e5f863bae5f9d2285bc5c426c94884210",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/41437145b9fc3e5bb9b4b9147a5a26176761fdbf": {
+   "original_sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/425b41014e2f25c487dd694ed9e9e577886cfc44": {
+   "original_sha256": "f4e4197fd78a18198c3fbdf5e4b368b2ad02ed2ce867f3d9dcfd923c461eaf5b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/53664808e3e619f62f18f274b84d7bc87e2ae594": {
+   "original_sha256": "e74dea55722de704613630d7fc52eb85c9e4fe8e991ab16183ecdde507c0ff0b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/5ce77eba890c5156d9088765e26f19aea518142e": {
+   "original_sha256": "78ce4b3c45a60ecf8582887e014aeafb17f73697f32a6492f85b2646e354e147",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/5e5e02199f3c6baa4959a11377a8839555b4debd": {
+   "original_sha256": "2ac3e06f62dfef2fd7d98140462e65c0edf662b67facaa2f0737dccb8c3eeb38",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/60bb21dbdab4d46ba2db65dc72e8eee1315a8990": {
+   "original_sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/645df603a8ccc3d9e696441dad5300ba222a3902": {
+   "original_sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/7229b881dc51d221cadc33dad773017a4624d967": {
+   "original_sha256": "ac71c2799ab070cebd491e29bf1e1473bb43c521630134baaffa146934d6526c",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/84dca872bde58d6eb283643d572543ef427909b0": {
+   "original_sha256": "6bec8e0f21b2ae2e4625b5caf2fb5daccbdfa324c19ddf2cd59fe5fa0e801939",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/874ad04259a0c92e1fbd624849c1402a18068deb": {
+   "original_sha256": "8f04faa1f5730040b2967fc4dedcf0430016e0ffb5447859557876909287242f",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/8b0c136bf772c2651a6cf719345e143031743167": {
+   "original_sha256": "1eab75234ad84ac4ec04e027fea4eb58db374deef4f344b5a710e09a92808ec1",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/927a15554fbf604843763eb8dee3e92f68c8198d": {
+   "original_sha256": "ee8f180784066973f868112bf3073e75ff37cf9cf85fb2047f8f34fcc7612861",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/9b4c0c9324ebcad600d81e882698e2ffb9c398ec": {
+   "original_sha256": "531fb9d867ab635213afd0975996ca53e3e22a911f896ab6ac82da482a5329f0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/a4171be88c34651a897865660a523cb2fba755e4": {
+   "original_sha256": "f4c5a2267b6c534ad5ae81b2f78cda0d7cfd964bcfd7692acc32e077905ac25b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b": {
+   "original_sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/a9b2672c1cd85b74c1b3ded0fc0b2100e1aeac23": {
+   "original_sha256": "0c560f96b857c188c4a8297ff27d1299619957c3459a5e433e132329fbfdf066",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/bb86461eb619e1383ba7e05203e08c29495ef67f": {
+   "original_sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/bff498cf413fbd4472c9dad20fb94c9a562ee038": {
+   "original_sha256": "28974cd14bb81063e740db259aec2a2f76200e709efb5033c361d29a91a16585",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/dc992318954150930583f3fd12618c3e567d920c": {
+   "original_sha256": "8164c87f9a61394b51318be1621dc5e9f9998ca61d10c43c545544de42bf5dc7",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/debe9681e492f7bc6d68f74bdb6b2c15476566dc": {
+   "original_sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/e921a95721a3e07407ec2efc0539979942930ea1": {
+   "original_sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/f6f7ad979ba2a677d63749ca714b97c74fbbe9df": {
+   "original_sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/blobs/f87ced396c32449cfdf966e5fe9f96684b0f916f": {
+   "original_sha256": "b5890cfb3ea2905cfa95576ee5eb2511e91dbcfe673234c4f630e8b5c574800b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/.gitattributes": {
+   "original_sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/README.md": {
+   "original_sha256": "28974cd14bb81063e740db259aec2a2f76200e709efb5033c361d29a91a16585",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/__init__.py": {
+   "original_sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/_ops.py": {
+   "original_sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/batched.py": {
+   "original_sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/bayesian_autotuner.py": {
+   "original_sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/fused_batched.py": {
+   "original_sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/fused_grouped.py": {
+   "original_sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/grouped.py": {
+   "original_sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/matmul.py": {
+   "original_sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/metadata.json": {
+   "original_sha256": "f4e4197fd78a18198c3fbdf5e4b368b2ad02ed2ce867f3d9dcfd923c461eaf5b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/metadata.json.sigstore": {
+   "original_sha256": "c92f8d5d44c51acf5cf8ed79910f5a7e5f863bae5f9d2285bc5c426c94884210",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/utils.py": {
+   "original_sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/__init__.py": {
+   "original_sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/_ops.py": {
+   "original_sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/batched.py": {
+   "original_sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/bayesian_autotuner.py": {
+   "original_sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/fused_batched.py": {
+   "original_sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/fused_grouped.py": {
+   "original_sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/grouped.py": {
+   "original_sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/matmul.py": {
+   "original_sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/metadata.json": {
+   "original_sha256": "1eab75234ad84ac4ec04e027fea4eb58db374deef4f344b5a710e09a92808ec1",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/metadata.json.sigstore": {
+   "original_sha256": "ee8f180784066973f868112bf3073e75ff37cf9cf85fb2047f8f34fcc7612861",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-rocm/utils.py": {
+   "original_sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/__init__.py": {
+   "original_sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/_ops.py": {
+   "original_sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/batched.py": {
+   "original_sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/bayesian_autotuner.py": {
+   "original_sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/fused_batched.py": {
+   "original_sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/fused_grouped.py": {
+   "original_sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/grouped.py": {
+   "original_sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/matmul.py": {
+   "original_sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/metadata.json": {
+   "original_sha256": "b5890cfb3ea2905cfa95576ee5eb2511e91dbcfe673234c4f630e8b5c574800b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/metadata.json.sigstore": {
+   "original_sha256": "2ac3e06f62dfef2fd7d98140462e65c0edf662b67facaa2f0737dccb8c3eeb38",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-xpu/utils.py": {
+   "original_sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/__init__.py": {
+   "original_sha256": "f4c5a2267b6c534ad5ae81b2f78cda0d7cfd964bcfd7692acc32e077905ac25b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/_ops.py": {
+   "original_sha256": "ac71c2799ab070cebd491e29bf1e1473bb43c521630134baaffa146934d6526c",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/act_quant.py": {
+   "original_sha256": "78ce4b3c45a60ecf8582887e014aeafb17f73697f32a6492f85b2646e354e147",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/batched.py": {
+   "original_sha256": "8164c87f9a61394b51318be1621dc5e9f9998ca61d10c43c545544de42bf5dc7",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/finegrained_fp8/__init__.py": {
+   "original_sha256": "0c560f96b857c188c4a8297ff27d1299619957c3459a5e433e132329fbfdf066",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/grouped.py": {
+   "original_sha256": "531fb9d867ab635213afd0975996ca53e3e22a911f896ab6ac82da482a5329f0",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/matmul.py": {
+   "original_sha256": "e74dea55722de704613630d7fc52eb85c9e4fe8e991ab16183ecdde507c0ff0b",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/metadata.json": {
+   "original_sha256": "8f04faa1f5730040b2967fc4dedcf0430016e0ffb5447859557876909287242f",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/b33c7f73833bf8b9b229d42adef49c9edd7530bd/build/torch-cuda/utils.py": {
+   "original_sha256": "6bec8e0f21b2ae2e4625b5caf2fb5daccbdfa324c19ddf2cd59fe5fa0e801939",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/trees/8c178950e8710e26a2210e4e909cd02dc16c8715.json": {
+   "original_sha256": "87900d40339e4153fe499df6dced37222619c010a280b5da56aa9f4b68a18fc6",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/trees/b33c7f73833bf8b9b229d42adef49c9edd7530bd.json": {
+   "original_sha256": "864e2efbc52457c66808ba216f3bf8bfa18b713d15baa4fb608f103576f192af",
+   "reason": "Hugging Face cache of the FP8 kernel on the original machine (downloaded again at first use)",
+   "if_present": "ignore"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/.lock": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/bin/kernels": {
+   "original_sha256": "32b9bac0bbd6eafd00913b82b08b17bf2a179d9ff9473661504a91f22209b478",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/INSTALLER": {
+   "original_sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/METADATA": {
+   "original_sha256": "5644d31256f16fa2e27bba4de5057f4c90ff30f19e03e8b93fc3918486e41060",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/RECORD": {
+   "original_sha256": "3152983dab2df22322fec00651131793c499913181be4bc3064edf863f9330d7",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/REQUESTED": {
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/WHEEL": {
+   "original_sha256": "3b91e51afb00e5b710092708799363799659ba72160d63d5b4d5a88dd6bc7524",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/entry_points.txt": {
+   "original_sha256": "f338a0a91f793d63a9992a0b7af3635133c66c5d01c13ad95b4897e8c6c05c26",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels-0.17.1.dist-info/sboms/kernels-python.cyclonedx.json": {
+   "original_sha256": "e9d9cc74f35ebd84269f5a22e4c9b10970b1cf7718d29277b249d0ae1f19ffb5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/__init__.py": {
+   "original_sha256": "ba83dbf5d7abd8b801d97069ef204e7edbd2247e103b5065b72620594ca359b2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/_rust.abi3.so": {
+   "original_sha256": "15c59cd5d7526458c43c2a9e8bc536e99acace93b8d2300dc07790e441d846b9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/_rust.pyi": {
+   "original_sha256": "2f8270235a0887012ce188dde9dcf9d6f96c5fc611c6ad3167a0cecaaede2a84",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/_system.py": {
+   "original_sha256": "fe8762db860c89e995a900fb8cb1d966b9377c88f341439275dab4fc2bf5c77a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/_versions.py": {
+   "original_sha256": "91b645d7b282aaa9271b9c84426f2513ffc6023bbe3b52823bfcf42758ebe5ef",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/_windows.py": {
+   "original_sha256": "5154339c40074cea5494452634f727a8149bbb9871085306900920d0e63f67b0",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/archs.py": {
+   "original_sha256": "e4204ffccd4028305f4d9f28cc8812aca0883097bdbf81b3c734292292e690a5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/backends.py": {
+   "original_sha256": "ffb075216a41b148bba1f79d5b7c17d90d889829c2fa293e7471a9ed83082e73",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/benchmark.py": {
+   "original_sha256": "82025cc6439b8380351ea43f3fa3de98fe39cba46d531d51cce8eb44cd2b40ba",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/benchmarks/__init__.py": {
+   "original_sha256": "e4442a01658a3b85fc2499c5ae2e69b05f0df5b83b4db7b059500f7470c6e93a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/benchmarks/activation.py": {
+   "original_sha256": "03ae8bde20a15342e8edad7d9ac249a28939d9c0d09cfedc655da8ecc7f658c9",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/benchmarks/attention.py": {
+   "original_sha256": "1e5c8b97caca0096867d4331cf1c0d55bea7271cfd963592839933e6a7e6721c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/benchmarks/layer_norm.py": {
+   "original_sha256": "73046b098eeb5e80f4ce47600e041dd62e84277d1e18c7fdaf236da30e3f60b2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/__init__.py": {
+   "original_sha256": "46ae13426d9bd654b0316348037e90ace2875c000ae7fb1e40f25322c6e314b4",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/benchmark.py": {
+   "original_sha256": "7b4a51947d2a6270843672e324ed39bd166c01b810616e7111af312ebeca379e",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/benchmark_graphics.py": {
+   "original_sha256": "73911d15af6fd29d1613c67eb0d2ab0d50a858ceaf07c574dd443405dcc4f436",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/download.py": {
+   "original_sha256": "3670551f1d863beed4c239c5c7c1fc06bd8b3a17973367e7cd833e5a5c7a2baf",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/info.py": {
+   "original_sha256": "793bafb8f908501991128ed42b9238ec2692a02bf94344ddb54fac54c97fa7c8",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/lock.py": {
+   "original_sha256": "ab0143e21591019a137dd58064267cc26a05c4281f6bf715b5b51547d7d2098f",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/verify_signature.py": {
+   "original_sha256": "170be0f0d674d107e1dec2a73af861b61fe84371c69a7b1c41cbcc3f04800f7a",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/cli/versions.py": {
+   "original_sha256": "262a3ec7632d344b3a940e456ad98d247bd326f406b665a3ebf15437876feded",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/compat.py": {
+   "original_sha256": "5ad6bfa970a49fd8c90859040b5e3607c86527146843a25ecb457ed531a3b43b",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/deps.py": {
+   "original_sha256": "c131881758b55f9c260d20fe45a32660dfa703abb57a11f5837c3b89bd721341",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/hf_hub.py": {
+   "original_sha256": "f9fa9f4c03d5a15ebd6d932f52ada11e05834ace1a418f4c42a1303e73c7d4a5",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/importer.py": {
+   "original_sha256": "010749f0e9ff1d48df619aa68b40f5a3721fc5bd85d8678f721b4051c6b2d9e7",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/install.py": {
+   "original_sha256": "f51c49f62d940c6d4590ddaca7451b880e6164a70cedb05dd6df16b87cb31c79",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/__init__.py": {
+   "original_sha256": "4c4170c47e5cf34f2ff34e2bdef5c10eed46d53c2a427c0699a4e907e5455fa1",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/_interval_tree.py": {
+   "original_sha256": "03cbee3fa606910106fa07ac5e521e5043148147f872710efc983a4b9390b7b6",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/device.py": {
+   "original_sha256": "4b62eb797f09bdb681065802527edc0be1d019c16a74dd37bfbb4be692e93a27",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/func.py": {
+   "original_sha256": "45b2804c3bf401c67c0890db40f6345e0632df4e98d09bf1d563e35968a56c9c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/globals.py": {
+   "original_sha256": "9368047614f2c8bbfcc7921a2f0853f1afcd2553fb868180e8cc9b86f301a4e0",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/kernelize.py": {
+   "original_sha256": "fe2a745fe05f2ecfafca113b3dd7de8b7f224785dc1f4f579561b118cb28efd2",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/layer.py": {
+   "original_sha256": "d056de1af3e20642df01eaf7d19ce5cc73d9a068c4be3b06e50fddf514f76548",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/mode.py": {
+   "original_sha256": "aeb1fc5a6eee22696e9f76dfebac52232b9ea40a7b1b46c7148bf721479e37bb",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/layer/repos.py": {
+   "original_sha256": "3aa07502b4641542ae63ee64d3bb8058aae9cfffdbbff6363be38f53f98e100d",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/load.py": {
+   "original_sha256": "65652c9f9e4f91c23c25f5291b17216901ff36ea89fdf24084b632d0c07c5618",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/locking.py": {
+   "original_sha256": "4b0c87adc396b7d2debec08bab02318bcb2341169a0a138927fda413b24260da",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/python_depends.json": {
+   "original_sha256": "3e412c32521bdcc6bd3379e2dfc7c3cf45c725419580d8852760183a6612a914",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/python_deps.py": {
+   "original_sha256": "222f7b90ab73f158b56159eff35eba0d6c28f1f4ce27efb029afda252e0ea935",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/resolver.py": {
+   "original_sha256": "4c4704066ceb4aaed9d3002f271d57a3db455cc01fd8c0f192ed32f93cce9968",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/status.py": {
+   "original_sha256": "b3e4d1b3fa7d45113f7e396a96ff691214577ef27e51a0a3db3b557665b6794c",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/validate.py": {
+   "original_sha256": "e5c5eef3c9b6dcb331243cb9c6b9b9c79a4767553f4556921fd42e5599acc732",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/variants.py": {
+   "original_sha256": "c57be0146671b86e449012f5bcd8a32e924a450bc85b5e8021b37f7aa1b70cae",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  },
+  "studies/5-direction-and-span/code/frozen/competence-v2/.packages/kernels/verify.py": {
+   "original_sha256": "d340de42dad1d59cc1ccac52e132f08078c86dd9a686539aad2c6e68e4a6c99e",
+   "reason": "vendored copy of the third-party kernels 0.17.1 package; install it as README.md describes"
+  }
+ },
+ "freeze_records": [
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/checkpoint-replication/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/freeze-qwen25.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/freeze-qwen4b.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/actual-digit-freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/control-interpretation-freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/eligible-sites-freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/fast-execution-freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/freeze-qwen4b-fewshot.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/format-pilot/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/source-freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-diagnostic/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-no-borrow/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/freeze.json",
+   "base": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer"
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/audits/qwen06-fp32-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/ai04/engine.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/source/02-Code/ai04/engine.py"
+   }
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/deepseek-panel-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/run_experiment.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/deepseek-panel-v1/source/02-Code/run_experiment.py"
+   }
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/run_experiment.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v1/source/02-Code/run_experiment.py"
+   }
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/run_experiment.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/source/02-Code/run_experiment.py"
+   }
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-symbolic-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source"
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source"
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source"
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/ai04/engine.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/source/02-Code/ai04/engine.py",
+    "02-Code/run_experiment.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-pilot-v1/source/02-Code/run_experiment.py"
+   }
+  },
+  {
+   "path": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-random-repair-v2/freeze.json",
+   "base": "06-Study-History/original-studies/study2-reasoning-interventions",
+   "field": "source",
+   "copies": {
+    "02-Code/run_experiment.py": "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/pilot/qwen06-random-repair-v2/source/02-Code/run_experiment.py"
+   }
+  },
+  {
+   "path": "studies/3-heldout-4b-confirmation/FREEZE.json",
+   "base": "studies/3-heldout-4b-confirmation",
+   "field": "sha256"
+  },
+  {
+   "path": "studies/5-direction-and-span/FREEZE.json",
+   "base": "studies/5-direction-and-span",
+   "field": "sha256"
+  },
+  {
+   "path": "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-1.json",
+   "base": "studies/5-direction-and-span",
+   "field": "sha256",
+   "superseded_by": [
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-2.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json"
+   ]
+  },
+  {
+   "path": "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-2.json",
+   "base": "studies/5-direction-and-span",
+   "field": "sha256",
+   "superseded_by": [
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json"
+   ]
+  },
+  {
+   "path": "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json",
+   "base": "studies/5-direction-and-span",
+   "field": "sha256"
+  },
+  {
+   "path": "studies/5-direction-and-span/PROTOCOL-FREEZE.json",
+   "base": "studies/5-direction-and-span",
+   "field": "sha256",
+   "superseded_by": [
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-1.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-2.json",
+    "studies/5-direction-and-span/PROTOCOL-FREEZE-amendment-3.json"
+   ]
+  }
+ ]
+}

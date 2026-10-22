@@ -1,0 +1,13 @@
+{
+  "split": "audit",
+  "groups": 4,
+  "seed": 940001,
+  "ids": [
+    "audit-000",
+    "audit-001",
+    "audit-002",
+    "audit-003"
+  ],
+  "hash": "5cb8359086ac4038b6b259b7e8f0c9bb15291c905ea249fadcf56c6fa1c4393b",
+  "status": "generated without model outcomes"
+}

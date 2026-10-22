@@ -1,0 +1,1268 @@
+{
+  "pass_check": true,
+  "logit_checks": [
+    {
+      "id": "development-00-add",
+      "layer": 0,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 0,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 0,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 0,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 18,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 18,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 18,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 18,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 35,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 35,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 35,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-add",
+      "layer": 35,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 0,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 0,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 0,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 0,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 18,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 18,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 18,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 18,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 35,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 35,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 35,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "layer": 35,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 0,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 0,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 0,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 0,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 18,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 18,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 18,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 18,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 35,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 35,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 35,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "layer": 35,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 0,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 0,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 0,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 0,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 18,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 18,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 18,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 18,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 35,
+      "role": "a_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 35,
+      "role": "b_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 35,
+      "role": "first_stage_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "layer": 35,
+      "role": "prompt_end",
+      "max_logit_abs": 0.0,
+      "pass_check": true
+    }
+  ],
+  "generation_checks": [
+    {
+      "id": "development-00-add",
+      "reference_ids": [
+        21,
+        23,
+        151645
+      ],
+      "optimized_ids": [
+        21,
+        23,
+        151645
+      ],
+      "pass_check": true
+    },
+    {
+      "id": "development-00-sub",
+      "reference_ids": [
+        20,
+        23,
+        151645
+      ],
+      "optimized_ids": [
+        20,
+        23,
+        151645
+      ],
+      "pass_check": true
+    },
+    {
+      "id": "development-00-mul",
+      "reference_ids": [
+        16,
+        23,
+        24,
+        151645
+      ],
+      "optimized_ids": [
+        16,
+        23,
+        24,
+        151645
+      ],
+      "pass_check": true
+    },
+    {
+      "id": "development-01-add",
+      "reference_ids": [
+        22,
+        24,
+        151645
+      ],
+      "optimized_ids": [
+        22,
+        24,
+        151645
+      ],
+      "pass_check": true
+    }
+  ],
+  "reference_first_pair": [
+    {
+      "layer": 0,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 0,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 0,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 0,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 1,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 1,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 1,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 1,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 2,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 2,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 2,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 2,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 3,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 3,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 3,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 3,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 4,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 4,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 4,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 4,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 5,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 5,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 5,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 5,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 6,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 6,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 6,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 6,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 7,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 7,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 7,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 7,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 8,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 8,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 8,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 8,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 9,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 9,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 9,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 9,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 10,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 10,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 10,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 10,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 11,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 11,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 11,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 11,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 12,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 12,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 12,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 12,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 13,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 13,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 13,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 13,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 14,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 14,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 14,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 14,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 15,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 15,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 15,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 15,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 16,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 16,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 16,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 16,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 17,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 17,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 17,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 17,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 18,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 18,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 18,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 18,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 19,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 19,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 19,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 19,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 20,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 20,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 20,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 20,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 21,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 21,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 21,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 21,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 22,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 22,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 22,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 22,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 23,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 23,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 23,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 23,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 24,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 24,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 24,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 24,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 25,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 25,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 25,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 25,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 26,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 26,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 26,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 26,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 27,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 27,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 27,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 27,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 28,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 28,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 28,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 28,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 29,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 29,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 29,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 29,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 30,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 30,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 30,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 30,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 31,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 31,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 31,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 31,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 32,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 32,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 32,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 32,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 33,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 33,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 33,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 33,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 34,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 34,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 34,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 34,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 35,
+      "role": "a_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 35,
+      "role": "b_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 35,
+      "role": "first_stage_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    },
+    {
+      "layer": 35,
+      "role": "prompt_end",
+      "max_token_log_probability_difference": 0.0,
+      "pass_check": true
+    }
+  ],
+  "seconds": 99.25512644002447
+}

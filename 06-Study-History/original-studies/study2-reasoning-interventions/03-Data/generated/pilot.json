@@ -1,0 +1,406 @@
+[
+  {
+    "id": "pilot-000",
+    "split": "pilot",
+    "template": 0,
+    "donor": {
+      "a": 59,
+      "b": 4,
+      "first": "-",
+      "z": 55,
+      "second": "+",
+      "k": 7,
+      "y": 62
+    },
+    "recipient": {
+      "a": 75,
+      "b": 16,
+      "first": "+",
+      "z": 91,
+      "second": "-",
+      "k": 5,
+      "y": 86
+    },
+    "hypotheses": {
+      "counterfactual": 50,
+      "recipient": 86,
+      "donor_answer": 62,
+      "donor_first_digit": 0,
+      "operand_a": 70,
+      "operand_b": 74,
+      "donor_operation": 98,
+      "complete_expression": 50
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 59 - 4. Then calculate y = z + 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 75 + 16. Then calculate y = z - 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 55. Compute y = z - 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-001",
+    "split": "pilot",
+    "template": 1,
+    "donor": {
+      "a": 40,
+      "b": 16,
+      "first": "+",
+      "z": 56,
+      "second": "-",
+      "k": 3,
+      "y": 53
+    },
+    "recipient": {
+      "a": 96,
+      "b": 3,
+      "first": "-",
+      "z": 93,
+      "second": "*",
+      "k": 5,
+      "y": 465
+    },
+    "hypotheses": {
+      "counterfactual": 280,
+      "recipient": 465,
+      "donor_answer": 53,
+      "donor_first_digit": 25,
+      "operand_a": 185,
+      "operand_b": 400,
+      "donor_operation": 90,
+      "complete_expression": 280
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 40. Apply + 16 to obtain the intermediate z. Apply - 3 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 96. Apply - 3 to obtain the intermediate z. Apply * 5 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 56. Compute y = z * 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-002",
+    "split": "pilot",
+    "template": 0,
+    "donor": {
+      "a": 50,
+      "b": 3,
+      "first": "-",
+      "z": 47,
+      "second": "*",
+      "k": 8,
+      "y": 376
+    },
+    "recipient": {
+      "a": 83,
+      "b": 13,
+      "first": "+",
+      "z": 96,
+      "second": "+",
+      "k": 8,
+      "y": 104
+    },
+    "hypotheses": {
+      "counterfactual": 55,
+      "recipient": 104,
+      "donor_answer": 376,
+      "donor_first_digit": 12,
+      "operand_a": 71,
+      "operand_b": 94,
+      "donor_operation": 768,
+      "complete_expression": 55
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 50 - 3. Then calculate y = z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 83 + 13. Then calculate y = z + 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 47. Compute y = z + 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-003",
+    "split": "pilot",
+    "template": 1,
+    "donor": {
+      "a": 40,
+      "b": 10,
+      "first": "+",
+      "z": 50,
+      "second": "+",
+      "k": 6,
+      "y": 56
+    },
+    "recipient": {
+      "a": 97,
+      "b": 14,
+      "first": "-",
+      "z": 83,
+      "second": "-",
+      "k": 6,
+      "y": 77
+    },
+    "hypotheses": {
+      "counterfactual": 44,
+      "recipient": 77,
+      "donor_answer": 56,
+      "donor_first_digit": -1,
+      "operand_a": 20,
+      "operand_b": 81,
+      "donor_operation": 89,
+      "complete_expression": 44
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 40. Apply + 10 to obtain the intermediate z. Apply + 6 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 97. Apply - 14 to obtain the intermediate z. Apply - 6 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 50. Compute y = z - 6. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-004",
+    "split": "pilot",
+    "template": 0,
+    "donor": {
+      "a": 52,
+      "b": 8,
+      "first": "-",
+      "z": 44,
+      "second": "-",
+      "k": 8,
+      "y": 36
+    },
+    "recipient": {
+      "a": 69,
+      "b": 16,
+      "first": "+",
+      "z": 85,
+      "second": "*",
+      "k": 8,
+      "y": 680
+    },
+    "hypotheses": {
+      "counterfactual": 352,
+      "recipient": 680,
+      "donor_answer": 36,
+      "donor_first_digit": 32,
+      "operand_a": 544,
+      "operand_b": 616,
+      "donor_operation": 77,
+      "complete_expression": 352
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 52 - 8. Then calculate y = z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 69 + 16. Then calculate y = z * 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 44. Compute y = z * 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-005",
+    "split": "pilot",
+    "template": 1,
+    "donor": {
+      "a": 43,
+      "b": 15,
+      "first": "+",
+      "z": 58,
+      "second": "*",
+      "k": 7,
+      "y": 406
+    },
+    "recipient": {
+      "a": 95,
+      "b": 5,
+      "first": "-",
+      "z": 90,
+      "second": "+",
+      "k": 4,
+      "y": 94
+    },
+    "hypotheses": {
+      "counterfactual": 62,
+      "recipient": 94,
+      "donor_answer": 406,
+      "donor_first_digit": 9,
+      "operand_a": 42,
+      "operand_b": 84,
+      "donor_operation": 630,
+      "complete_expression": 62
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 43. Apply + 15 to obtain the intermediate z. Apply * 7 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 95. Apply - 5 to obtain the intermediate z. Apply + 4 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 58. Compute y = z + 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-006",
+    "split": "pilot",
+    "template": 0,
+    "donor": {
+      "a": 54,
+      "b": 11,
+      "first": "-",
+      "z": 43,
+      "second": "+",
+      "k": 5,
+      "y": 48
+    },
+    "recipient": {
+      "a": 88,
+      "b": 9,
+      "first": "+",
+      "z": 97,
+      "second": "-",
+      "k": 8,
+      "y": 89
+    },
+    "hypotheses": {
+      "counterfactual": 35,
+      "recipient": 89,
+      "donor_answer": 48,
+      "donor_first_digit": -4,
+      "operand_a": 55,
+      "operand_b": 91,
+      "donor_operation": 102,
+      "complete_expression": 35
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 54 - 11. Then calculate y = z + 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 88 + 9. Then calculate y = z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 43. Compute y = z - 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "pilot-007",
+    "split": "pilot",
+    "template": 1,
+    "donor": {
+      "a": 33,
+      "b": 12,
+      "first": "+",
+      "z": 45,
+      "second": "-",
+      "k": 3,
+      "y": 42
+    },
+    "recipient": {
+      "a": 110,
+      "b": 12,
+      "first": "-",
+      "z": 98,
+      "second": "*",
+      "k": 7,
+      "y": 686
+    },
+    "hypotheses": {
+      "counterfactual": 315,
+      "recipient": 686,
+      "donor_answer": 42,
+      "donor_first_digit": 28,
+      "operand_a": 147,
+      "operand_b": 686,
+      "donor_operation": 95,
+      "complete_expression": 315
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [
+        "operand_b"
+      ],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [
+        "recipient"
+      ],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 33. Apply + 12 to obtain the intermediate z. Apply - 3 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 110. Apply - 12 to obtain the intermediate z. Apply * 7 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 45. Compute y = z * 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  }
+]

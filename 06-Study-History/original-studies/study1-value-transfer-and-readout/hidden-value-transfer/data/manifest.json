@@ -1,0 +1,8 @@
+{
+  "seed": 20261001,
+  "development_pairs": 36,
+  "reserve_pairs": 72,
+  "development_sha256": "9504e3b4c236bd509824ce912d4ce9d1e51944ec37281ceb78ba46ca93129542",
+  "reserve_sha256": "02966f8a1bf9fdac502a47d4c76745a6c532e55f6abc066c622ca50b47b9c81b",
+  "reserve_evaluated": false
+}

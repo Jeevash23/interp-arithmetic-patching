@@ -1,0 +1,13 @@
+# Focused literature update for the paper draft
+
+Primary sources rechecked on 9 September 2026. This is a focused comparison, not an exhaustive novelty certification. The original ten-source comparison remains in the parent project's docs/RELATED-WORK.md.
+
+**Davies et al., Discovering Variable Binding Circuitry with Desiderata (2023).** Sections 4.1-4.2 combine value dependence and operation invariance to learn a component mask in LLaMA-13B. Evaluation uses the first digit of the answer. This is a close predecessor for arithmetic interchange and invariant operation controls. Our whole-vector intervention and full fresh-continuation test differ; the present experiment neither replicates their learned mask nor refutes their model-specific result. Source: https://arxiv.org/html/2307.03637v1
+
+**Liu, The Readout Shortcut (2026).** The paper studies arithmetic answer readout with number corruption, positional controls, ablations and a Qwen head-patching supplement. Appendix Q concerns recovery of a corrupted answer-readout task. Our paired donors share a leading digit but imply different recipient counterfactuals; line clamping and exact fresh-sequence comparison examine a different intervention assay. Generic numeric readout shortcuts are already established prior work. Source: https://arxiv.org/html/2605.22870v1
+
+**Gurnee et al., Verbalizable Representations Form a Global Workspace in Language Models (6 July 2026).** The mechanistic-localization section reports mean-difference interventions on arithmetic intermediates in Opus 4.5, with layer-dependent changes toward implied answer logits. This strengthens the reason to limit our negative conclusion to a late whole-vector intervention on Qwen3-0.6B. Their lens-based localization and larger models are not tested here. Source: https://transformer-circuits.pub/2026/workspace/index.html
+
+**Cheng et al., EMNLP 2025.** The final paper already studies two-operation arithmetic and interchange-based composability. The useful distinction for this draft is complete fresh output, paired same-leading-digit sources and explicit-text clamps, not arithmetic abstraction itself. Source: https://aclanthology.org/2025.emnlp-main.723/
+
+The candidate contribution is a reproducible boundary case and a diagnostic combination for auditing apparent complete-value transfer. A claim that these controls, individually, or this general concern are novel is not supported. A second checkpoint would materially strengthen external validity; repeating more languages before reliable within-language mechanisms and translation checks would not resolve the central issue.

@@ -1,0 +1,19 @@
+{
+  "gpu": "[6 GB NVIDIA GPU]",
+  "capability": [
+    8,
+    9
+  ],
+  "kernels": "0.17.1",
+  "module_file": "<portfolio>/study1-value-transfer-and-readout/hidden-value-transfer/competence-v2/.cache/huggingface/kernels--kernels-community--finegrained-fp8/snapshots/8c178950e8710e26a2210e4e909cd02dc16c8715/build/torch-cuda/__init__.py",
+  "revision": "8c178950e8710e26a2210e4e909cd02dc16c8715",
+  "functions": {
+    "matmul_2d": "(A: torch.Tensor, B: torch.Tensor, Bs: torch.Tensor, block_size: list[int] | None, output_dtype: torch.dtype | None = None, activation_scale: torch.Tensor | None = None) -> torch.Tensor",
+    "matmul_batched": "(A: torch.Tensor, B: torch.Tensor, Bs: torch.Tensor, expert_ids: torch.Tensor, block_size: list[int] | None, output_dtype: torch.dtype | None = None) -> torch.Tensor",
+    "matmul_grouped": "(A: torch.Tensor, B: torch.Tensor, Bs: torch.Tensor, offsets: torch.Tensor, tokens_per_expert: torch.Tensor, block_size: list[int] | None, output_dtype: torch.dtype | None = None) -> torch.Tensor"
+  },
+  "finite": true,
+  "repeat_max_abs": 0.0,
+  "relative_rms_vs_dequantized_weight_bf16": 0.02614009752869606,
+  "pass_check": true
+}

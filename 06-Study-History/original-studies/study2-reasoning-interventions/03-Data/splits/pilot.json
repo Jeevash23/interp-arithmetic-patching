@@ -1,0 +1,17 @@
+{
+  "split": "pilot",
+  "groups": 8,
+  "seed": 940021,
+  "ids": [
+    "pilot-000",
+    "pilot-001",
+    "pilot-002",
+    "pilot-003",
+    "pilot-004",
+    "pilot-005",
+    "pilot-006",
+    "pilot-007"
+  ],
+  "hash": "749154287503047d28fb221af271ff69490e20a7827a85b2e8406632b585e47f",
+  "status": "generated without model outcomes"
+}

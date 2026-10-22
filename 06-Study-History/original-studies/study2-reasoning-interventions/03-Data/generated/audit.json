@@ -1,0 +1,202 @@
+[
+  {
+    "id": "audit-000",
+    "split": "audit",
+    "template": 0,
+    "donor": {
+      "a": 50,
+      "b": 15,
+      "first": "-",
+      "z": 35,
+      "second": "+",
+      "k": 6,
+      "y": 41
+    },
+    "recipient": {
+      "a": 66,
+      "b": 5,
+      "first": "+",
+      "z": 71,
+      "second": "-",
+      "k": 8,
+      "y": 63
+    },
+    "hypotheses": {
+      "counterfactual": 27,
+      "recipient": 63,
+      "donor_answer": 41,
+      "donor_first_digit": -5,
+      "operand_a": 47,
+      "operand_b": 73,
+      "donor_operation": 77,
+      "complete_expression": 27
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 50 - 15. Then calculate y = z + 6.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 66 + 5. Then calculate y = z - 8.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 35. Compute y = z - 8. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "audit-001",
+    "split": "audit",
+    "template": 1,
+    "donor": {
+      "a": 24,
+      "b": 14,
+      "first": "+",
+      "z": 38,
+      "second": "-",
+      "k": 2,
+      "y": 36
+    },
+    "recipient": {
+      "a": 76,
+      "b": 4,
+      "first": "-",
+      "z": 72,
+      "second": "*",
+      "k": 5,
+      "y": 360
+    },
+    "hypotheses": {
+      "counterfactual": 190,
+      "recipient": 360,
+      "donor_answer": 36,
+      "donor_first_digit": 15,
+      "operand_a": 100,
+      "operand_b": 310,
+      "donor_operation": 70,
+      "complete_expression": 190
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 24. Apply + 14 to obtain the intermediate z. Apply - 2 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 76. Apply - 4 to obtain the intermediate z. Apply * 5 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 38. Compute y = z * 5. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "audit-002",
+    "split": "audit",
+    "template": 0,
+    "donor": {
+      "a": 39,
+      "b": 7,
+      "first": "-",
+      "z": 32,
+      "second": "*",
+      "k": 5,
+      "y": 160
+    },
+    "recipient": {
+      "a": 56,
+      "b": 15,
+      "first": "+",
+      "z": 71,
+      "second": "+",
+      "k": 7,
+      "y": 78
+    },
+    "hypotheses": {
+      "counterfactual": 39,
+      "recipient": 78,
+      "donor_answer": 160,
+      "donor_first_digit": 10,
+      "operand_a": 61,
+      "operand_b": 70,
+      "donor_operation": 355,
+      "complete_expression": 39
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Execute two steps. First calculate z = 39 - 7. Then calculate y = z * 5.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Execute two steps. First calculate z = 56 + 15. Then calculate y = z + 7.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 32. Compute y = z + 7. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  },
+  {
+    "id": "audit-003",
+    "split": "audit",
+    "template": 1,
+    "donor": {
+      "a": 30,
+      "b": 3,
+      "first": "+",
+      "z": 33,
+      "second": "+",
+      "k": 2,
+      "y": 35
+    },
+    "recipient": {
+      "a": 91,
+      "b": 15,
+      "first": "-",
+      "z": 76,
+      "second": "-",
+      "k": 4,
+      "y": 72
+    },
+    "hypotheses": {
+      "counterfactual": 29,
+      "recipient": 72,
+      "donor_answer": 35,
+      "donor_first_digit": -1,
+      "operand_a": 11,
+      "operand_b": 84,
+      "donor_operation": 78,
+      "complete_expression": 29
+    },
+    "collisions": {
+      "counterfactual": [
+        "complete_expression"
+      ],
+      "recipient": [],
+      "donor_answer": [],
+      "donor_first_digit": [],
+      "operand_a": [],
+      "operand_b": [],
+      "donor_operation": [],
+      "complete_expression": [
+        "counterfactual"
+      ]
+    },
+    "donor_prompt": "Start with 30. Apply + 3 to obtain the intermediate z. Apply + 2 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Start with 91. Apply - 15 to obtain the intermediate z. Apply - 4 to z to obtain the final y.\nReport your result using exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "Use the supplied intermediate z = 33. Compute y = z - 4. Do not perform any earlier steps.\nReport exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>"
+  }
+]

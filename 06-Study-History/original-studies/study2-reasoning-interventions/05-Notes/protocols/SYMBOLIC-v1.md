@@ -1,0 +1,5 @@
+# Second task family: exact lookup composition
+
+Predeclared scope check using eight generated groups with two sequential lookup maps. Intermediate numbers are state labels, not arithmetic operands. Donor map yields z_d; recipient's second map applied to z_d gives the counterfactual. Donor/recipient/counterfactual answers are distinct. Same numerical answer parser, native thinking, float32 engine, 768-token budget and three >=80% competence gates; each baseline family therefore needs at least 7/8 correct, naturally completed answers.
+
+If gates pass, execute layer 26 at first literal z and labelled z, two streams and unchanged/activation/first-digit/full-value/random conditions (160 planned branches). No new localization. First literal mention may be a restatement of a table rather than an endorsed result; annotate timing accordingly and do not call it first computation. Failure is a task/prompt/budget competence boundary; retain all 24 baselines and do not interpret absent transfer below the gate. This eight-program exploratory scope check is separate from the arithmetic final estimate.

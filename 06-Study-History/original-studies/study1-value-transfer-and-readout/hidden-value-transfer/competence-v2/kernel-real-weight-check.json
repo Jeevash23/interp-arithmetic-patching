@@ -1,0 +1,48 @@
+{
+  "stage": "post-baseline numerical diagnostic",
+  "seed": 20261003,
+  "records": [
+    {
+      "layer_module": "model.layers.0.self_attn.q_proj",
+      "weight_shape": [
+        4096,
+        2560
+      ],
+      "scale_min": 0.0001468658447265625,
+      "scale_max": 0.00131988525390625,
+      "rms_relative_to_fp32_quantized_reference": 0.004867785144597292,
+      "max_absolute_to_reference": 0.0625,
+      "prefix_shape_change_max_absolute": 0.0,
+      "reference": "FP32 matmul with separately quantized/dequantized input and weights, cast to BF16",
+      "finite": true
+    },
+    {
+      "layer_module": "model.layers.18.mlp.up_proj",
+      "weight_shape": [
+        9728,
+        2560
+      ],
+      "scale_min": 0.00016880035400390625,
+      "scale_max": 0.00147247314453125,
+      "rms_relative_to_fp32_quantized_reference": 0.0051488205790519714,
+      "max_absolute_to_reference": 0.0546875,
+      "prefix_shape_change_max_absolute": 0.0,
+      "reference": "FP32 matmul with separately quantized/dequantized input and weights, cast to BF16",
+      "finite": true
+    },
+    {
+      "layer_module": "model.layers.35.mlp.down_proj",
+      "weight_shape": [
+        2560,
+        9728
+      ],
+      "scale_min": 0.00015735626220703125,
+      "scale_max": 0.0017547607421875,
+      "rms_relative_to_fp32_quantized_reference": 0.005163796711713076,
+      "max_absolute_to_reference": 0.09375,
+      "prefix_shape_change_max_absolute": 0.0,
+      "reference": "FP32 matmul with separately quantized/dequantized input and weights, cast to BF16",
+      "finite": true
+    }
+  ]
+}

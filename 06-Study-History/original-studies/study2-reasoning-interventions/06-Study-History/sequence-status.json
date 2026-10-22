@@ -1,0 +1,7 @@
+{
+  "state": "complete_with_qualification_boundary",
+  "finished_utc": "2026-09-21T05:19:33.513943+00:00",
+  "boundary": "symbolic competence under the fixed 768-token budget",
+  "observed_exit_record": "sequence-status-boundary-exit-v1.json",
+  "explanation": "The collector deliberately exits nonzero after retaining all baseline records when competence fails. The generic coordinator records this as failed; manual reconciliation verified the predeclared scientific boundary and all 24 retained baselines. No conditional mechanism branches were authorized below this gate."
+}

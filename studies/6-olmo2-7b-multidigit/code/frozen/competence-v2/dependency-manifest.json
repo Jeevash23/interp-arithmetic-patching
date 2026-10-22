@@ -1,0 +1,328 @@
+{
+  "kernels_version": "0.17.1",
+  "added_packages": [
+    {
+      "path": ".lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "bin/kernels",
+      "sha256": "32b9bac0bbd6eafd00913b82b08b17bf2a179d9ff9473661504a91f22209b478",
+      "bytes": 449
+    },
+    {
+      "path": "kernels/__init__.py",
+      "sha256": "ba83dbf5d7abd8b801d97069ef204e7edbd2247e103b5065b72620594ca359b2",
+      "bytes": 1857
+    },
+    {
+      "path": "kernels/_rust.abi3.so",
+      "sha256": "15c59cd5d7526458c43c2a9e8bc536e99acace93b8d2300dc07790e441d846b9",
+      "bytes": 5878056
+    },
+    {
+      "path": "kernels/_rust.pyi",
+      "sha256": "2f8270235a0887012ce188dde9dcf9d6f96c5fc611c6ad3167a0cecaaede2a84",
+      "bytes": 18306
+    },
+    {
+      "path": "kernels/_system.py",
+      "sha256": "fe8762db860c89e995a900fb8cb1d966b9377c88f341439275dab4fc2bf5c77a",
+      "bytes": 203
+    },
+    {
+      "path": "kernels/_versions.py",
+      "sha256": "91b645d7b282aaa9271b9c84426f2513ffc6023bbe3b52823bfcf42758ebe5ef",
+      "bytes": 5180
+    },
+    {
+      "path": "kernels/_windows.py",
+      "sha256": "5154339c40074cea5494452634f727a8149bbb9871085306900920d0e63f67b0",
+      "bytes": 744
+    },
+    {
+      "path": "kernels/archs.py",
+      "sha256": "e4204ffccd4028305f4d9f28cc8812aca0883097bdbf81b3c734292292e690a5",
+      "bytes": 4272
+    },
+    {
+      "path": "kernels/backends.py",
+      "sha256": "ffb075216a41b148bba1f79d5b7c17d90d889829c2fa293e7471a9ed83082e73",
+      "bytes": 8187
+    },
+    {
+      "path": "kernels/benchmark.py",
+      "sha256": "82025cc6439b8380351ea43f3fa3de98fe39cba46d531d51cce8eb44cd2b40ba",
+      "bytes": 1294
+    },
+    {
+      "path": "kernels/benchmarks/__init__.py",
+      "sha256": "e4442a01658a3b85fc2499c5ae2e69b05f0df5b83b4db7b059500f7470c6e93a",
+      "bytes": 428
+    },
+    {
+      "path": "kernels/benchmarks/activation.py",
+      "sha256": "03ae8bde20a15342e8edad7d9ac249a28939d9c0d09cfedc655da8ecc7f658c9",
+      "bytes": 2909
+    },
+    {
+      "path": "kernels/benchmarks/attention.py",
+      "sha256": "1e5c8b97caca0096867d4331cf1c0d55bea7271cfd963592839933e6a7e6721c",
+      "bytes": 9353
+    },
+    {
+      "path": "kernels/benchmarks/layer_norm.py",
+      "sha256": "73046b098eeb5e80f4ce47600e041dd62e84277d1e18c7fdaf236da30e3f60b2",
+      "bytes": 6349
+    },
+    {
+      "path": "kernels/cli/__init__.py",
+      "sha256": "46ae13426d9bd654b0316348037e90ace2875c000ae7fb1e40f25322c6e314b4",
+      "bytes": 5276
+    },
+    {
+      "path": "kernels/cli/benchmark.py",
+      "sha256": "7b4a51947d2a6270843672e324ed39bd166c01b810616e7111af312ebeca379e",
+      "bytes": 27111
+    },
+    {
+      "path": "kernels/cli/benchmark_graphics.py",
+      "sha256": "73911d15af6fd29d1613c67eb0d2ab0d50a858ceaf07c574dd443405dcc4f436",
+      "bytes": 22577
+    },
+    {
+      "path": "kernels/cli/download.py",
+      "sha256": "3670551f1d863beed4c239c5c7c1fc06bd8b3a17973367e7cd833e5a5c7a2baf",
+      "bytes": 1427
+    },
+    {
+      "path": "kernels/cli/info.py",
+      "sha256": "793bafb8f908501991128ed42b9238ec2692a02bf94344ddb54fac54c97fa7c8",
+      "bytes": 4864
+    },
+    {
+      "path": "kernels/cli/lock.py",
+      "sha256": "ab0143e21591019a137dd58064267cc26a05c4281f6bf715b5b51547d7d2098f",
+      "bytes": 739
+    },
+    {
+      "path": "kernels/cli/verify_signature.py",
+      "sha256": "170be0f0d674d107e1dec2a73af861b61fe84371c69a7b1c41cbcc3f04800f7a",
+      "bytes": 2865
+    },
+    {
+      "path": "kernels/cli/versions.py",
+      "sha256": "262a3ec7632d344b3a940e456ad98d247bd326f406b665a3ebf15437876feded",
+      "bytes": 761
+    },
+    {
+      "path": "kernels/compat.py",
+      "sha256": "5ad6bfa970a49fd8c90859040b5e3607c86527146843a25ecb457ed531a3b43b",
+      "bytes": 293
+    },
+    {
+      "path": "kernels/deps.py",
+      "sha256": "c131881758b55f9c260d20fe45a32660dfa703abb57a11f5837c3b89bd721341",
+      "bytes": 5322
+    },
+    {
+      "path": "kernels/hf_hub.py",
+      "sha256": "f9fa9f4c03d5a15ebd6d932f52ada11e05834ace1a418f4c42a1303e73c7d4a5",
+      "bytes": 4472
+    },
+    {
+      "path": "kernels/importer.py",
+      "sha256": "010749f0e9ff1d48df619aa68b40f5a3721fc5bd85d8678f721b4051c6b2d9e7",
+      "bytes": 3924
+    },
+    {
+      "path": "kernels/install.py",
+      "sha256": "f51c49f62d940c6d4590ddaca7451b880e6164a70cedb05dd6df16b87cb31c79",
+      "bytes": 3642
+    },
+    {
+      "path": "kernels/layer/__init__.py",
+      "sha256": "4c4170c47e5cf34f2ff34e2bdef5c10eed46d53c2a427c0699a4e907e5455fa1",
+      "bytes": 941
+    },
+    {
+      "path": "kernels/layer/_interval_tree.py",
+      "sha256": "03cbee3fa606910106fa07ac5e521e5043148147f872710efc983a4b9390b7b6",
+      "bytes": 6085
+    },
+    {
+      "path": "kernels/layer/device.py",
+      "sha256": "4b62eb797f09bdb681065802527edc0be1d019c16a74dd37bfbb4be692e93a27",
+      "bytes": 5580
+    },
+    {
+      "path": "kernels/layer/func.py",
+      "sha256": "45b2804c3bf401c67c0890db40f6345e0632df4e98d09bf1d563e35968a56c9c",
+      "bytes": 12062
+    },
+    {
+      "path": "kernels/layer/globals.py",
+      "sha256": "9368047614f2c8bbfcc7921a2f0853f1afcd2553fb868180e8cc9b86f301a4e0",
+      "bytes": 275
+    },
+    {
+      "path": "kernels/layer/kernelize.py",
+      "sha256": "fe2a745fe05f2ecfafca113b3dd7de8b7f224785dc1f4f579561b118cb28efd2",
+      "bytes": 11427
+    },
+    {
+      "path": "kernels/layer/layer.py",
+      "sha256": "d056de1af3e20642df01eaf7d19ce5cc73d9a068c4be3b06e50fddf514f76548",
+      "bytes": 24250
+    },
+    {
+      "path": "kernels/layer/mode.py",
+      "sha256": "aeb1fc5a6eee22696e9f76dfebac52232b9ea40a7b1b46c7148bf721479e37bb",
+      "bytes": 1187
+    },
+    {
+      "path": "kernels/layer/repos.py",
+      "sha256": "3aa07502b4641542ae63ee64d3bb8058aae9cfffdbbff6363be38f53f98e100d",
+      "bytes": 7507
+    },
+    {
+      "path": "kernels/load.py",
+      "sha256": "65652c9f9e4f91c23c25f5291b17216901ff36ea89fdf24084b632d0c07c5618",
+      "bytes": 13799
+    },
+    {
+      "path": "kernels/locking.py",
+      "sha256": "4b0c87adc396b7d2debec08bab02318bcb2341169a0a138927fda413b24260da",
+      "bytes": 5863
+    },
+    {
+      "path": "kernels/python_depends.json",
+      "sha256": "3e412c32521bdcc6bd3379e2dfc7c3cf45c725419580d8852760183a6612a914",
+      "bytes": 820
+    },
+    {
+      "path": "kernels/python_deps.py",
+      "sha256": "222f7b90ab73f158b56159eff35eba0d6c28f1f4ce27efb029afda252e0ea935",
+      "bytes": 3752
+    },
+    {
+      "path": "kernels/resolver.py",
+      "sha256": "4c4704066ceb4aaed9d3002f271d57a3db455cc01fd8c0f192ed32f93cce9968",
+      "bytes": 12957
+    },
+    {
+      "path": "kernels/status.py",
+      "sha256": "b3e4d1b3fa7d45113f7e396a96ff691214577ef27e51a0a3db3b557665b6794c",
+      "bytes": 2461
+    },
+    {
+      "path": "kernels/validate.py",
+      "sha256": "e5c5eef3c9b6dcb331243cb9c6b9b9c79a4767553f4556921fd42e5599acc732",
+      "bytes": 4504
+    },
+    {
+      "path": "kernels/variants.py",
+      "sha256": "c57be0146671b86e449012f5bcd8a32e924a450bc85b5e8021b37f7aa1b70cae",
+      "bytes": 22020
+    },
+    {
+      "path": "kernels/verify.py",
+      "sha256": "d340de42dad1d59cc1ccac52e132f08078c86dd9a686539aad2c6e68e4a6c99e",
+      "bytes": 6775
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/INSTALLER",
+      "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9",
+      "bytes": 2
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/METADATA",
+      "sha256": "5644d31256f16fa2e27bba4de5057f4c90ff30f19e03e8b93fc3918486e41060",
+      "bytes": 3146
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/RECORD",
+      "sha256": "3152983dab2df22322fec00651131793c499913181be4bc3064edf863f9330d7",
+      "bytes": 4143
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/REQUESTED",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/WHEEL",
+      "sha256": "3b91e51afb00e5b710092708799363799659ba72160d63d5b4d5a88dd6bc7524",
+      "bytes": 143
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/entry_points.txt",
+      "sha256": "f338a0a91f793d63a9992a0b7af3635133c66c5d01c13ad95b4897e8c6c05c26",
+      "bytes": 110
+    },
+    {
+      "path": "kernels-0.17.1.dist-info/sboms/kernels-python.cyclonedx.json",
+      "sha256": "e9d9cc74f35ebd84269f5a22e4c9b10970b1cf7718d29277b249d0ae1f19ffb5",
+      "bytes": 105408
+    }
+  ],
+  "kernel_revision": "8c178950e8710e26a2210e4e909cd02dc16c8715",
+  "kernel_source": [
+    {
+      "path": "__init__.py",
+      "sha256": "ce17d7a851e967594fbf4854c1a3a1247c66703ab641c13d47ef5c8157cb4c8e",
+      "bytes": 484
+    },
+    {
+      "path": "_ops.py",
+      "sha256": "ebedf77d611c471e7131056e0f33dbe7cafd04e77416cbf95ede43c627bc20ae",
+      "bytes": 1306
+    },
+    {
+      "path": "batched.py",
+      "sha256": "d59bbd36d2b9798e09a3a86f9f3002438f6e98eb005646170fdd39a75fc175ea",
+      "bytes": 21547
+    },
+    {
+      "path": "bayesian_autotuner.py",
+      "sha256": "8c1518bf27e9107b13060165a6dd93b397a6cfe092332be37354f151f64a56b8",
+      "bytes": 14805
+    },
+    {
+      "path": "fused_batched.py",
+      "sha256": "e712ca6aff1d589a9162429d546c75e2e2fd168331a9e1c21153320407672034",
+      "bytes": 32075
+    },
+    {
+      "path": "fused_grouped.py",
+      "sha256": "55893766cd9c34a4fe9b56254f3c8cdb0de2cdb8128bb5766724c1cefa6f31d0",
+      "bytes": 48538
+    },
+    {
+      "path": "grouped.py",
+      "sha256": "382b03b38f0d0531d4fc6d2ce5e7441576ff9b9a38f3e3200f616ac060c69206",
+      "bytes": 26078
+    },
+    {
+      "path": "matmul.py",
+      "sha256": "0f668b5d9e0e7db0675ea4518052b9320830f64f2468f2ecbcae7d0876336807",
+      "bytes": 27598
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "f4e4197fd78a18198c3fbdf5e4b368b2ad02ed2ce867f3d9dcfd923c461eaf5b",
+      "bytes": 1198
+    },
+    {
+      "path": "metadata.json.sigstore",
+      "sha256": "c92f8d5d44c51acf5cf8ed79910f5a7e5f863bae5f9d2285bc5c426c94884210",
+      "bytes": 10727
+    },
+    {
+      "path": "utils.py",
+      "sha256": "2cb87f98ab385e41c95fdf1e1bec777a25c8e0bb003a357a72c07a53c2b7b5d0",
+      "bytes": 41313
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "source_reserve": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/data/reserve.jsonl",
+ "source_reserve_sha256": "02966f8a1bf9fdac502a47d4c76745a6c532e55f6abc066c622ca50b47b9c81b",
+ "development_equivalence_check": {
+  "reproduced": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/development-with-source-controls.jsonl",
+  "sha256": "0e993773e473e67b9ebdf87edda1c1ba4953d4673cfb2a7a80d59acb5c96f2f1",
+  "identical": true
+ },
+ "files": {
+  "reserve.jsonl": "02966f8a1bf9fdac502a47d4c76745a6c532e55f6abc066c622ca50b47b9c81b",
+  "test-machine-with-source-controls.jsonl": "c6ecf342553eabef0176e23ff358c7f8d0008e679072a61ef8cf252a6da52c41",
+  "test-box-with-source-controls.jsonl": "e0f057d97d73f51c95215b27d67b2f73a872f6a3ea60922d0263def79af5a464"
+ },
+ "pairs": 72,
+ "donor_groups": 24,
+ "recipient_operations": {
+  "add": 24,
+  "sub": 24,
+  "mul": 24
+ },
+ "note": "The box file differs from the machine file only in the family field, which selects the wording."
+}

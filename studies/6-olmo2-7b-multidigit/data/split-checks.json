@@ -1,0 +1,55 @@
+{
+ "earlier_files_scanned": 3268,
+ "earlier_problems": 2588,
+ "splits": {
+  "calibration": {
+   "file": "data/calibration.jsonl",
+   "sha256": "0197be28304727641cb5033687ce2a141f0553b31e2532480e330cc7b2f72de6",
+   "seed": 20261009,
+   "groups": 40,
+   "pairs": 120,
+   "problems": 319,
+   "groups_redrawn_for_overlap": 21,
+   "overlap_with_earlier_data": 0,
+   "overlap_with_earlier_splits": 0,
+   "recipient_operations": {
+    "add": 40,
+    "sub": 40,
+    "mul": 40
+   }
+  },
+  "development": {
+   "file": "data/development.jsonl",
+   "sha256": "39641ec9431538393c63a63c997fd8541c9d9dae9e168aaccc9efac9497b553e",
+   "seed": 20262009,
+   "groups": 12,
+   "pairs": 36,
+   "problems": 95,
+   "groups_redrawn_for_overlap": 5,
+   "overlap_with_earlier_data": 0,
+   "overlap_with_earlier_splits": 0,
+   "recipient_operations": {
+    "add": 12,
+    "sub": 12,
+    "mul": 12
+   }
+  },
+  "test": {
+   "file": "data/test.jsonl",
+   "sha256": "48a6a1bf49ce4d2a47298286a0399d59e556a63afee3814dace088f1411d146d",
+   "seed": 20263009,
+   "groups": 48,
+   "pairs": 144,
+   "problems": 378,
+   "groups_redrawn_for_overlap": 26,
+   "overlap_with_earlier_data": 0,
+   "overlap_with_earlier_splits": 0,
+   "recipient_operations": {
+    "add": 48,
+    "sub": 48,
+    "mul": 48
+   }
+  }
+ },
+ "no_overlap": true
+}

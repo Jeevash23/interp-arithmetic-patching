@@ -1,0 +1,14 @@
+{
+ "development": {
+  "self_check": [[0, "post_operand"], [18, "first_step"]],
+  "direction_sweep_alphas": [1, 4],
+  "direction_sweep_roles": ["a_end", "b_end", "first_stage_end", "prompt_end"],
+  "score_sweep_roles": ["first_stage_end", "prompt_end"],
+  "span_sweep": ["post_operand", "first_step"]
+ },
+ "test": {
+  "direction_sweep_alphas": [1],
+  "direction_sweep_roles": ["a_end", "b_end", "first_stage_end", "prompt_end"],
+  "span_sweep": ["post_operand", "first_step"]
+ }
+}

@@ -1,0 +1,33 @@
+{
+  "split": "development",
+  "groups": 24,
+  "seed": 940031,
+  "ids": [
+    "development-000",
+    "development-001",
+    "development-002",
+    "development-003",
+    "development-004",
+    "development-005",
+    "development-006",
+    "development-007",
+    "development-008",
+    "development-009",
+    "development-010",
+    "development-011",
+    "development-012",
+    "development-013",
+    "development-014",
+    "development-015",
+    "development-016",
+    "development-017",
+    "development-018",
+    "development-019",
+    "development-020",
+    "development-021",
+    "development-022",
+    "development-023"
+  ],
+  "hash": "e3d7198f05fb1ffaafd77a1b564687f520b9af2fead811b81a287c9c0f7f5c35",
+  "status": "generated without model outcomes"
+}

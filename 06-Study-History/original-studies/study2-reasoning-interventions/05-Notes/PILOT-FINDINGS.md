@@ -1,0 +1,15 @@
+# Pilot findings (eight program groups)
+
+The completed v1 pilot contains 24 baselines and all 128 planned continuation attempts. Donor/supplied competence is 8/8 each; recipient competence is 7/8, with one arithmetic failure. All baseline responses naturally completed and parsed. All 16 same-stream no-op continuations exactly match the recipient baseline tokens.
+
+At block 26, donor activation copies the leading digit in 32/32 branches but produces the complete donor numeral and intended complete counterfactual in 0/32. First_z patches return the correct recipient answer in 12/16, produce other numbers in 2/16 and exhaust the cap in 2/16. Label_z patches return the recipient answer in 10/16 and other numbers in 6/16. Full-value text yields 4/16 early and 1/16 late counterfactuals. These are nested branches over eight programs, not 32 independent examples.
+
+Immediate donor-digit minus recipient-digit margin increases average 28.34 logits early and 30.54 late. The complete candidate replay-margin changes average 0.000575 and 0.04936 nats; no activation replay score prefers the counterfactual over the recipient. A/B scales are not equated. Replay fixes the intervening original trace, including original intermediate numerals. Thus its low complete-target scores do not imply a failed measurement implementation.
+
+The operational early reversion signature occurs in 12/16 activation branches: changed first numeral, later original numeral and recipient final. This pattern requires further checks before calling every case active recomputation. One inspected example explicitly computes with 51, produces 46, then recalculates 75+16=91 and 91-5=86. Its intended donor value was not fully transferred. Error-admission words are scored separately and are not a private-belief measurement.
+
+The first integrity audit retains one random vector's absolute norm mismatch (0.0001300; two repeated streams), above 0.0001. The v2 normalization uses float64 for control construction and float32 for the actual write, passes 480 separate audit-vector checks with maximum error 0.000002589, and reruns only the random controls. No tolerance was widened. See RANDOM-OPERATOR-v2.md. Other hook/locality/cache/score checks passed. These pilot results motivate the fixed development search and final null-capable comparison, not a complete-value success claim.
+
+The corrected random-control run and integrity audit are complete. All 32 outputs exactly match the original random controls: early 15/16 recipient and 1/16 other valid; late 14/16 recipient and 2/16 other valid; no complete counterfactual successes. Inferential references use the qualified v2 controls, while retaining the original failed norm audit.
+
+Costs: 28,820 fresh generated tokens; 568.79 seconds inside generation calls, excluding model loading, assays and bookkeeping. Early activation doubled continuation work relative to unchanged early branches (6,583 versus 3,575 tokens). A larger cap could improve completion; it would not by itself establish correction.

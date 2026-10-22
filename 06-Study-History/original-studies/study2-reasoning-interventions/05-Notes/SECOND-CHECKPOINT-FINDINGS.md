@@ -1,0 +1,11 @@
+# Second-checkpoint scope finding
+
+DeepSeek-R1-Distill-Qwen-1.5B was attempted on CPU float32, not substituted with a reduced-precision model. Its initial two-group qualification passed 28/30 checks and failed both required-site checks. Correct visible arithmetic appeared in output formats lacking labelled intervention boundaries.
+
+A single declared explicit-format alternative on the same two audit groups passed all 58 checks, including all six correctly parsed baselines, positive downstream effects, cache/full-recomputation agreement, complete candidate scores and full native/no-op/identity sequence agreement. This qualified the new prompt/instrumentation combination on those audit inputs.
+
+The subsequent four-program panel completed all 12 donor, recipient and supplied baselines under that instruction. Each family passed only 2/4 responses under the predeclared complete-answer grammar, below the >=80% gate. All 12 naturally terminated; six were invalid/conflicting under the parser. The six rejected responses visibly labelled the correct final integer in XML-like or LaTeX boxed formatting. The six accepted responses also had the correct final answer. Thus the observed limit is parser/site-format compatibility, not 50% arithmetic accuracy. The full outputs and a contextual annotation record are retained.
+
+No activation mechanism panel ran, as specified by SECOND-CHECKPOINT-PANEL-v1.md. This does not show absence of transfer or inability of the checkpoint to solve the arithmetic. A more flexible, independently qualified native-format parser/boundary adapter could support a new study; it was not implemented after inspecting these panel outputs. The one alternate-format attempt and its four-program gate define this bounded scope, rather than exhausting all possible model configurations.
+
+Evidence: `04-Results/audits/deepseek-cpu-v1`, `04-Results/audits/deepseek-format-v3`, `04-Results/development/deepseek-panel-v1`, and `04-Results/analysis/second-format-context.json`. The 96-token CPU profile took 31.37 seconds, so a larger replication also carries a materially different compute cost from the primary GPU study. Do not pool either these baselines or the audit groups into the main 64-program estimate.

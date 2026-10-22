@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "raw_feedback_input_hashes",
+      "pass": true
+    },
+    {
+      "name": "failed_competence_gates_reported",
+      "pass": true
+    },
+    {
+      "name": "no_mechanism_grid_on_incompetent_model",
+      "pass": true
+    },
+    {
+      "name": "results/baselines.jsonl",
+      "records": 216,
+      "pass": true
+    },
+    {
+      "name": "format-pilot/results/baselines.jsonl",
+      "records": 54,
+      "pass": true
+    },
+    {
+      "name": "native_null_instrumentation",
+      "pass": true
+    },
+    {
+      "name": "checkpoint_hashes",
+      "pass": true
+    },
+    {
+      "name": "freeze.json",
+      "pass": true
+    },
+    {
+      "name": "format-pilot/freeze.json",
+      "pass": true
+    },
+    {
+      "name": "new_document_links",
+      "pass": true,
+      "broken_links": []
+    }
+  ],
+  "pass": true,
+  "research_question_answered": false,
+  "reserve_evaluated": false
+}

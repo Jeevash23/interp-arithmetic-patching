@@ -1,0 +1,16 @@
+{
+  "fewshot": {
+    "full_role_maps": 216,
+    "prompt_tokens_range": [
+      217,
+      218
+    ]
+  },
+  "compact": {
+    "full_role_maps": 216,
+    "prompt_tokens_range": [
+      69,
+      70
+    ]
+  }
+}

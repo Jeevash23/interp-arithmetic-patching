@@ -1,0 +1,312 @@
+"""Independent verification of Study 4 from the raw journals (written after the freeze).
+
+It shares no code with code/analyze.py or code/stats.py. It checks:
+  1. the freeze: every file in FREEZE.json is unchanged, and every test chunk started after the freeze time;
+  2. the gate: the competence gate recomputed from the calibration journal, including the first-step probes;
+  3. the site selection: recomputed from the development screen journal;
+  4. completeness of the test journals (baselines, source baselines, controls, text controls, layer sweep);
+  5. parsing: every answer equals a fresh strict parse of its text with this model's end strings;
+  6. writes: zero write error, no change at other positions, the write at the tokenizer's position for its role, and
+     for the controls a saved vector whose SHA-256 equals the recorded hash;
+  7. identities: unpatched and self-write outputs equal the recipient baseline;
+  8. outcomes: the answer classes, every rule of PROTOCOL.md section 12 and the verdict, recomputed here and compared
+     with results/<candidate>/test/analysis.json (counts exactly, interval bounds to 1e-6).
+Writes results/verification.json.
+
+  python -B verify.py [split]      # split defaults to test; 'development' runs the same checks on the development run
+"""
+import hashlib
+import json
+import math
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+import numpy as np
+
+import os
+STUDY = Path(os.environ.get('STUDY4_DIR', Path(__file__).resolve().parent))
+CONDITIONS = ['donor', 'unpatched', 'same_example', 'isotropic_delta', 'random_source', 'same_z_decomposition',
+              'same_z_different_answer', 'different_z_same_answer', 'same_leading_different_value', 'text_first_answer_digit']
+VECTOR = {'donor', 'same_example', 'isotropic_delta', 'random_source', 'same_z_decomposition', 'same_z_different_answer',
+          'different_z_same_answer', 'same_leading_different_value'}
+ROLES = ['a_end', 'b_end', 'first_stage_end', 'prompt_end']
+END_STRINGS = {'phi4mini': ['<|end|>', '<|endoftext|>'], 'smollm3': ['<|im_end|>', '<|end_of_text|>'], 'olmo2-1b': ['<|endoftext|>']}
+checks = {}
+
+
+def check(name, ok, detail=None):
+    checks[name] = dict(ok=bool(ok), detail=detail)
+    if not ok:
+        print('FAIL', name, detail if detail is not None else '', flush=True)
+
+
+def sha(p):
+    h = hashlib.sha256()
+    with open(p, 'rb') as f:
+        for chunk in iter(lambda: f.read(1 << 24), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def lines(p):
+    return [json.loads(s) for s in Path(p).read_text().splitlines() if s.strip()]
+
+
+def op(name, x, y):
+    return x + y if name == 'add' else x - y if name == 'sub' else x * y
+
+
+def lgamma_beta_cdf(x, a, b):
+    """Regularized incomplete beta by Simpson integration in log space is too slow; use the binomial identity instead:
+    for integer a, b, I_x(a, b) = P(Binomial(a + b - 1, x) >= a)."""
+    n = a + b - 1
+    return sum(math.comb(n, j) * x ** j * (1 - x) ** (n - j) for j in range(a, n + 1))
+
+
+def exact(k, n):
+    def solve(f, target):
+        lo, hi = 0.0, 1.0
+        for _ in range(100):
+            mid = (lo + hi) / 2
+            if f(mid) < target:
+                lo = mid
+            else:
+                hi = mid
+        return (lo + hi) / 2
+    lower = 0.0 if k == 0 else solve(lambda x: lgamma_beta_cdf(x, k, n - k + 1), 0.025)
+    upper = 1.0 if k == n else solve(lambda x: lgamma_beta_cdf(x, k + 1, n - k), 0.975)
+    return lower, upper
+
+
+def cluster(values, groups, resamples=10000, seed=20261009):
+    keys = sorted(set(groups))
+    pos = {g: j for j, g in enumerate(keys)}
+    s = np.zeros(len(keys)); c = np.zeros(len(keys))
+    for v, g in zip(values, groups):
+        s[pos[g]] += float(v); c[pos[g]] += 1
+    draws = np.random.default_rng(seed).integers(0, len(keys), (resamples, len(keys)))
+    m = s[draws].sum(1) / c[draws].sum(1)
+    return float(np.quantile(m, 0.025)), float(np.quantile(m, 0.975))
+
+
+def estimate(flags, groups):
+    keep = [(bool(f), g) for f, g in zip(flags, groups) if f is not None]
+    k, n = sum(f for f, _ in keep), len(keep)
+    if n == 0:
+        return dict(k=0, n=0, rate=None, lower=None, upper=None)
+    lo, hi = exact(k, n)
+    cl, ch = cluster([f for f, _ in keep], [g for _, g in keep])
+    return dict(k=k, n=n, rate=k / n, lower=min(lo, cl), upper=max(hi, ch))
+
+
+def informative(row):
+    yd, yr, cf = row['donor']['y'], row['recipient']['y'], row['predictions']['counterfactual']
+    s1, s2 = int(str(yd)[0] + str(yr)[1:]), int(str(yr)[0] + str(yd)[1:])
+    return len(str(yd)) == len(str(yr)) and str(yd)[0] != str(yr)[0] and s1 not in (yd, yr, cf) and s2 not in (yd, yr, cf)
+
+
+def answer_class(ans, row, unpatched, donor_run):
+    yd, yr = row['donor']['y'], row['recipient']['y']
+    if ans is None:
+        return 'invalid'
+    if ans == unpatched:
+        return 'unchanged'
+    if ans == donor_run:
+        return 'copy'
+    if ans == row['predictions']['counterfactual']:
+        return 'counterfactual'
+    if informative(row):
+        zd, zr = row['donor']['z'], row['recipient']['z']
+        if ans == int(str(yd)[0] + str(yr)[1:]):
+            return 'splice'
+        if ans == op(row['recipient']['remaining'], int(str(zd)[0] + str(zr)[1:]), row['recipient']['k']):
+            return 'intermediate_splice'
+        if ans == int(str(yr)[0] + str(yd)[1:]):
+            return 'reverse_splice'
+        if str(ans)[0] == str(yd)[0] and len(str(ans)) == len(str(yd)):
+            return 'partial'
+    return 'other'
+
+
+def close(a, b):
+    return (a is None and b is None) or (a is not None and b is not None and abs(a - b) <= 1e-6)
+
+
+def main():
+    split = sys.argv[1] if len(sys.argv) > 1 else 'test'
+    freeze = json.loads((STUDY / 'FREEZE.json').read_text()) if (STUDY / 'FREEZE.json').exists() else None
+    candidate = freeze['candidate'] if freeze else json.loads((STUDY / 'results/candidates.json').read_text()).get('selected')
+    res = STUDY / 'results' / candidate / split
+    if split == 'test':
+        changed = [rel for rel, d in freeze['sha256'].items() if sha(STUDY / rel) != d]
+        check('freeze: all frozen files unchanged', not changed, changed)
+        chunks = lines(res / 'chunks.jsonl')
+        check('freeze: every test chunk started after the freeze', all(c['started_utc'] > freeze['frozen_at_utc'] for c in chunks), len(chunks))
+    ends = END_STRINGS[candidate]
+    pattern = re.compile('|'.join(re.escape(e) for e in ends))
+    parse = lambda t: (lambda b: int(b) if re.fullmatch(r'-?[0-9]+', b) else None)(pattern.sub('', t).strip())
+    # 2. gate
+    cal = STUDY / 'results' / candidate / 'calibration'
+    cb = {r['key']: r for r in lines(cal / 'baselines.jsonl')}
+    crows = lines(STUDY / 'data/calibration.jsonl')
+    rate = {c: sum(cb[f"{r['id']}/{c}"]['answer'] == cb[f"{r['id']}/{c}"]['target'] for r in crows) / len(crows)
+            for c in ['donor_full', 'recipient_full', 'textual_counterfactual', 'donor_first', 'recipient_first']}
+    triple = sum(all(cb[f"{r['id']}/{c}"]['answer'] == cb[f"{r['id']}/{c}"]['target'] for c in ['donor_full', 'recipient_full', 'textual_counterfactual'])
+                 for r in crows) / len(crows)
+    gate = all(v >= 0.9 for v in rate.values()) and triple >= 0.8
+    inst = json.loads((cal / 'instrumentation.json').read_text())['pass_check']
+    recorded_gate = json.loads((cal / 'gate.json').read_text())['pass_check']
+    check('gate recomputed from the calibration journal', (gate and inst) == recorded_gate, dict(rates=rate, triple=triple, instrumentation=inst))
+    # 3. site selection
+    scr = lines(STUDY / 'results' / candidate / 'development/screen.jsonl')
+    target = {'prompt_end': 'counterfactual', 'first_stage_end': 'counterfactual', 'a_end': 'first_operand_substitution',
+              'b_end': 'second_operand_substitution'}
+    sel = {}
+    for role in ROLES:
+        means = {}
+        for r in scr:
+            if r['role'] == role:
+                means.setdefault(r['layer'], []).append(math.exp(r['log_probability'][target[role]]))
+        best = sorted(means, key=lambda l: (-sum(means[l]) / len(means[l]), l))[0]
+        sel[role] = best
+    summary = json.loads((STUDY / 'results' / candidate / 'development/screen-summary.json').read_text())
+    recorded_sel = {s['role']: s['layer'] for s in summary['selected']}
+    check('site selection recomputed from the screen journal', sel == recorded_sel, dict(recomputed=sel, recorded=recorded_sel))
+    sites = [(recorded_sel[r], r) for r in ['a_end', 'b_end', 'first_stage_end', 'prompt_end']]
+    # 4. completeness
+    rows = lines(STUDY / 'data' / f'{split}.jsonl')
+    ids = [r['id'] for r in rows]; groups = [r['group'] for r in rows]
+    base = {r['key']: r for r in lines(res / 'baselines.jsonl')}
+    src = {r['key']: r for r in lines(res / 'source-baselines.jsonl')}
+    ctl = lines(res / 'controls.jsonl'); by = {(r['id'], r['layer'], r['role'], r['condition']): r for r in ctl}
+    txt = {r['key']: r for r in lines(res / 'text-controls.jsonl')}
+    swp = lines(res / 'sweep.jsonl'); sw = {(r['id'], r['layer'], r['condition']): r for r in swp}
+    layers = 1 + max(r['layer'] for r in scr)
+    check(f'{split}: baselines complete', set(base) == {f'{i}/{c}' for i in ids for c in ['donor_full', 'recipient_full', 'donor_first',
+                                                                                         'recipient_first', 'recipient_remaining', 'textual_counterfactual']}, len(base))
+    check(f'{split}: source baselines complete', set(src) == {f"{r['id']}/{n}/{c}" for r in rows for n in r['controls'] for c in ['full', 'first', 'target_remaining']}, len(src))
+    check(f'{split}: controls complete and unique', set(by) == {(i, l, r, c) for i in ids for l, r in sites for c in CONDITIONS} and len(ctl) == len(by), len(ctl))
+    check(f'{split}: text controls complete', set(txt) == ({f'{i}/text_first_generated_donor_digit' for i in ids}
+                                                           | {f'{i}/{l}/{r}/text_activation_first_token' for i in ids for l, r in sites}), len(txt))
+    check(f'{split}: layer sweep complete', set(sw) == {(i, l, c) for i in ids for l in range(layers) for c in ['donor', 'same_leading_different_value']}
+          and len(swp) == len(sw), len(swp))
+    # 5. parsing
+    recs = list(base.values()) + list(src.values()) + ctl + list(txt.values()) + swp
+    bad = [r['key'] for r in recs if parse(r['text']) != r['answer']]
+    check(f'{split}: answers equal a fresh strict parse', not bad, bad[:5])
+    # 6. writes and positions
+    from transformers import AutoTokenizer
+    tok = AutoTokenizer.from_pretrained(STUDY / 'tokenizers' / candidate, local_files_only=True)
+    sys.path.insert(0, str(STUDY / 'code/frozen'))
+    from tasks import prompt as task_prompt
+    positions = {}
+    pos_bad = []
+    for row in rows:
+        text, spans = task_prompt(row['recipient'], row['family'])
+        rec = base[row['id'] + '/recipient_full']
+        enc = tok(rec['serialized_prompt'], add_special_tokens=False, return_offsets_mapping=True)
+        if enc['input_ids'] != rec['prompt_ids']:
+            pos_bad.append(row['id'] + ':ids')
+        start = rec['serialized_prompt'].rindex(text)
+        p = {'prompt_end': len(enc['input_ids']) - 1}
+        for name, end in spans.items():
+            p[name] = max(j for j, (a, b) in enumerate(enc['offset_mapping']) if start < b <= start + end)
+        positions[row['id']] = p
+    import torch
+    vectors = torch.load(res / 'control-vectors.pt', weights_only=True, map_location='cpu')
+    write_bad, hash_bad = [], []
+    for r in ctl:
+        if r['positions'] != positions[r['id']]:
+            pos_bad.append(r['key'])
+        if r['condition'] in VECTOR:
+            w = r['write']
+            if not (w.get('write_error') == 0 and w.get('other_positions_max_change') == 0 and w.get('position') == positions[r['id']][r['role']]
+                    and w.get('layer') == r['layer']):
+                write_bad.append(r['key'])
+            v = vectors[r['key']]
+            if hashlib.sha256(v.contiguous().view(torch.uint8).numpy().tobytes()).hexdigest() != r['source_hash']:
+                hash_bad.append(r['key'])
+        elif r['write']:
+            write_bad.append(r['key'] + ':unexpected')
+    for r in swp:
+        w = r['write']
+        if not (w.get('write_error') == 0 and w.get('other_positions_max_change') == 0
+                and w.get('position') == positions[r['id']]['prompt_end'] and w.get('layer') == r['layer']):
+            write_bad.append(r['key'])
+    check(f'{split}: write positions equal the tokenizer positions', not pos_bad, pos_bad[:5])
+    check(f'{split}: every write hit only its target', not write_bad, write_bad[:5])
+    check(f'{split}: saved control vectors match recorded hashes', not hash_bad, len(hash_bad))
+    # 7. identities
+    ident = sum(by[i, l, r, c]['output_ids'] == base[i + '/recipient_full']['output_ids'] for i in ids for l, r in sites for c in ['unpatched', 'same_example'])
+    check(f'{split}: unpatched and self writes equal the baseline', ident == 2 * len(ids) * len(sites), ident)
+    # 8. outcomes and verdict
+    an = json.loads((res / 'analysis.json').read_text())
+    ap_site = (recorded_sel['prompt_end'], 'prompt_end')
+    cls = [answer_class(by[i, ap_site[0], 'prompt_end', 'donor']['answer'], row, base[i + '/recipient_full']['answer'],
+                        base[i + '/donor_full']['answer']) for i, row in zip(ids, rows)]
+    check(f'{split}: answer classes recomputed', dict(Counter(cls)) == an['answer_prefix']['class_counts'],
+          dict(recomputed=dict(Counter(cls)), recorded=an['answer_prefix']['class_counts']))
+    inf = [j for j, row in enumerate(rows) if informative(row)]
+    e = {}
+    e['changed'] = estimate([c != 'unchanged' for c in cls], groups)
+    e['splice_or_partial'] = estimate([cls[j] in ('splice', 'intermediate_splice', 'partial') for j in inf], [groups[j] for j in inf])
+    e['counterfactual'] = estimate([c == 'counterfactual' for c in cls], groups)
+    e['copy'] = estimate([c == 'copy' for c in cls], groups)
+    rec_ans = {i: base[i + '/recipient_full']['answer'] for i in ids}
+    e['identical'] = estimate([by[i, ap_site[0], 'prompt_end', 'donor']['output_ids'] == by[i, ap_site[0], 'prompt_end', 'same_leading_different_value']['output_ids']
+                               and by[i, ap_site[0], 'prompt_end', 'donor']['answer'] != rec_ans[i] for i in ids], groups)
+    ref = an['answer_prefix']
+    pairs = [('changed', 'changed'), ('splice_or_partial', 'splice_or_partial'), ('counterfactual', 'counterfactual'), ('copy', 'copy'),
+             ('identical', 'identical_changed_output_same_leading')]
+    mism = [(m, (e[m]['k'], e[m]['n'], e[m]['lower'], e[m]['upper']), (ref[a]['k'], ref[a]['n'], ref[a]['lower'], ref[a]['upper']))
+            for m, a in pairs if (e[m]['k'], e[m]['n']) != (ref[a]['k'], ref[a]['n']) or not close(e[m]['lower'], ref[a]['lower']) or not close(e[m]['upper'], ref[a]['upper'])]
+    check(f'{split}: rule inputs recomputed', not mism, mism)
+    r1 = 'H1' if e['splice_or_partial']['upper'] < 0.15 else 'H2' if e['splice_or_partial']['rate'] >= 0.15 and e['splice_or_partial']['lower'] > 0.05 else 'inconclusive'
+    r2 = 'H1' if e['identical']['upper'] < 0.20 else 'H2' if e['identical']['rate'] >= 0.30 and e['identical']['lower'] > 0.10 else 'inconclusive'
+    r0 = e['changed']['rate'] >= 0.20
+    r3 = e['counterfactual']['rate'] >= 0.20
+    cc = Counter(c for c in cls if c != 'unchanged')
+    r4 = cc.get('copy', 0) > 0 and all(cc.get('copy', 0) >= n for k, n in cc.items() if k != 'copy') and e['copy']['lower'] > 0.10
+    if r3:
+        verdict = 'complete transfer (R3): neither account'
+    elif r0 and r4 and r1 == 'H1' and r2 == 'H1':
+        verdict = 'H1 supported'
+    elif r0 and 'H2' in (r1, r2) and 'H1' not in (r1, r2):
+        verdict = 'H2 supported'
+    elif 'H1' in (r1, r2) and 'H2' in (r1, r2):
+        verdict = 'inconclusive (mixed: R1 and R2 point in opposite directions)'
+    else:
+        verdict = 'inconclusive'
+    recorded = an['decisions']['verdict']
+    check(f'{split}: verdict re-derived', recorded.startswith(verdict), dict(recomputed=verdict, recorded=recorded, R0=r0, R1=r1, R2=r2, R3=r3, R4=r4))
+    # Operand control and sweep rule.
+    ok_op = True
+    for name, role, which in [('first_operand', 'a_end', 'first'), ('second_operand', 'b_end', 'second')]:
+        l = recorded_sel[role]
+        flags, gr = [], []
+        for row, g in zip(rows, groups):
+            i, d, r = row['id'], row['donor'], row['recipient']
+            f = lambda z: op(r['remaining'], z, r['k'])
+            pred = f(op(r['first'], d['a'], r['b'])) if which == 'first' else f(op(r['first'], r['a'], d['b']))
+            if pred != rec_ans[i]:
+                flags.append(by[i, l, role, 'donor']['answer'] == pred); gr.append(g)
+        x = estimate(flags, gr); y = an['operand_sites'][name]['operand_substitution']
+        ok_op &= (x['k'], x['n']) == (y['k'], y['n']) and close(x['lower'], y['lower'])
+    check(f'{split}: operand-site outcomes recomputed', ok_op)
+    h2_blocks = []
+    for l in range(layers):
+        c2 = [answer_class(sw[i, l, 'donor']['answer'], row, rec_ans[i], base[i + '/donor_full']['answer']) for i, row in zip(ids, rows)]
+        x = estimate([c2[j] in ('splice', 'intermediate_splice', 'partial') for j in inf], [groups[j] for j in inf])
+        if x['n'] and x['rate'] >= 0.25 and x['lower'] > 0.10:
+            h2_blocks.append(l)
+    check(f'{split}: sweep rule recomputed', h2_blocks == an['decisions']['sweep']['h2_blocks'], dict(recomputed=h2_blocks, recorded=an['decisions']['sweep']['h2_blocks']))
+    result = dict(split=split, candidate=candidate, all_passed=all(c['ok'] for c in checks.values()), checks=checks)
+    out = STUDY / 'results' / ('verification.json' if split == 'test' else f'verification-{split}.json')
+    out.write_text(json.dumps(result, indent=1, default=str) + '\n')
+    print('all passed' if result['all_passed'] else 'FAILURES', sum(c['ok'] for c in checks.values()), '/', len(checks))
+
+
+if __name__ == '__main__':
+    main()

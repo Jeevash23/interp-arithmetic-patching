@@ -1,0 +1,45 @@
+{
+  "run": "final/qwen06-main-v1",
+  "phase": "final",
+  "gate": "04-Results/audits/random-operator-v2/checks.json",
+  "protocol": "05-Notes/protocols/DEVELOPMENT-v2-execution.md",
+  "data": "03-Data/generated/final.json",
+  "groups": 64,
+  "baseline_seed": 945001,
+  "continuation_seeds": [
+    945001,
+    945002
+  ],
+  "random_seed": 945101,
+  "competence_gate": 0.8,
+  "engine": {},
+  "sites": [
+    {
+      "boundary": "label_z",
+      "layer": 20
+    },
+    {
+      "boundary": "label_z",
+      "layer": 26
+    }
+  ],
+  "conditions": [
+    "unchanged",
+    "activation"
+  ],
+  "baseline_source": null,
+  "reuse_identical_unchanged": true,
+  "selection": "05-Notes/protocols/frozen-selection-v1.json",
+  "reuse_baseline_assays": true,
+  "freeze_extra": [
+    "05-Notes/protocols/FINAL-EXECUTION-v3.md",
+    "04-Results/audits/baseline-score-identity-v1.json",
+    "05-Notes/protocols/DEVELOPMENT-v1.md",
+    "02-Code/select_sites.py",
+    "02-Code/final_analysis.py",
+    "02-Code/analyze.py",
+    "02-Code/trajectory_audit.py",
+    "02-Code/verify_run.py",
+    "06-Study-History/environment/model-files.json"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "run": "pilot/qwen06-random-repair-v2",
+  "phase": "pilot",
+  "gate": "04-Results/audits/random-operator-v2/checks.json",
+  "protocol": "05-Notes/protocols/RANDOM-OPERATOR-v2.md",
+  "data": "03-Data/generated/pilot.json",
+  "groups": 8,
+  "baseline_seed": 941001,
+  "continuation_seeds": [
+    941001,
+    941002
+  ],
+  "random_seed": 941101,
+  "competence_gate": 0.8,
+  "engine": {},
+  "sites": [
+    {
+      "boundary": "first_z",
+      "layer": 26
+    },
+    {
+      "boundary": "label_z",
+      "layer": 26
+    }
+  ],
+  "conditions": [
+    "random"
+  ],
+  "baseline_source": "pilot/qwen06-pilot-v1"
+}

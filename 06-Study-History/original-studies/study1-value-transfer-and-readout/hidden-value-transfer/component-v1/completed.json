@@ -1,0 +1,14 @@
+{
+  "finished": true,
+  "components": {
+    "attention": {
+      "completed": true,
+      "stopped": false
+    },
+    "mlp": {
+      "completed": true,
+      "stopped": false
+    }
+  },
+  "reserve_evaluated": false
+}

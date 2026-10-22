@@ -1,0 +1,5 @@
+{
+  "candidate": "qwen4b",
+  "format": "fewshot",
+  "source_freeze_sha256": "16a6f887c907f85117b3185c9fb9585c28a0c402b2107df910618726bd38ef25"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "symbolic-000",
+    "split": "symbolic_qualification",
+    "template": 0,
+    "donor": {
+      "z": 58,
+      "y": 44
+    },
+    "recipient": {
+      "z": 80,
+      "y": 84
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 101. Mapping A: 101 -> 58; 201 -> 52. Mapping B: 58 -> 44; 80 -> 36; 52 -> 84.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 201. Mapping A: 201 -> 80; 101 -> 52. Mapping B: 58 -> 36; 80 -> 84; 52 -> 44.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 58. Apply only mapping B: 58 -> 36; 80 -> 84; 52 -> 44.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 36,
+      "recipient": 84,
+      "donor_answer": 44
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-001",
+    "split": "symbolic_qualification",
+    "template": 1,
+    "donor": {
+      "z": 67,
+      "y": 65
+    },
+    "recipient": {
+      "z": 61,
+      "y": 89
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 102. Mapping A: 102 -> 67; 202 -> 75. Mapping B: 67 -> 65; 61 -> 39; 75 -> 89.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 202. Mapping A: 202 -> 61; 102 -> 75. Mapping B: 67 -> 39; 61 -> 89; 75 -> 65.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 67. Apply only mapping B: 67 -> 39; 61 -> 89; 75 -> 65.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 39,
+      "recipient": 89,
+      "donor_answer": 65
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-002",
+    "split": "symbolic_qualification",
+    "template": 0,
+    "donor": {
+      "z": 83,
+      "y": 52
+    },
+    "recipient": {
+      "z": 54,
+      "y": 49
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 103. Mapping A: 103 -> 83; 203 -> 72. Mapping B: 83 -> 52; 54 -> 50; 72 -> 49.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 203. Mapping A: 203 -> 54; 103 -> 72. Mapping B: 83 -> 50; 54 -> 49; 72 -> 52.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 83. Apply only mapping B: 83 -> 50; 54 -> 49; 72 -> 52.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 50,
+      "recipient": 49,
+      "donor_answer": 52
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-003",
+    "split": "symbolic_qualification",
+    "template": 1,
+    "donor": {
+      "z": 61,
+      "y": 85
+    },
+    "recipient": {
+      "z": 35,
+      "y": 41
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 104. Mapping A: 104 -> 61; 204 -> 73. Mapping B: 61 -> 85; 35 -> 63; 73 -> 41.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 204. Mapping A: 204 -> 35; 104 -> 73. Mapping B: 61 -> 63; 35 -> 41; 73 -> 85.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 61. Apply only mapping B: 61 -> 63; 35 -> 41; 73 -> 85.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 63,
+      "recipient": 41,
+      "donor_answer": 85
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-004",
+    "split": "symbolic_qualification",
+    "template": 0,
+    "donor": {
+      "z": 52,
+      "y": 67
+    },
+    "recipient": {
+      "z": 79,
+      "y": 80
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 105. Mapping A: 105 -> 52; 205 -> 83. Mapping B: 52 -> 67; 79 -> 57; 83 -> 80.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 205. Mapping A: 205 -> 79; 105 -> 83. Mapping B: 52 -> 57; 79 -> 80; 83 -> 67.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 52. Apply only mapping B: 52 -> 57; 79 -> 80; 83 -> 67.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 57,
+      "recipient": 80,
+      "donor_answer": 67
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-005",
+    "split": "symbolic_qualification",
+    "template": 1,
+    "donor": {
+      "z": 39,
+      "y": 51
+    },
+    "recipient": {
+      "z": 71,
+      "y": 56
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 106. Mapping A: 106 -> 39; 206 -> 64. Mapping B: 39 -> 51; 71 -> 33; 64 -> 56.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 206. Mapping A: 206 -> 71; 106 -> 64. Mapping B: 39 -> 33; 71 -> 56; 64 -> 51.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 39. Apply only mapping B: 39 -> 33; 71 -> 56; 64 -> 51.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 33,
+      "recipient": 56,
+      "donor_answer": 51
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-006",
+    "split": "symbolic_qualification",
+    "template": 0,
+    "donor": {
+      "z": 36,
+      "y": 65
+    },
+    "recipient": {
+      "z": 63,
+      "y": 61
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 107. Mapping A: 107 -> 36; 207 -> 79. Mapping B: 36 -> 65; 63 -> 68; 79 -> 61.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 207. Mapping A: 207 -> 63; 107 -> 79. Mapping B: 36 -> 68; 63 -> 61; 79 -> 65.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 36. Apply only mapping B: 36 -> 68; 63 -> 61; 79 -> 65.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 68,
+      "recipient": 61,
+      "donor_answer": 65
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  },
+  {
+    "id": "symbolic-007",
+    "split": "symbolic_qualification",
+    "template": 1,
+    "donor": {
+      "z": 47,
+      "y": 44
+    },
+    "recipient": {
+      "z": 61,
+      "y": 58
+    },
+    "donor_prompt": "Apply mapping A, then mapping B. Start at 108. Mapping A: 108 -> 47; 208 -> 32. Mapping B: 47 -> 44; 61 -> 33; 32 -> 58.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "recipient_prompt": "Apply mapping A, then mapping B. Start at 208. Mapping A: 208 -> 61; 108 -> 32. Mapping B: 47 -> 33; 61 -> 58; 32 -> 44.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "supplied_prompt": "The intermediate state is supplied as 47. Apply only mapping B: 47 -> 33; 61 -> 58; 32 -> 44.\nThese numbers are state labels. Follow the lookup arrows, without arithmetic. Report exactly two final lines:\nIntermediate: <integer>\nFinal: <integer>",
+    "hypotheses": {
+      "counterfactual": 33,
+      "recipient": 58,
+      "donor_answer": 44
+    },
+    "collisions": {},
+    "task_family": "two_lookup_composition"
+  }
+]

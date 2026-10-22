@@ -1,0 +1,600 @@
+{
+ "analysis": "transfer-rates",
+ "status": "post hoc (written 9 October 2026, after all outcomes were seen)",
+ "inputs": {
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results/seed-20262909/interventions.jsonl": "16f6288158d5daaad7a78aa66df8f1082958530a00db84102c3650fb729ede89",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/followup-readout/results/seed-20263909/interventions.jsonl": "3bdb18346350092f2835a19b265a9bb022b971f1d2757bef3eedfec032ee4eda",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/eligible-sites/controls.jsonl": "61a9b2da11f8c1d17c7b5770c4c6b93b171a47ba1f7950ff43b62537ba4f8f7e",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/results/qwen4b-fewshot/controls.jsonl": "73a608d6375eb222b547759a692813aeb6bde04d2367b84b4d2fb63551745440",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/attention/controls.jsonl": "17f17ab965b87fca5aa7a316c23cf6958fc8478be01ca3a07a6017a0646c8821",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/component-v1/results/mlp/controls.jsonl": "339020bf281f54e9e09015405522573a2ee475cad70d40e2a3dc17ab7cbc3cb4",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/results/controls.jsonl": "61521abafff1e927698df72c0073147b3eda42a5a0be37c0d2144795eaf744e7",
+  "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/subspace-v1/value-digit-qualified-sources/results/controls.jsonl": "bfb06bc142d1d4a323ca70fec0894137d31242a7352a98faf0e057864e7e9739",
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/development/qwen06-development-v2/records.jsonl": "902c0b31a57d9918dcf18b2ba929bcb450485e8ecc6ecaee3b6462f11aa03ce8",
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-controls-v1/records.jsonl": "f77c9bfd665cb73f8fb0cd3577b698ed7eb27e1824a4e35e7cae49908446bfaf",
+  "06-Study-History/original-studies/study2-reasoning-interventions/04-Results/final/qwen06-main-v1/records.jsonl": "b35168a0744dd0af5b8d770f7fb8382f91d1fb3cca5cc5b12abbc8b197e9b21d"
+ },
+ "study2_qwen3_06b": {
+  "heldout/label_z-L20": {
+   "k": 0,
+   "n": 128,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.028408053443543857
+   ],
+   "upper95_one_sided": 0.0231324052517467,
+   "clusters": {
+    "unit": "program",
+    "count": 64,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.0457297023307624
+   }
+  },
+  "heldout/label_z-L26": {
+   "k": 0,
+   "n": 128,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.028408053443543857
+   ],
+   "upper95_one_sided": 0.0231324052517467,
+   "clusters": {
+    "unit": "program",
+    "count": 64,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.0457297023307624
+   }
+  },
+  "heldout/both_sites": {
+   "k": 0,
+   "n": 256,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.014306362729039346
+   ],
+   "upper95_one_sided": 0.011633876163163304,
+   "clusters": {
+    "unit": "program",
+    "count": 64,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.0457297023307624
+   }
+  },
+  "controls/first_z-L26/activation": {
+   "k": 0,
+   "n": 32,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.10888116067935288
+   ],
+   "upper95_one_sided": 0.08936819898626475,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.17074972298248087
+   }
+  },
+  "controls/first_z-L26/text_digit": {
+   "k": 0,
+   "n": 32,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.10888116067935288
+   ],
+   "upper95_one_sided": 0.08936819898626475,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.17074972298248087
+   }
+  },
+  "controls/first_z-L26/text_full": {
+   "k": 5,
+   "n": 32,
+   "p": 0.15625,
+   "exact95": [
+    0.05275056440213405,
+    0.3278787656820418
+   ],
+   "upper95_one_sided": 0.30084169426544805,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 4,
+    "upper95_one_sided_any_success": 0.4843964210936692,
+    "bootstrap95": [
+     0.03125,
+     0.3125
+    ]
+   }
+  },
+  "controls/label_z-L26/activation": {
+   "k": 0,
+   "n": 32,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.10888116067935288
+   ],
+   "upper95_one_sided": 0.08936819898626475,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.17074972298248087
+   }
+  },
+  "controls/label_z-L26/text_digit": {
+   "k": 0,
+   "n": 32,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.10888116067935288
+   ],
+   "upper95_one_sided": 0.08936819898626475,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.17074972298248087
+   }
+  },
+  "controls/label_z-L26/text_full": {
+   "k": 3,
+   "n": 32,
+   "p": 0.09375,
+   "exact95": [
+    0.019767180173284882,
+    0.25022695068379475
+   ],
+   "upper95_one_sided": 0.22481610858922568,
+   "clusters": {
+    "unit": "program",
+    "count": 16,
+    "with_success": 3,
+    "upper95_one_sided_any_success": 0.4165722807061528,
+    "bootstrap95": [
+     0.0,
+     0.1875
+    ]
+   }
+  },
+  "development/first_z-L13": {
+   "k": 0,
+   "n": 48,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.07397278534728019
+   ],
+   "upper95_one_sided": 0.060503409348894255,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.11734615615494876
+   }
+  },
+  "development/first_z-L20": {
+   "k": 2,
+   "n": 48,
+   "p": 0.041666666666666664,
+   "exact95": [
+    0.005086467930032923,
+    0.14254097320137743
+   ],
+   "upper95_one_sided": 0.1254144044744802,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 2,
+    "upper95_one_sided_any_success": 0.23980101612880173,
+    "bootstrap95": [
+     0.0,
+     0.10416666666666667
+    ]
+   }
+  },
+  "development/first_z-L26": {
+   "k": 2,
+   "n": 48,
+   "p": 0.041666666666666664,
+   "exact95": [
+    0.005086467930032923,
+    0.14254097320137743
+   ],
+   "upper95_one_sided": 0.1254144044744802,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 2,
+    "upper95_one_sided_any_success": 0.23980101612880173,
+    "bootstrap95": [
+     0.0,
+     0.10416666666666667
+    ]
+   }
+  },
+  "development/label_z-L13": {
+   "k": 0,
+   "n": 48,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.07397278534728019
+   ],
+   "upper95_one_sided": 0.060503409348894255,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.11734615615494876
+   }
+  },
+  "development/label_z-L20": {
+   "k": 0,
+   "n": 48,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.07397278534728019
+   ],
+   "upper95_one_sided": 0.060503409348894255,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.11734615615494876
+   }
+  },
+  "development/label_z-L26": {
+   "k": 4,
+   "n": 48,
+   "p": 0.08333333333333333,
+   "exact95": [
+    0.02317349513676098,
+    0.19982801419938095
+   ],
+   "upper95_one_sided": 0.18063652079730358,
+   "clusters": {
+    "unit": "program",
+    "count": 24,
+    "with_success": 2,
+    "upper95_one_sided_any_success": 0.23980101612880173,
+    "bootstrap95": [
+     0.0,
+     0.20833333333333334
+    ]
+   }
+  }
+ },
+ "readout_qwen3_06b": {
+  "activation": {
+   "k": 16,
+   "n": 240,
+   "p": 0.06666666666666667,
+   "exact95": [
+    0.038582841144730595,
+    0.10600647593045182
+   ],
+   "upper95_one_sided": 0.09949666563727205,
+   "clusters": {
+    "unit": "program group",
+    "count": 30,
+    "with_success": 7,
+    "upper95_one_sided_any_success": 0.39394742252236326,
+    "bootstrap95": [
+     0.025,
+     0.11666666666666667
+    ]
+   }
+  },
+  "text_first_digit": {
+   "k": 14,
+   "n": 240,
+   "p": 0.058333333333333334,
+   "exact95": [
+    0.03225487324619297,
+    0.09593736239280087
+   ],
+   "upper95_one_sided": 0.0896914595388199,
+   "clusters": {
+    "unit": "program group",
+    "count": 30,
+    "with_success": 6,
+    "upper95_one_sided_any_success": 0.3570091145616531,
+    "bootstrap95": [
+     0.016666666666666666,
+     0.10416666666666667
+    ]
+   }
+  },
+  "text_full_value": {
+   "k": 151,
+   "n": 240,
+   "p": 0.6291666666666667,
+   "exact95": [
+    0.5646765405983609,
+    0.6904229852851338
+   ],
+   "upper95_one_sided": 0.6811244178027254,
+   "clusters": {
+    "unit": "program group",
+    "count": 30,
+    "with_success": 29,
+    "upper95_one_sided_any_success": 0.9982916843555343,
+    "bootstrap95": [
+     0.5458333333333333,
+     0.7083333333333334
+    ]
+   },
+   "generated": 238
+  }
+ },
+ "qwen3_4b": {
+  "whole_vector/Block 20, first operand": {
+   "k": 0,
+   "n": 36,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.0973937559144919
+   ],
+   "upper95_one_sided": 0.07984650951989442,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2209221919455558
+   }
+  },
+  "whole_vector/Block 9, first operand": {
+   "k": 0,
+   "n": 36,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.0973937559144919
+   ],
+   "upper95_one_sided": 0.07984650951989442,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2209221919455558
+   }
+  },
+  "whole_vector/Block 10, first operand": {
+   "k": 0,
+   "n": 36,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.0973937559144919
+   ],
+   "upper95_one_sided": 0.07984650951989442,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2209221919455558
+   }
+  },
+  "whole_vector/Block 14, second operand": {
+   "k": 1,
+   "n": 36,
+   "p": 0.027777777777777776,
+   "exact95": [
+    0.0007030252059047615,
+    0.14528926474685327
+   ],
+   "upper95_one_sided": 0.12511620483905223,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 1,
+    "upper95_one_sided_any_success": 0.33868066843403233,
+    "bootstrap95": [
+     0.0,
+     0.08333333333333333
+    ]
+   }
+  },
+  "whole_vector/Block 20, first-stage end": {
+   "k": 0,
+   "n": 36,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.0973937559144919
+   ],
+   "upper95_one_sided": 0.07984650951989442,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2209221919455558
+   }
+  },
+  "whole_vector/Block 23, answer prefix": {
+   "k": 2,
+   "n": 36,
+   "p": 0.05555555555555555,
+   "exact95": [
+    0.006800300654022762,
+    0.18663670645755398
+   ],
+   "upper95_one_sided": 0.16473473302405445,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 2,
+    "upper95_one_sided_any_success": 0.4381054351153112,
+    "bootstrap95": [
+     0.0,
+     0.1388888888888889
+    ]
+   }
+  },
+  "rank8_projection/Block 23, answer prefix": {
+   "k": 1,
+   "n": 36,
+   "p": 0.027777777777777776,
+   "exact95": [
+    0.0007030252059047615,
+    0.14528926474685327
+   ],
+   "upper95_one_sided": 0.12511620483905223,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 1,
+    "upper95_one_sided_any_success": 0.33868066843403233,
+    "bootstrap95": [
+     0.0,
+     0.08333333333333333
+    ]
+   }
+  },
+  "attention_output/Block 23, answer prefix": {
+   "k": 1,
+   "n": 36,
+   "p": 0.027777777777777776,
+   "exact95": [
+    0.0007030252059047615,
+    0.14528926474685327
+   ],
+   "upper95_one_sided": 0.12511620483905223,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 1,
+    "upper95_one_sided_any_success": 0.33868066843403233,
+    "bootstrap95": [
+     0.0,
+     0.08333333333333333
+    ]
+   }
+  },
+  "mlp_output/Block 23, answer prefix": {
+   "k": 1,
+   "n": 36,
+   "p": 0.027777777777777776,
+   "exact95": [
+    0.0007030252059047615,
+    0.14528926474685327
+   ],
+   "upper95_one_sided": 0.12511620483905223,
+   "clusters": {
+    "unit": "donor",
+    "count": 12,
+    "with_success": 1,
+    "upper95_one_sided_any_success": 0.33868066843403233,
+    "bootstrap95": [
+     0.0,
+     0.08333333333333333
+    ]
+   }
+  },
+  "diagnostic/donor/discriminating": {
+   "k": 0,
+   "n": 72,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.049944083705854625
+   ],
+   "upper95_one_sided": 0.04075368623063996,
+   "clusters": {
+    "unit": "donor value",
+    "count": 9,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2831288355631135
+   }
+  },
+  "diagnostic/donor/coarse_all": {
+   "k": 3,
+   "n": 81,
+   "p": 0.037037037037037035,
+   "exact95": [
+    0.007704037268873309,
+    0.10444371242567912
+   ],
+   "upper95_one_sided": 0.09294743944370326,
+   "clusters": {
+    "unit": "donor value",
+    "count": 9,
+    "with_success": 3,
+    "upper95_one_sided_any_success": 0.6550586340562967,
+    "bootstrap95": [
+     0.0,
+     0.07407407407407407
+    ]
+   }
+  },
+  "diagnostic/same_value_coupled/discriminating": {
+   "k": 0,
+   "n": 72,
+   "p": 0.0,
+   "exact95": [
+    0.0,
+    0.049944083705854625
+   ],
+   "upper95_one_sided": 0.04075368623063996,
+   "clusters": {
+    "unit": "donor value",
+    "count": 9,
+    "with_success": 0,
+    "upper95_one_sided_any_success": 0.2831288355631135
+   }
+  },
+  "diagnostic/same_value_coupled/coarse_all": {
+   "k": 7,
+   "n": 81,
+   "p": 0.08641975308641975,
+   "exact95": [
+    0.03545387533242089,
+    0.16998465670490998
+   ],
+   "upper95_one_sided": 0.15619669816142684,
+   "clusters": {
+    "unit": "donor value",
+    "count": 9,
+    "with_success": 3,
+    "upper95_one_sided_any_success": 0.6550586340562967,
+    "bootstrap95": [
+     0.012345679012345678,
+     0.18518518518518517
+    ]
+   }
+  },
+  "diagnostic/text_actual_first_token/coarse_all": {
+   "k": 12,
+   "n": 81,
+   "p": 0.14814814814814814,
+   "exact95": [
+    0.07896200813393911,
+    0.2444889351071466
+   ],
+   "upper95_one_sided": 0.22895515246807346,
+   "clusters": {
+    "unit": "donor value",
+    "count": 9,
+    "with_success": 9,
+    "upper95_one_sided_any_success": 1.0,
+    "bootstrap95": [
+     0.12345679012345678,
+     0.18518518518518517
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "path": "models/qwen4b/.cache/huggingface/download/xGOKKLRSlIhH692hSVvI1-gpoa8=.b6154d74332140fd6dfbfbe70bbb3650dd6955861132bd59dda6789e6322b485.e3864d33.incomplete",
+    "bytes": 975175680,
+    "sha256": "b44cce9639d914d2ac5c61939b0522eeeeab018fbd6adff65bef243dbfc8328a",
+    "verified_prefix_of": "models/qwen4b/model.safetensors",
+    "removed": true
+  }
+]

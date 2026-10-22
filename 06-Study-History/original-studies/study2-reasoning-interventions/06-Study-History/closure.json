@@ -1,0 +1,20 @@
+{
+  "status": "completed_local_scope",
+  "closed_utc": "2026-09-21T05:21:21.749488+00:00",
+  "finding": "Across 64 held-out programs, the replay-selected site (label_z-L20) produced 0/128 complete counterfactual answers; the continuation-selected site (label_z-L26) produced 0/128. Their paired difference was 0.00 percentage points.",
+  "final_programs": 64,
+  "unused_final_programs": 16,
+  "validation_checks": 1023,
+  "independent_external_review": false,
+  "artifact_qa": "04-Results/analysis/artifact-qa.json",
+  "pdf_sha256": "3cfd9f12e710a5a49918e910e7d6c020be04ec6a590e64d185a1134865345ad8",
+  "manuscript_sha256": "d8d2f230a34cf4d8f619780da2efb451493424a79f44db0a910fe64ac4efccf2",
+  "pdf_pages": 13,
+  "portfolio_integration_backup": "06-Study-History/integration/20260921T052421Z",
+  "portfolio_other_entries_unchanged": true,
+  "final_verified_utc": "2026-09-21T05:25:12.368973+00:00",
+  "scope_boundaries": [
+    "Qwen lookup: 12/24 baseline outputs reach the 768-token cap; no interventions",
+    "DeepSeek panel: six valid arithmetic finals rejected by fixed format grammar; no interventions"
+  ]
+}

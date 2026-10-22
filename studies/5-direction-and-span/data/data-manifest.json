@@ -1,0 +1,35 @@
+{
+ "development.jsonl": {
+  "source": "06-Study-History/original-studies/study1-value-transfer-and-readout/hidden-value-transfer/competence-v3/development-with-source-controls.jsonl",
+  "sha256": "0e993773e473e67b9ebdf87edda1c1ba4953d4673cfb2a7a80d59acb5c96f2f1",
+  "rows": 36
+ },
+ "test.jsonl": {
+  "source": "studies/3-heldout-4b-confirmation/data/test-box-with-source-controls.jsonl",
+  "sha256": "e0f057d97d73f51c95215b27d67b2f73a872f6a3ea60922d0263def79af5a464",
+  "rows": 72
+ },
+ "fitting.jsonl": {
+  "sha256": "d57ff9995b320c7d055fcc17eb6f8861143af006e9a27f7cd6a8260f35cf1db8",
+  "rows": 1488,
+  "values": [
+   19,
+   80
+  ],
+  "per_value": 24,
+  "seed": 20261017,
+  "overlap_with_splits": 0
+ },
+ "direction_values_needed": [
+  20,
+  79
+ ],
+ "reproduction-reference.json": {
+  "sha256": "39d841c1ccbea0c0afbfe9318f183bce3362defe718b00dbbe360700aa0cb95b",
+  "records": 27
+ },
+ "reproduction-vectors.pt": {
+  "sha256": "4d85df8ff6cfc10cf0228d395ec330af352b446d03dc23e3b28508ff0db54fe7",
+  "vectors": 18
+ }
+}

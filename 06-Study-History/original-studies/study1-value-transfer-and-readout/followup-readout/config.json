@@ -1,0 +1,46 @@
+{
+  "engine": {
+    "seed": 20262909,
+    "run_label": "readout-replication",
+    "checkpoint": "Qwen/Qwen3-0.6B",
+    "dtype": "float32",
+    "attention": "eager",
+    "device": "cuda",
+    "threads": 4,
+    "enable_thinking": true,
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "num_beams": 1,
+    "max_new_tokens": 512,
+    "repetition_penalty": 1.0,
+    "use_cache": true,
+    "layers": [
+      26
+    ],
+    "timings": [
+      "pre_z"
+    ],
+    "strength": 1.0,
+    "hook": "model.layers.{layer} output tensor [batch, sequence, hidden]",
+    "rule": "one fixed historical recipient position replaced by the donor vector at matched semantic timing; all dimensions; no edits on newly generated positions",
+    "discovery_n": 20,
+    "development_n": 100,
+    "validation_n": 100,
+    "native_logits_atol": 0.0005,
+    "cache_logits_atol": 0.0005,
+    "competence_gate": 0.8,
+    "promising_counterfactual_rate": 0.2,
+    "promising_margin_over_matched_controls": 0.1,
+    "max_candidates_to_controls": 2,
+    "smallest_effect_of_interest": 0.1,
+    "bootstrap_replicates": 5000
+  },
+  "sampling_seeds": [
+    20262909,
+    20263909
+  ],
+  "groups": 30,
+  "pair_seed_records": 240
+}

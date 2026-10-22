@@ -1,0 +1,7 @@
+# Development check of direct answer formats
+
+Declared 1 October 2026 after the initial behavior-only pilot failed and before any localization. No transfer screen has run. The initial natural-language instruction often elicits explanatory text despite enable_thinking=False; a 16-token budget then truncates it. That is a failure to supply a scratchpad-free test, not evidence of absent arithmetic competence.
+
+On the first two development donor groups, test three formats in this fixed order: (1) a calculator system instruction plus the original word problem; (2) the same system instruction plus three solved input/output examples and the original word problem; (3) that system instruction and a parenthesized arithmetic expression. Examples supply only final integers and use different problems from the development pairs. All modes keep thinking disabled, greedy decoding, a 16-token budget, full recomputation and the strict integer-only parser.
+
+For each format measure donor, recipient and textual-counterfactual accuracy on all six paired recipient operations (18 records per format, with exact prompt reuse recorded). Select the first format attaining at least 90% in each of these three conditions, not whichever maximizes intervention effects. If one passes, rerun the full 36-pair six-baseline competence check and instrumentation in that declared format before any localization. These are development choices; all format failures remain available. The fresh reserve is not used.
